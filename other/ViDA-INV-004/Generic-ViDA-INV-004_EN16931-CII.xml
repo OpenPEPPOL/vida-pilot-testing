@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rsm:CrossIndustryInvoice xmlns:rsm="urn:un:unece:uncefact:data:standard:CrossIndustryInvoice:100" xmlns:qdt="urn:un:unece:uncefact:data:standard:QualifiedDataType:100" xmlns:ram="urn:un:unece:uncefact:data:standard:ReusableAggregateBusinessInformationEntity:100" xmlns:udt="urn:un:unece:uncefact:data:standard:UnqualifiedDataType:100">
+	<rsm:ExchangedDocumentContext>
+		<ram:BusinessProcessSpecifiedDocumentContextParameter>
+			<ram:ID>urn:fdc:peppol.eu:2017:poacc:billing:01:1.0</ram:ID>
+		</ram:BusinessProcessSpecifiedDocumentContextParameter>
+		<ram:GuidelineSpecifiedDocumentContextParameter>
+			<ram:ID>urn:cen.eu:en16931:2017</ram:ID>
+		</ram:GuidelineSpecifiedDocumentContextParameter>
+	</rsm:ExchangedDocumentContext>
+	<rsm:ExchangedDocument>
+		<ram:ID>ViDA-INV-004</ram:ID>
+		<ram:TypeCode>380</ram:TypeCode>
+		<ram:IssueDateTime>
+			<udt:DateTimeString format="102">20260118</udt:DateTimeString>
+		</ram:IssueDateTime>
+		<ram:IncludedNote>
+			<ram:Content>FICTITIOUS INVOICE - DO NOT PAY - DO NOT USE IN TAX RETURNS!
+This is a generic sample invoice to cover a "regular" invoicing use case in ViDA.
+As such, the seller and buyer are located in two different EU member states.</ram:Content>
+		</ram:IncludedNote>
+	</rsm:ExchangedDocument>
+	<rsm:SupplyChainTradeTransaction>
+		<ram:IncludedSupplyChainTradeLineItem>
+			<ram:AssociatedDocumentLineDocument>
+				<ram:LineID>1</ram:LineID>
+			</ram:AssociatedDocumentLineDocument>
+			<ram:SpecifiedTradeProduct>
+				<ram:SellerAssignedID>SSstdVAT_VVB-220123</ram:SellerAssignedID>
+				<ram:BuyerAssignedID>Buyer SKU not known</ram:BuyerAssignedID>
+				<ram:Name>Super Service (std rate VAT)</ram:Name>
+				<ram:Description>This Super Service is invoiced with a standard VAT rate to force a non-zero value in the VAT Breakdown for test purposes.</ram:Description>
+			</ram:SpecifiedTradeProduct>
+			<ram:SpecifiedLineTradeAgreement>
+				<ram:NetPriceProductTradePrice>
+					<ram:ChargeAmount>123.00</ram:ChargeAmount>
+					<ram:BasisQuantity unitCode="HUR">1</ram:BasisQuantity>
+				</ram:NetPriceProductTradePrice>
+			</ram:SpecifiedLineTradeAgreement>
+			<ram:SpecifiedLineTradeDelivery>
+				<ram:BilledQuantity unitCode="HUR">8</ram:BilledQuantity>
+			</ram:SpecifiedLineTradeDelivery>
+			<ram:SpecifiedLineTradeSettlement>
+				<ram:ApplicableTradeTax>
+					<ram:TypeCode>VAT</ram:TypeCode>
+					<ram:CategoryCode>S</ram:CategoryCode>
+					<ram:RateApplicablePercent>19</ram:RateApplicablePercent>
+				</ram:ApplicableTradeTax>
+				<ram:SpecifiedTradeSettlementLineMonetarySummation>
+					<ram:LineTotalAmount>984.00</ram:LineTotalAmount>
+				</ram:SpecifiedTradeSettlementLineMonetarySummation>
+			</ram:SpecifiedLineTradeSettlement>
+		</ram:IncludedSupplyChainTradeLineItem>
+		<ram:IncludedSupplyChainTradeLineItem>
+			<ram:AssociatedDocumentLineDocument>
+				<ram:LineID>2</ram:LineID>
+			</ram:AssociatedDocumentLineDocument>
+			<ram:SpecifiedTradeProduct>
+				<ram:SellerAssignedID>SSstdVAT_VVB-100123</ram:SellerAssignedID>
+				<ram:BuyerAssignedID>Buyer SKU not known</ram:BuyerAssignedID>
+				<ram:Name>Super Service (exempt of VAT reverse charge)</ram:Name>
+				<ram:Description>This Super Service is invoiced with a 0% VAT rate and "AE" tax code to indicate use of the ICS tax exemption.</ram:Description>
+			</ram:SpecifiedTradeProduct>
+			<ram:SpecifiedLineTradeAgreement>
+				<ram:NetPriceProductTradePrice>
+					<ram:ChargeAmount>124.00</ram:ChargeAmount>
+					<ram:BasisQuantity unitCode="HUR">1</ram:BasisQuantity>
+				</ram:NetPriceProductTradePrice>
+			</ram:SpecifiedLineTradeAgreement>
+			<ram:SpecifiedLineTradeDelivery>
+				<ram:BilledQuantity unitCode="HUR">16</ram:BilledQuantity>
+			</ram:SpecifiedLineTradeDelivery>
+			<ram:SpecifiedLineTradeSettlement>
+				<ram:ApplicableTradeTax>
+					<ram:TypeCode>VAT</ram:TypeCode>
+					<ram:CategoryCode>AE</ram:CategoryCode>
+					<ram:RateApplicablePercent>0</ram:RateApplicablePercent>
+				</ram:ApplicableTradeTax>
+				<ram:SpecifiedTradeSettlementLineMonetarySummation>
+					<ram:LineTotalAmount>1984.00</ram:LineTotalAmount>
+				</ram:SpecifiedTradeSettlementLineMonetarySummation>
+			</ram:SpecifiedLineTradeSettlement>
+		</ram:IncludedSupplyChainTradeLineItem>
+		<ram:ApplicableHeaderTradeAgreement>
+			<ram:BuyerReference>your buyer reference</ram:BuyerReference>
+			<ram:SellerTradeParty>
+				<ram:Name>Verkoper Voorbeeldbedrijf B.V.</ram:Name>
+				<ram:SpecifiedLegalOrganization>
+					<ram:TradingBusinessName>VVB B.V.</ram:TradingBusinessName>
+				</ram:SpecifiedLegalOrganization>
+				<ram:DefinedTradeContact>
+					<ram:PersonName>Peter van Monster</ram:PersonName>
+					<ram:TelephoneUniversalCommunication>
+						<ram:CompleteNumber>+31 20 1234567</ram:CompleteNumber>
+					</ram:TelephoneUniversalCommunication>
+					<ram:EmailURIUniversalCommunication>
+						<ram:URIID>peter.v.monster@vvb.nl</ram:URIID>
+					</ram:EmailURIUniversalCommunication>
+				</ram:DefinedTradeContact>
+				<ram:PostalTradeAddress>
+					<ram:PostcodeCode>2511 BG</ram:PostcodeCode>
+					<ram:LineOne>Grote Markt 123</ram:LineOne>
+					<ram:CityName>Den Haag</ram:CityName>
+					<ram:CountryID>NL</ram:CountryID>
+				</ram:PostalTradeAddress>
+				<ram:URIUniversalCommunication>
+					<ram:URIID schemeID="9944">NL123456789</ram:URIID>
+				</ram:URIUniversalCommunication>
+				<ram:SpecifiedTaxRegistration>
+					<ram:ID schemeID="VA">NL123456789</ram:ID>
+				</ram:SpecifiedTaxRegistration>
+			</ram:SellerTradeParty>
+			<ram:BuyerTradeParty>
+				<ram:Name>Slovenský Príklad s.r.o.</ram:Name>
+				<ram:SpecifiedLegalOrganization>
+					<ram:TradingBusinessName>SP sro</ram:TradingBusinessName>
+				</ram:SpecifiedLegalOrganization>
+				<ram:DefinedTradeContact>
+					<ram:PersonName>Jurek Kováč</ram:PersonName>
+					<ram:TelephoneUniversalCommunication>
+						<ram:CompleteNumber>SK2021234567</ram:CompleteNumber>
+					</ram:TelephoneUniversalCommunication>
+					<ram:EmailURIUniversalCommunication>
+						<ram:URIID>jurek.kovac@priklad.sk</ram:URIID>
+					</ram:EmailURIUniversalCommunication>
+				</ram:DefinedTradeContact>
+				<ram:PostalTradeAddress>
+					<ram:PostcodeCode>811 01</ram:PostcodeCode>
+					<ram:LineOne>Michalská 423/10</ram:LineOne>
+					<ram:CityName>Bratislava</ram:CityName>
+					<ram:CountryID>SK</ram:CountryID>
+				</ram:PostalTradeAddress>
+				<ram:URIUniversalCommunication>
+					<ram:URIID schemeID="9950">SK2021234567</ram:URIID>
+				</ram:URIUniversalCommunication>
+				<ram:SpecifiedTaxRegistration>
+					<ram:ID schemeID="VA">SK2021234567</ram:ID>
+				</ram:SpecifiedTaxRegistration>
+			</ram:BuyerTradeParty>
+			<ram:SellerOrderReferencedDocument>
+				<ram:IssuerAssignedID>Order #456789</ram:IssuerAssignedID>
+			</ram:SellerOrderReferencedDocument>
+			<ram:BuyerOrderReferencedDocument>
+				<ram:IssuerAssignedID>PO-54321</ram:IssuerAssignedID>
+			</ram:BuyerOrderReferencedDocument>
+			<ram:ContractReferencedDocument>
+				<ram:IssuerAssignedID>Contract ABC</ram:IssuerAssignedID>
+			</ram:ContractReferencedDocument>
+			<ram:SpecifiedProcuringProject>
+				<ram:ID>Project #12345</ram:ID>
+				<ram:Name>?</ram:Name>
+			</ram:SpecifiedProcuringProject>
+		</ram:ApplicableHeaderTradeAgreement>
+		<ram:ApplicableHeaderTradeDelivery>
+			<ram:ActualDeliverySupplyChainEvent>
+				<ram:OccurrenceDateTime>
+					<udt:DateTimeString format="102">20251231</udt:DateTimeString>
+				</ram:OccurrenceDateTime>
+			</ram:ActualDeliverySupplyChainEvent>
+		</ram:ApplicableHeaderTradeDelivery>
+		<ram:ApplicableHeaderTradeSettlement>
+			<ram:InvoiceCurrencyCode>EUR</ram:InvoiceCurrencyCode>
+			<ram:SpecifiedTradeSettlementPaymentMeans>
+				<ram:TypeCode>58</ram:TypeCode>
+				<ram:Information>SEPA credit transfer</ram:Information>
+				<ram:PayeePartyCreditorFinancialAccount>
+					<ram:IBANID>NL2250000000054321098765</ram:IBANID>
+					<ram:AccountName>Verkoper Voorbeeldbedrijf B.V.</ram:AccountName>
+				</ram:PayeePartyCreditorFinancialAccount>
+			</ram:SpecifiedTradeSettlementPaymentMeans>
+			<ram:ApplicableTradeTax>
+				<ram:CalculatedAmount>186.96</ram:CalculatedAmount>
+				<ram:TypeCode>VAT</ram:TypeCode>
+				<ram:BasisAmount>984.00</ram:BasisAmount>
+				<ram:CategoryCode>S</ram:CategoryCode>
+				<ram:RateApplicablePercent>19</ram:RateApplicablePercent>
+			</ram:ApplicableTradeTax>
+			<ram:ApplicableTradeTax>
+				<ram:CalculatedAmount>0.00</ram:CalculatedAmount>
+				<ram:TypeCode>VAT</ram:TypeCode>
+				<ram:BasisAmount>1984.00</ram:BasisAmount>
+				<ram:CategoryCode>AE</ram:CategoryCode>
+				<ram:ExemptionReasonCode>VATEX-EU-AE</ram:ExemptionReasonCode>
+				<ram:RateApplicablePercent>0</ram:RateApplicablePercent>
+			</ram:ApplicableTradeTax>
+			<ram:SpecifiedTradePaymentTerms>
+				<ram:Description>Please remit your payment of 3.154,96 EUR before 17.02.2026.</ram:Description>
+				<ram:DueDateDateTime>
+					<udt:DateTimeString format="102">20260217</udt:DateTimeString>
+				</ram:DueDateDateTime>
+			</ram:SpecifiedTradePaymentTerms>
+			<ram:SpecifiedTradeSettlementHeaderMonetarySummation>
+				<ram:LineTotalAmount>2968.00</ram:LineTotalAmount>
+				<ram:TaxBasisTotalAmount>2968.00</ram:TaxBasisTotalAmount>
+				<ram:TaxTotalAmount currencyID="EUR">186.96</ram:TaxTotalAmount>
+				<ram:GrandTotalAmount>3154.96</ram:GrandTotalAmount>
+				<ram:DuePayableAmount>3154.96</ram:DuePayableAmount>
+			</ram:SpecifiedTradeSettlementHeaderMonetarySummation>
+		</ram:ApplicableHeaderTradeSettlement>
+	</rsm:SupplyChainTradeTransaction>
+</rsm:CrossIndustryInvoice>

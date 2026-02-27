@@ -28,7 +28,7 @@ It is intended to be used by the Peppol ViDA Pilot participants for testing and 
 To use this repository for Peppol ViDA Pilot Testing process, follow these general steps.  
 Note that **test files need to be customized** to be used from your testing environment.
 
-1. **Clone the Repository**: `__TODO__` define user access (public=anonymous download)
+1. **Clone the Repository**: `__TODO: define user access (public=anonymous download)__`
    ```bash
    git clone https://github.com/OpenPeppol/vida-pilot-testing.git
    ```
@@ -36,17 +36,17 @@ Note that **test files need to be customized** to be used from your testing envi
 
 3. **Integrate with Your Project**: Use these test files to integrate into your systems for testing and validation.
     - Adapt the invoice files to match your test execution.
-    - Sending Endpoint ID: Replace `__TODO__:sending-endpoint-id` with your actual endpoint identifier
-    - Receiving Endpoint ID: Replace `__TODO__:receiving-endpoint-id` with the desired actual endpoint identifier
-    - Test run identifier: Replace `__TODO__:test-run-id` with a identifier for this test run (unique between C2-C3)
+    - Sending Endpoint ID: Replace `__TODO:placeholder "C2-endpoint-id"__` with the actual C2 endpoint identifier
+    - Receiving Endpoint ID: Replace `__TODO:placeholder "C3-endpoint-id"__` with the desired actual C3 endpoint identifier
+    - Test run identifier: Replace `__TODO:placeholder "test-run-id"__` with a identifier for this test run (unique between C2-C3)
 
 4. **Testing Results**: After running the tests, you may want to share (and receive) any results from the other participants.  
-To add your results, use the `--TODO--/results/[C2-SPID]/[C3-SPID]/[test run id]` directory:
+To add your results, use the `__TODO: define folders like /results/[C2-SPID]/[C3-SPID]/[test run id] __` directory:
     - As a sending service provider (C2), add the TDD as generated and any MLS as received
     - As a receiving service provider (C3), add the invoice as received, the corresponding MLS, the TDD as generated as well any MLS as received
     - As a receiving Tax Administration service provider (C5), add the TDD as received and the corresponding MLS generated  
     
-    Push the commit using `__TODO__` define user access (public=github named committer)
+    Push the commit using `__TODO: define user access (public=github named committer)__`
 
 ## Contact
 For any inquiries or support, please contact [vidapilot@peppol.eu](vidapilot@peppol.eu).

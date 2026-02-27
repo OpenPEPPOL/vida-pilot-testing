@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Invoice xmlns="urn:oasis:names:specification:ubl:schema:xsd:Invoice-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2">
-	<cbc:CustomizationID>urn:cen.eu:en16931:2017#compliant#urn:xeinkauf.de:kosit:xrechnung_3.0</cbc:CustomizationID>
+	<cbc:CustomizationID>urn:cen.eu:en16931:2017</cbc:CustomizationID>
 	<cbc:ProfileID>urn:fdc:peppol.eu:2017:poacc:billing:01:1.0</cbc:ProfileID>
 	<cbc:ID>NW-HP-001</cbc:ID>
 	<cbc:IssueDate>2026-02-10</cbc:IssueDate>
@@ -21,7 +21,7 @@ As such, the seller and buyer are located in two different EU member states.</cb
 	</cac:ContractDocumentReference>
 	<cac:AccountingSupplierParty>
 		<cac:Party>
-			<cbc:EndpointID schemeID="9944">NL123456789</cbc:EndpointID>
+			<cbc:EndpointID schemeID="9944">NL123456789B01</cbc:EndpointID>
 			<cac:PartyName>
 				<cbc:Name>VVB B.V.</cbc:Name>
 			</cac:PartyName>
@@ -34,7 +34,7 @@ As such, the seller and buyer are located in two different EU member states.</cb
 				</cac:Country>
 			</cac:PostalAddress>
 			<cac:PartyTaxScheme>
-				<cbc:CompanyID>NL123456789</cbc:CompanyID>
+				<cbc:CompanyID>NL123456789B01</cbc:CompanyID>
 				<cac:TaxScheme>
 					<cbc:ID>VAT</cbc:ID>
 				</cac:TaxScheme>

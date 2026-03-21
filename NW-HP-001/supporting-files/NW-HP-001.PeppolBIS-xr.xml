@@ -28,7 +28,7 @@ As such, the seller and buyer are located in two different EU member states.</xr
                                 xr:src="/Invoice/cac:AccountingSupplierParty/cac:Party/cac:PartyTaxScheme/cbc:CompanyID">NL123456789B01</xr:Seller_VAT_identifier>
       <xr:Seller_electronic_address xr:id="BT-34"
                                     xr:src="/Invoice/cac:AccountingSupplierParty/cac:Party/cbc:EndpointID"
-                                    scheme_identifier="9944">NL123456789B01</xr:Seller_electronic_address>
+                                    scheme_identifier="9913">000000-vidapilot.NL123456789B01</xr:Seller_electronic_address>
       <xr:SELLER_POSTAL_ADDRESS xr:id="BG-5"
                                 xr:src="/Invoice/cac:AccountingSupplierParty/cac:Party/cac:PostalAddress">
          <xr:Seller_address_line_1 xr:id="BT-35"
@@ -59,7 +59,7 @@ As such, the seller and buyer are located in two different EU member states.</xr
                                xr:src="/Invoice/cac:AccountingCustomerParty/cac:Party/cac:PartyTaxScheme/cbc:CompanyID">SK2021234567</xr:Buyer_VAT_identifier>
       <xr:Buyer_electronic_address xr:id="BT-49"
                                    xr:src="/Invoice/cac:AccountingCustomerParty/cac:Party/cbc:EndpointID"
-                                   scheme_identifier="9950">SK2021234567</xr:Buyer_electronic_address>
+                                   scheme_identifier="9913">000000-vidapilot.SK2021234567</xr:Buyer_electronic_address>
       <xr:BUYER_POSTAL_ADDRESS xr:id="BG-8"
                                xr:src="/Invoice/cac:AccountingCustomerParty/cac:Party/cac:PostalAddress">
          <xr:Buyer_address_line_1 xr:id="BT-50"
@@ -76,7 +76,7 @@ As such, the seller and buyer are located in two different EU member states.</xr
          <xr:Buyer_contact_point xr:id="BT-56"
                                  xr:src="/Invoice/cac:AccountingCustomerParty/cac:Party/cac:Contact/cbc:Name">Jurek Kováč</xr:Buyer_contact_point>
          <xr:Buyer_contact_telephone_number xr:id="BT-57"
-                                            xr:src="/Invoice/cac:AccountingCustomerParty/cac:Party/cac:Contact/cbc:Telephone">SK2021234567</xr:Buyer_contact_telephone_number>
+                                            xr:src="/Invoice/cac:AccountingCustomerParty/cac:Party/cac:Contact/cbc:Telephone">+421 2 555 123 45</xr:Buyer_contact_telephone_number>
          <xr:Buyer_contact_email_address xr:id="BT-58"
                                          xr:src="/Invoice/cac:AccountingCustomerParty/cac:Party/cac:Contact/cbc:ElectronicMail">jurek.kovac@priklad.sk</xr:Buyer_contact_email_address>
       </xr:BUYER_CONTACT>

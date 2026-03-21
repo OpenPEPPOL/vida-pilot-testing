@@ -107,7 +107,7 @@ As such, the seller and buyer are located in two different EU member states.</ra
 					<ram:CountryID>NL</ram:CountryID>
 				</ram:PostalTradeAddress>
 				<ram:URIUniversalCommunication>
-					<ram:URIID schemeID="9944">NL123456789B01</ram:URIID>
+					<ram:URIID schemeID="9913">000000-vidapilot.NL123456789B01</ram:URIID>
 				</ram:URIUniversalCommunication>
 				<ram:SpecifiedTaxRegistration>
 					<ram:ID schemeID="VA">NL123456789B01</ram:ID>
@@ -121,7 +121,7 @@ As such, the seller and buyer are located in two different EU member states.</ra
 				<ram:DefinedTradeContact>
 					<ram:PersonName>Jurek Kováč</ram:PersonName>
 					<ram:TelephoneUniversalCommunication>
-						<ram:CompleteNumber>SK2021234567</ram:CompleteNumber>
+						<ram:CompleteNumber>+421 2 555 123 45</ram:CompleteNumber>
 					</ram:TelephoneUniversalCommunication>
 					<ram:EmailURIUniversalCommunication>
 						<ram:URIID>jurek.kovac@priklad.sk</ram:URIID>
@@ -134,7 +134,7 @@ As such, the seller and buyer are located in two different EU member states.</ra
 					<ram:CountryID>SK</ram:CountryID>
 				</ram:PostalTradeAddress>
 				<ram:URIUniversalCommunication>
-					<ram:URIID schemeID="9950">SK2021234567</ram:URIID>
+					<ram:URIID schemeID="9913">000000-vidapilot.SK2021234567</ram:URIID>
 				</ram:URIUniversalCommunication>
 				<ram:SpecifiedTaxRegistration>
 					<ram:ID schemeID="VA">SK2021234567</ram:ID>

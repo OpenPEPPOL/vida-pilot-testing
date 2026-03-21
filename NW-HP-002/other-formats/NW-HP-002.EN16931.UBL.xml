@@ -21,7 +21,7 @@ As such, the seller and buyer are located in two different EU member states.</cb
 	</cac:ContractDocumentReference>
 	<cac:AccountingSupplierParty>
 		<cac:Party>
-			<cbc:EndpointID schemeID="0007">5561234567</cbc:EndpointID>
+			<cbc:EndpointID schemeID="9913">000000-vidapilot.5561234567</cbc:EndpointID>
 			<cac:PartyName>
 				<cbc:Name>SSB</cbc:Name>
 			</cac:PartyName>
@@ -51,7 +51,7 @@ As such, the seller and buyer are located in two different EU member states.</cb
 	</cac:AccountingSupplierParty>
 	<cac:AccountingCustomerParty>
 		<cac:Party>
-			<cbc:EndpointID schemeID="9950">SK2021234567</cbc:EndpointID>
+			<cbc:EndpointID schemeID="9913">000000-vidapilot.SK2021234567</cbc:EndpointID>
 			<cac:PartyName>
 				<cbc:Name>SP sro</cbc:Name>
 			</cac:PartyName>
@@ -74,7 +74,7 @@ As such, the seller and buyer are located in two different EU member states.</cb
 			</cac:PartyLegalEntity>
 			<cac:Contact>
 				<cbc:Name>Jurek Kováč</cbc:Name>
-				<cbc:Telephone>SK2021234567</cbc:Telephone>
+				<cbc:Telephone>+421 2 555 123 45</cbc:Telephone>
 				<cbc:ElectronicMail>jurek.kovac@priklad.sk</cbc:ElectronicMail>
 			</cac:Contact>
 		</cac:Party>

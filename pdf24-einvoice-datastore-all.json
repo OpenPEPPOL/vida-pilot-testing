@@ -44,8 +44,8 @@
                     "weeeId": "",
                     "legalInfo": "",
                     "applicableRule": "",
-                    "electronicAddress": "NL123456789B01",
-                    "electronicAddressTypeCode": "9944",
+                    "electronicAddress": "000000-vidapilot.NL123456789B01",
+                    "electronicAddressTypeCode": "9913",
                     "websiteText": "",
                     "websiteUrl": "",
                     "address": {
@@ -70,8 +70,8 @@
                     "idTypeCode": "id",
                     "tradeId": "",
                     "vatId": "SE553456789101",
-                    "electronicAddress": "5534567891",
-                    "electronicAddressTypeCode": "0007",
+                    "electronicAddress": "000000-vidapilot.5534567891",
+                    "electronicAddressTypeCode": "9913",
                     "address": {
                         "line1": "Vasgatan 345",
                         "line2": "",
@@ -290,8 +290,8 @@
                     "weeeId": "",
                     "legalInfo": "",
                     "applicableRule": "",
-                    "electronicAddress": "NL123456789B01",
-                    "electronicAddressTypeCode": "9944",
+                    "electronicAddress": "000000-vidapilot.NL123456789B01",
+                    "electronicAddressTypeCode": "9913",
                     "websiteText": "",
                     "websiteUrl": "",
                     "address": {
@@ -316,8 +316,8 @@
                     "idTypeCode": "id",
                     "tradeId": "",
                     "vatId": "SE553456789101",
-                    "electronicAddress": "5534567891",
-                    "electronicAddressTypeCode": "0007",
+                    "electronicAddress": "000000-vidapilot.5534567891",
+                    "electronicAddressTypeCode": "9913",
                     "address": {
                         "line1": "Vasgatan 345",
                         "line2": "",
@@ -503,8 +503,8 @@
                     "weeeId": "",
                     "legalInfo": "",
                     "applicableRule": "",
-                    "electronicAddress": "NL123456789B01",
-                    "electronicAddressTypeCode": "9944",
+                    "electronicAddress": "000000-vidapilot.NL123456789B01",
+                    "electronicAddressTypeCode": "9913",
                     "websiteText": "",
                     "websiteUrl": "",
                     "address": {
@@ -529,8 +529,8 @@
                     "idTypeCode": "id",
                     "tradeId": "",
                     "vatId": "SK2021234567",
-                    "electronicAddress": "SK2021234567",
-                    "electronicAddressTypeCode": "9950",
+                    "electronicAddress": "000000-vidapilot.SK2021234567",
+                    "electronicAddressTypeCode": "9913",
                     "address": {
                         "line1": "Michalská 423/10",
                         "line2": "",
@@ -541,7 +541,7 @@
                     "contact": {
                         "name": "Jurek Kováč",
                         "email": "jurek.kovac@priklad.sk",
-                        "phone": "SK2021234567"
+                        "phone": "+421 2 555 123 45"
                     }
                 },
                 "delivery": {
@@ -716,8 +716,8 @@
                     "weeeId": "",
                     "legalInfo": "",
                     "applicableRule": "",
-                    "electronicAddress": "NL123456789B01",
-                    "electronicAddressTypeCode": "9944",
+                    "electronicAddress": "000000-vidapilot.NL123456789B01",
+                    "electronicAddressTypeCode": "9913",
                     "websiteText": "",
                     "websiteUrl": "",
                     "address": {
@@ -742,8 +742,8 @@
                     "idTypeCode": "id",
                     "tradeId": "",
                     "vatId": "SK2021234567",
-                    "electronicAddress": "SK2021234567",
-                    "electronicAddressTypeCode": "9950",
+                    "electronicAddress": "000000-vidapilot.SK2021234567",
+                    "electronicAddressTypeCode": "9913",
                     "address": {
                         "line1": "Michalská 423/10",
                         "line2": "",
@@ -754,7 +754,7 @@
                     "contact": {
                         "name": "Jurek Kováč",
                         "email": "jurek.kovac@priklad.sk",
-                        "phone": "SK2021234567"
+                        "phone": "+421 2 555 123 45"
                     }
                 },
                 "delivery": {
@@ -962,8 +962,8 @@
                     "weeeId": "",
                     "legalInfo": "",
                     "applicableRule": "",
-                    "electronicAddress": "NL123456789B01",
-                    "electronicAddressTypeCode": "9944",
+                    "electronicAddress": "000000-vidapilot.NL123456789B01",
+                    "electronicAddressTypeCode": "9913",
                     "websiteText": "",
                     "websiteUrl": "",
                     "address": {
@@ -988,8 +988,8 @@
                     "idTypeCode": "id",
                     "tradeId": "",
                     "vatId": "SK2021234567",
-                    "electronicAddress": "SK2021234567",
-                    "electronicAddressTypeCode": "9950",
+                    "electronicAddress": "000000-vidapilot.SK2021234567",
+                    "electronicAddressTypeCode": "9913",
                     "address": {
                         "line1": "Michalská 423/10",
                         "line2": "",
@@ -1000,7 +1000,7 @@
                     "contact": {
                         "name": "Jurek Kováč",
                         "email": "jurek.kovac@priklad.sk",
-                        "phone": "SK2021234567"
+                        "phone": "+421 2 555 123 45"
                     }
                 },
                 "delivery": {
@@ -1167,8 +1167,8 @@
                     "weeeId": "",
                     "legalInfo": "",
                     "applicableRule": "",
-                    "electronicAddress": "5561234567",
-                    "electronicAddressTypeCode": "0007",
+                    "electronicAddress": "000000-vidapilot.5561234567",
+                    "electronicAddressTypeCode": "9913",
                     "websiteText": "",
                     "websiteUrl": "",
                     "address": {
@@ -1193,8 +1193,8 @@
                     "idTypeCode": "id",
                     "tradeId": "",
                     "vatId": "SK2021234567",
-                    "electronicAddress": "SK2021234567",
-                    "electronicAddressTypeCode": "9950",
+                    "electronicAddress": "000000-vidapilot.SK2021234567",
+                    "electronicAddressTypeCode": "9913",
                     "address": {
                         "line1": "Michalská 423/10",
                         "line2": "",
@@ -1205,7 +1205,7 @@
                     "contact": {
                         "name": "Jurek Kováč",
                         "email": "jurek.kovac@priklad.sk",
-                        "phone": "SK2021234567"
+                        "phone": "+421 2 555 123 45"
                     }
                 },
                 "delivery": {
@@ -1343,8 +1343,8 @@
                 "weeeId": "",
                 "legalInfo": "",
                 "applicableRule": "",
-                "electronicAddress": "NL123456789B01",
-                "electronicAddressTypeCode": "9944",
+                "electronicAddress": "000000-vidapilot.NL123456789B01",
+                "electronicAddressTypeCode": "9913",
                 "websiteText": "",
                 "websiteUrl": "",
                 "address": {
@@ -1376,8 +1376,8 @@
                 "weeeId": "",
                 "legalInfo": "",
                 "applicableRule": "",
-                "electronicAddress": "5561234567",
-                "electronicAddressTypeCode": "0007",
+                "electronicAddress": "000000-vidapilot.5561234567",
+                "electronicAddressTypeCode": "9913",
                 "websiteText": "",
                 "websiteUrl": "",
                 "address": {
@@ -1408,8 +1408,8 @@
                 "idTypeCode": "id",
                 "tradeId": "",
                 "vatId": "SE553456789101",
-                "electronicAddress": "5534567891",
-                "electronicAddressTypeCode": "0007",
+                "electronicAddress": "000000-vidapilot.5534567891",
+                "electronicAddressTypeCode": "9913",
                 "address": {
                     "line1": "Vasgatan 345",
                     "line2": "",
@@ -1434,8 +1434,8 @@
                 "idTypeCode": "id",
                 "tradeId": "",
                 "vatId": "SK2021234567",
-                "electronicAddress": "SK2021234567",
-                "electronicAddressTypeCode": "9950",
+                "electronicAddress": "000000-vidapilot.SK2021234567",
+                "electronicAddressTypeCode": "9913",
                 "address": {
                     "line1": "Michalská 423/10",
                     "line2": "",
@@ -1446,7 +1446,7 @@
                 "contact": {
                     "name": "Jurek Kováč",
                     "email": "jurek.kovac@priklad.sk",
-                    "phone": "SK2021234567"
+                    "phone": "+421 2 555 123 45"
                 }
             },
             "id": 9

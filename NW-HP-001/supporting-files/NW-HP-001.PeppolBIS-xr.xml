@@ -24,6 +24,8 @@ As such, the seller and buyer are located in two different EU member states.</xr
                       xr:src="/Invoice/cac:AccountingSupplierParty/cac:Party/cac:PartyLegalEntity/cbc:RegistrationName">Verkoper Voorbeeldbedrijf B.V.</xr:Seller_name>
       <xr:Seller_trading_name xr:id="BT-28"
                               xr:src="/Invoice/cac:AccountingSupplierParty/cac:Party/cac:PartyName/cbc:Name">VVB B.V.</xr:Seller_trading_name>
+      <xr:Seller_identifier xr:id="BT-29"
+                            xr:src="/Invoice/cac:AccountingSupplierParty/cac:Party/cac:PartyIdentification/cbc:ID">4001-124356</xr:Seller_identifier>
       <xr:Seller_VAT_identifier xr:id="BT-31"
                                 xr:src="/Invoice/cac:AccountingSupplierParty/cac:Party/cac:PartyTaxScheme/cbc:CompanyID">NL123456789B01</xr:Seller_VAT_identifier>
       <xr:Seller_electronic_address xr:id="BT-34"

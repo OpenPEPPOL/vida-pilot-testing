@@ -245,7 +245,7 @@
                     "attachmentsEmbedMode": "pdf"
                 }
             },
-            "id": 18
+            "id": 31
         },
         {
             "name": "ViDA-INV-002 (Services)",
@@ -458,7 +458,7 @@
                     "attachmentsEmbedMode": "xml"
                 }
             },
-            "id": 19
+            "id": 32
         },
         {
             "name": "ViDA-INV-004 (Services-EUR)",
@@ -671,7 +671,7 @@
                     "attachmentsEmbedMode": "xml"
                 }
             },
-            "id": 20
+            "id": 33
         },
         {
             "name": "ViDA-INV-003 (Goods-EUR)",
@@ -917,7 +917,7 @@
                     "attachmentsEmbedMode": "pdf"
                 }
             },
-            "id": 21
+            "id": 34
         },
         {
             "name": "Generic ViDA Network-Test Invoice - NW-HP-001 (Goods-EUR)",
@@ -935,7 +935,13 @@
                 "contractReference": "Contract ABC",
                 "purchaseOrderReference": "PO-54321",
                 "salesOrderReference": "Order #456789",
-                "note": "FICTITIOUS INVOICE - DO NOT PAY - DO NOT USE IN TAX RETURNS!\nThis is a generic sample invoice to cover a \"regular\" invoicing use case in ViDA.\nAs such, the seller and buyer are located in two different EU member states.",
+                "notes": [
+                    {
+                        "content": "FICTITIOUS INVOICE - DO NOT PAY - DO NOT USE IN TAX RETURNS!\nThis is a generic sample invoice to cover a \"regular\" invoicing use case in ViDA.\nAs such, the seller and buyer are located in two different EU member states.",
+                        "subjectCode": ""
+                    }
+                ],
+                "businessProcessType": "",
                 "introText": "In the ViDA Pilot project, a number of test scenarios are defined to execute the entire flow of documents in a realistic setting.",
                 "typeCode": "380",
                 "tenderReferences": [],
@@ -943,7 +949,6 @@
                 "invoiceReferences": [],
                 "buyerAccountingAccounts": [],
                 "buyerReference": "your buyer reference",
-                "buyerReferenceDisabled": false,
                 "despatchAdviceReference": {
                     "id": "",
                     "issueDate": ""
@@ -956,10 +961,13 @@
                     "name": "Verkoper Voorbeeldbedrijf B.V.",
                     "tradeName": "VVB B.V.",
                     "tradeId": "",
-                    "id": "",
+                    "tradeIdTypeCode": "",
+                    "id": "4001-124356",
+                    "globalIds": [],
                     "vatId": "NL123456789B01",
                     "taxId": "",
                     "weeeId": "",
+                    "managingDirector": "",
                     "legalInfo": "",
                     "applicableRule": "",
                     "electronicAddress": "000000-vidapilot.NL123456789B01",
@@ -986,7 +994,9 @@
                     "tradeName": "SP sro",
                     "id": "",
                     "idTypeCode": "id",
+                    "globalIds": [],
                     "tradeId": "",
+                    "tradeIdTypeCode": "",
                     "vatId": "SK2021234567",
                     "electronicAddress": "000000-vidapilot.SK2021234567",
                     "electronicAddressTypeCode": "9913",
@@ -1032,11 +1042,17 @@
                 },
                 "items": [
                     {
+                        "lineId": "1",
                         "sellerId": "GG-100124",
                         "buyerId": "Buyer SKU not known",
+                        "globalId": {
+                            "id": "",
+                            "typeCode": ""
+                        },
                         "name": "Great Good (exempt of VAT for IC supply-Code K)",
                         "description": "This Great Good is invoiced with a 0% VAT rate and \"K\" tax code to indicate use of the ICS tax exemption",
                         "orderPosition": "",
+                        "accountingCost": "",
                         "basisQuantity": 1,
                         "quantity": 3,
                         "quantityUnit": "H87",
@@ -1057,11 +1073,17 @@
                         "enteredUnitPrice": "net"
                     },
                     {
+                        "lineId": "2",
                         "sellerId": "GG-100993",
                         "buyerId": "Buyer SKU not known",
+                        "globalId": {
+                            "id": "",
+                            "typeCode": ""
+                        },
                         "name": "Another Great Good (exempt of VAT for IC supply-Code K)",
                         "description": "Another Great Good, invoiced with a 0% VAT rate and \"K\" tax code to indicate use of the ICS tax exemption",
                         "orderPosition": "",
+                        "accountingCost": "",
                         "basisQuantity": 1,
                         "quantity": 7,
                         "quantityUnit": "H87",
@@ -1119,10 +1141,11 @@
                     "logoDisplayMode": "auto",
                     "paymentQrCodeDisplayMode": "hidden",
                     "pageNumbersDisplayMode": "bottom-center",
-                    "attachmentsEmbedMode": "pdf"
+                    "attachmentsEmbedMode": "pdf",
+                    "noteSubjectCodeDisplayMode": "shown"
                 }
             },
-            "id": 22
+            "id": 35
         },
         {
             "name": "Generic ViDA Network-Test Invoice - NW-HP-002 (Services-nonEUR / SEK)",
@@ -1140,7 +1163,13 @@
                 "contractReference": "Contract ABC",
                 "purchaseOrderReference": "PO-54321",
                 "salesOrderReference": "Order #456789",
-                "note": "FICTITIOUS INVOICE - DO NOT PAY - DO NOT USE IN TAX RETURNS!\nThis is a generic sample invoice to cover a \"regular\" invoicing use case in ViDA.\nAs such, the seller and buyer are located in two different EU member states.",
+                "notes": [
+                    {
+                        "content": "FICTITIOUS INVOICE - DO NOT PAY - DO NOT USE IN TAX RETURNS!\nThis is a generic sample invoice to cover a \"regular\" invoicing use case in ViDA.\nAs such, the seller and buyer are located in two different EU member states.",
+                        "subjectCode": ""
+                    }
+                ],
+                "businessProcessType": "",
                 "introText": "In the ViDA Pilot project, a number of test scenarios are defined to execute the entire flow of documents in a realistic setting.",
                 "typeCode": "380",
                 "tenderReferences": [],
@@ -1148,7 +1177,6 @@
                 "invoiceReferences": [],
                 "buyerAccountingAccounts": [],
                 "buyerReference": "your buyer reference",
-                "buyerReferenceDisabled": false,
                 "despatchAdviceReference": {
                     "id": "",
                     "issueDate": ""
@@ -1161,10 +1189,13 @@
                     "name": "Sverige Seller Business AB",
                     "tradeName": "SSB",
                     "tradeId": "",
-                    "id": "",
+                    "tradeIdTypeCode": "",
+                    "id": "9999-654321",
+                    "globalIds": [],
                     "vatId": "SE556123456701",
                     "taxId": "",
                     "weeeId": "",
+                    "managingDirector": "",
                     "legalInfo": "",
                     "applicableRule": "",
                     "electronicAddress": "000000-vidapilot.5561234567",
@@ -1191,7 +1222,9 @@
                     "tradeName": "SP sro",
                     "id": "",
                     "idTypeCode": "id",
+                    "globalIds": [],
                     "tradeId": "",
+                    "tradeIdTypeCode": "",
                     "vatId": "SK2021234567",
                     "electronicAddress": "000000-vidapilot.SK2021234567",
                     "electronicAddressTypeCode": "9913",
@@ -1237,11 +1270,17 @@
                 },
                 "items": [
                     {
+                        "lineId": "1",
                         "sellerId": "SS-RC-100123",
                         "buyerId": "Buyer SKU not known",
+                        "globalId": {
+                            "id": "",
+                            "typeCode": ""
+                        },
                         "name": "Super Service (exempt of VAT reverse charge)",
                         "description": "This Super Service is invoiced with a 0% VAT rate and \"AE\" tax code to indicate use of the reverse charge tax exemption.",
                         "orderPosition": "",
+                        "accountingCost": "",
                         "basisQuantity": 1,
                         "quantity": 16,
                         "quantityUnit": "HUR",
@@ -1262,11 +1301,17 @@
                         "enteredUnitPrice": "net"
                     },
                     {
+                        "lineId": "2",
                         "sellerId": "SS-RC-100321",
                         "buyerId": "Buyer SKU also not known",
+                        "globalId": {
+                            "id": "",
+                            "typeCode": ""
+                        },
                         "name": "More Super Service (exempt of VAT reverse charge)",
                         "description": "More Super Service, also invoiced with a 0% VAT rate and \"AE\" tax code.",
                         "orderPosition": "",
+                        "accountingCost": "",
                         "basisQuantity": 1,
                         "quantity": 32,
                         "quantityUnit": "HUR",
@@ -1324,10 +1369,11 @@
                     "logoDisplayMode": "auto",
                     "paymentQrCodeDisplayMode": "hidden",
                     "pageNumbersDisplayMode": "bottom-center",
-                    "attachmentsEmbedMode": "xml"
+                    "attachmentsEmbedMode": "xml",
+                    "noteSubjectCodeDisplayMode": "shown"
                 }
             },
-            "id": 23
+            "id": 36
         }
     ],
     "invoice-sellers-store": [
@@ -1337,10 +1383,13 @@
                 "name": "Verkoper Voorbeeldbedrijf B.V.",
                 "tradeName": "VVB B.V.",
                 "tradeId": "",
-                "id": "",
+                "tradeIdTypeCode": "",
+                "id": "4001-124356",
+                "globalIds": [],
                 "vatId": "NL123456789B01",
                 "taxId": "",
                 "weeeId": "",
+                "managingDirector": "",
                 "legalInfo": "",
                 "applicableRule": "",
                 "electronicAddress": "000000-vidapilot.NL123456789B01",
@@ -1362,7 +1411,7 @@
                 },
                 "logoData": ""
             },
-            "id": 9
+            "id": 13
         },
         {
             "name": "Sverige Seller Business AB",
@@ -1370,10 +1419,13 @@
                 "name": "Sverige Seller Business AB",
                 "tradeName": "SSB",
                 "tradeId": "",
-                "id": "",
+                "tradeIdTypeCode": "",
+                "id": "9999-654321",
+                "globalIds": [],
                 "vatId": "SE556123456701",
                 "taxId": "",
                 "weeeId": "",
+                "managingDirector": "",
                 "legalInfo": "",
                 "applicableRule": "",
                 "electronicAddress": "000000-vidapilot.5561234567",
@@ -1395,7 +1447,7 @@
                 },
                 "logoData": ""
             },
-            "id": 10
+            "id": 14
         }
     ],
     "invoice-buyers-store": [
@@ -1423,7 +1475,7 @@
                     "phone": "+46 8 123 456 78"
                 }
             },
-            "id": 8
+            "id": 12
         },
         {
             "name": "Slovenský Príklad s.r.o.",
@@ -1449,7 +1501,7 @@
                     "phone": "+421 2 555 123 45"
                 }
             },
-            "id": 9
+            "id": 13
         }
     ],
     "invoice-generals-store": [
@@ -1487,7 +1539,7 @@
                     "issueDate": ""
                 }
             },
-            "id": 8
+            "id": 12
         },
         {
             "name": "Invoice: SEK, 30days, many references",
@@ -1523,7 +1575,7 @@
                     "issueDate": ""
                 }
             },
-            "id": 9
+            "id": 13
         }
     ],
     "invoice-payments-store": [
@@ -1543,7 +1595,7 @@
                     }
                 ]
             },
-            "id": 5
+            "id": 10
         },
         {
             "name": "Sverige Seller Business AB - IBAN",
@@ -1561,7 +1613,7 @@
                     }
                 ]
             },
-            "id": 6
+            "id": 11
         }
     ],
     "invoice-payment-methods-store": [],
@@ -1593,7 +1645,7 @@
                 "notes": [],
                 "enteredUnitPrice": "net"
             },
-            "id": 31
+            "id": 43
         },
         {
             "name": "Great-Good-VAT-K-Art138",
@@ -1622,7 +1674,7 @@
                 "notes": [],
                 "enteredUnitPrice": "net"
             },
-            "id": 32
+            "id": 44
         },
         {
             "name": "Great-Good-VAT-G-Art146",
@@ -1651,7 +1703,7 @@
                 "notes": [],
                 "enteredUnitPrice": "net"
             },
-            "id": 33
+            "id": 45
         },
         {
             "name": "SuperService-ReverseCharge",
@@ -1680,7 +1732,7 @@
                 "notes": [],
                 "enteredUnitPrice": "net"
             },
-            "id": 34
+            "id": 46
         },
         {
             "name": "SuperService-StdVAT",
@@ -1709,7 +1761,7 @@
                 "notes": [],
                 "enteredUnitPrice": "net"
             },
-            "id": 35
+            "id": 47
         },
         {
             "name": "Best-Book-ZeroVAT",
@@ -1738,7 +1790,7 @@
                 "notes": [],
                 "enteredUnitPrice": "net"
             },
-            "id": 36
+            "id": 48
         }
     ],
     "invoice-item-groups-store": [],
@@ -1765,7 +1817,7 @@
                     "region": ""
                 }
             },
-            "id": 2
+            "id": 4
         }
     ]
 }

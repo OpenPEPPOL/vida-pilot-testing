@@ -87,6 +87,7 @@ As such, the seller and buyer are located in two different EU member states.</ra
 		<ram:ApplicableHeaderTradeAgreement>
 			<ram:BuyerReference>your buyer reference</ram:BuyerReference>
 			<ram:SellerTradeParty>
+				<ram:ID>4001-124356</ram:ID>
 				<ram:Name>Verkoper Voorbeeldbedrijf B.V.</ram:Name>
 				<ram:SpecifiedLegalOrganization>
 					<ram:TradingBusinessName>VVB B.V.</ram:TradingBusinessName>

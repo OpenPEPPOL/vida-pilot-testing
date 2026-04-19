@@ -87,6 +87,7 @@ As such, the seller and buyer are located in two different EU member states.</ra
 		<ram:ApplicableHeaderTradeAgreement>
 			<ram:BuyerReference>your buyer reference</ram:BuyerReference>
 			<ram:SellerTradeParty>
+				<ram:ID>9999-654321</ram:ID>
 				<ram:Name>Sverige Seller Business AB</ram:Name>
 				<ram:SpecifiedLegalOrganization>
 					<ram:TradingBusinessName>SSB</ram:TradingBusinessName>

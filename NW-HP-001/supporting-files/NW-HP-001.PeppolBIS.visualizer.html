@@ -1,0 +1,191 @@
+<!DOCTYPE HTML>
+<html>
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <title>Invoice NW-HP-001</title>
+      <style>
+                /* Global Defaults */
+                * { box-sizing: border-box; }
+                body {
+                    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                    color: #333;
+                    line-height: 1.5;
+                    margin: 0;
+                    padding: 0;
+                    background-color: #fff;
+                    -webkit-print-color-adjust: exact;
+                    print-color-adjust: exact;
+                }
+                @page { 
+                    size: A4; 
+                    margin: 20mm; 
+                }
+                .invoice-container {
+                    background: #fff;
+                    width: 100%;
+                }
+                h1, h2, h3, h4, h5 { margin: 0; color: #1a2b3c; }
+                h1 { font-size: 24pt; text-align: right; margin-bottom: 20px; text-transform: uppercase; }
+                .header-section { display: flex; justify-content: space-between; margin-bottom: 40px; }
+                .supplier-details { width: 50%; }
+                .invoice-details-box {
+                    background-color: #f5f7f9 !important;
+                    padding: 15px;
+                    border-radius: 4px;
+                    font-size: 0.9em;
+                    width: 100%;
+                }
+                .kv-table { display: table; width: 100%; border-collapse: collapse; }
+                .kv-row { display: table-row; }
+                .kv-key { display: table-cell; font-weight: 600; padding: 4px 8px 4px 0; color: #4a5568; }
+                .kv-value { display: table-cell; text-align: right; padding: 4px 0; }
+                .bold-name { font-weight: bold; font-size: 14pt; margin-bottom: 5px; color: #1a2b3c; }
+                .detail-row { margin-bottom: 2px; font-size: 10pt; }
+                .section-label { font-weight: 600; color: #1a2b3c; margin-bottom: 10px; font-size: 11pt; }
+                .mid-section { display: flex; margin-bottom: 30px; gap: 30px; }
+                .customer-col, .delivery-col { flex: 1; }
+                .references-section { display: flex; margin-bottom: 30px; border-bottom: 1px solid #eee; padding-bottom: 20px; page-break-inside: avoid; }
+                .ref-item { margin-right: 40px; }
+                .ref-label { font-weight: 600; font-size: 0.9em; display: block; color: #4a5568; }
+                table.lines-table { width: 100%; border-collapse: collapse; margin-bottom: 30px; font-size: 10pt; }
+                .lines-table th { text-align: left; font-weight: 600; color: #4a5568; border-bottom: 1px solid #e2e8f0; padding: 10px 0; }
+                .lines-table td { padding: 12px 0; border-bottom: 1px solid #f1f5f9; vertical-align: top; }
+                .lines-table .text-right { text-align: right; }
+                .product-id { font-size: 0.85em; color: #718096; margin-top: 2px; }
+                .totals-section { display: flex; justify-content: flex-end; margin-bottom: 40px; page-break-inside: avoid; }
+                .totals-box { width: 300px; }
+                .total-row { display: flex; justify-content: space-between; padding: 6px 0; font-size: 10pt; }
+                .total-row.final { font-weight: bold; border-top: 1px solid #e2e8f0; margin-top: 5px; padding-top: 10px; font-size: 12pt; }
+                .footer-section { margin-top: 40px; font-size: 9pt; color: #4a5568; page-break-inside: avoid; }
+                .footer-block { margin-bottom: 12px; }
+                .footer-title { font-weight: bold; margin-bottom: 2px; color: #2d3748; }
+                @media print {
+                    body { background: none; }
+                    .invoice-container { width: 100%; margin: 0; padding: 0; box-shadow: none; border: none; }
+                    @page { margin: 15mm; } 
+                }
+            </style>
+   </head>
+   <body>
+      <div class="invoice-container">
+         <div class="header-section">
+            <div class="supplier-details">
+               <div class="bold-name">VVB B.V.</div>
+               <div class="detail-row">Grote Markt 123 </div>
+               <div class="detail-row">2511 BG Den Haag</div>
+               <div class="detail-row">NL - </div>
+               <div class="detail-row">VAT: NL123456789B01</div>
+               <div class="detail-row">Company ID: </div>
+               <div class="detail-row">peter.v.monster@vvb.nl</div>
+               <div class="detail-row">+31 20 1234567</div>
+            </div>
+            <div class="right-col" style="width: 40%; display: flex; flex-direction: column; align-items: flex-end;">
+               <h1>Invoice</h1>
+               <div class="invoice-details-box">
+                  <div class="kv-table">
+                     <div class="kv-row"><span class="kv-key">Number</span><span class="kv-value">NW-HP-001</span></div>
+                     <div class="kv-row"><span class="kv-key">Issue Date</span><span class="kv-value">2026-02-10</span></div>
+                     <div class="kv-row"><span class="kv-key">Due Date</span><span class="kv-value">2026-03-12</span></div>
+                     <div class="kv-row"><span class="kv-key">Purchase Order</span><span class="kv-value">PO-54321</span></div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="mid-section">
+            <div class="customer-col">
+               <div class="section-label">SP sro</div>
+               <div class="detail-row">Michalská 423/10 </div>
+               <div class="detail-row">811 01 Bratislava</div>
+               <div class="detail-row">SK - </div>
+               <div class="detail-row">VAT: SK2021234567</div>
+               <div class="detail-row">jurek.kovac@priklad.sk</div>
+            </div>
+            <div class="delivery-col">
+               <div class="section-label">Delivery information</div>
+               <div class="detail-row">Delivery date: 2026-01-31</div>
+               <div class="detail-row"></div>
+               <div class="detail-row"> </div>
+               <div class="detail-row">811 01 Bratislava</div>
+               <div class="detail-row">SK</div>
+            </div>
+         </div>
+         <div class="references-section">
+            <div class="ref-item"><span class="ref-label">Sales order reference</span><span class="ref-value">Order #456789</span></div>
+            <div class="ref-item"><span class="ref-label">Buyer Reference</span><span class="ref-value">your buyer reference</span></div>
+         </div>
+         <table class="lines-table">
+            <thead>
+               <tr>
+                  <th style="width: 50%">Product or service</th>
+                  <th class="text-right">Quantity</th>
+                  <th class="text-right">Unit Price</th>
+                  <th class="text-right">Tax</th>
+                  <th class="text-right">Total</th>
+               </tr>
+            </thead>
+            <tbody>
+               <tr>
+                  <td>
+                     <div>Great Good (exempt of VAT for IC supply-Code K)</div>
+                     <div style="font-size: 0.9em; color: #666;">This Great Good is invoiced with a 0% VAT rate and "K" tax code to indicate use of
+                        the ICS tax exemption</div>
+                     <div class="product-id">ID: GG-100124</div>
+                  </td>
+                  <td class="text-right">3 <span style="font-size: 0.8em; color: #777;">H87</span></td>
+                  <td class="text-right">102.00 EUR</td>
+                  <td class="text-right">0%
+                     </td>
+                  <td class="text-right">306.00 EUR</td>
+               </tr>
+               <tr>
+                  <td>
+                     <div>Another Great Good (exempt of VAT for IC supply-Code K)</div>
+                     <div style="font-size: 0.9em; color: #666;">Another Great Good, invoiced with a 0% VAT rate and "K" tax code to indicate use of
+                        the ICS tax exemption</div>
+                     <div class="product-id">ID: GG-100993</div>
+                  </td>
+                  <td class="text-right">7 <span style="font-size: 0.8em; color: #777;">H87</span></td>
+                  <td class="text-right">87.00 EUR</td>
+                  <td class="text-right">0%
+                     </td>
+                  <td class="text-right">609.00 EUR</td>
+               </tr>
+            </tbody>
+         </table>
+         <div class="totals-section">
+            <div class="totals-box">
+               <div class="total-row"><span>Subtotal</span><span>915 EUR</span></div>
+               <div class="total-row"><span>VAT (0%)</span><span>0 EUR</span></div>
+               <div class="total-row final"><span>Total Amount</span><span>915 EUR</span></div>
+            </div>
+         </div>
+         <div class="footer-section">
+            <div class="footer-block">
+               <div class="footer-title">Payment Information</div>
+               <div style="margin-bottom: 8px; font-style: italic;">Please remit your payment of 915,00 € before 12.03.2026.</div>
+               <table style="width: 100%; border-collapse: collapse; font-size: 0.9em;">
+                  <tr>
+                     <td style="font-weight: 600; padding: 2px 0;">Account (IBAN):</td>
+                     <td>NL22 5000 0000 0543 2109 8765</td>
+                  </tr>
+                  <tr>
+                     <td style="font-weight: 600; padding: 2px 0;">Payment Method:</td>
+                     <td>SEPA credit transfer 
+                        (58)
+                        </td>
+                  </tr>
+               </table>
+               <div style="margin-top: 20px; display: flex; align-items: flex-start; gap: 15px;"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAeoAAAHqAQAAAADjFjCXAAAEMUlEQVR4nO2dQW7jOgyGP44NZGkDOUCPYt+gRyrmSHOD+Cg9QAB5WcDGPwtJlpK3erGBTBBy0cZ2PqgGflAkRakmdtj0aw8NjjvuuOOOO+64444fi1uyFhsBs574CVjNxtksPhjn/NXxuNEdfze8jb+GC8B8hqkPiLldNPXXFmgEc7NYApoFADtkdMffG8/eTJc5CdG+vk8pwZ361WC2KDUzaw8e3fH3wtu76yis6fPHxAyaRrBBayvmZoH50NEdf0/8XnWC1YCTmEZMdFfT1F9Jl8eO7vh74ll1nYiObPq8Al3ABgHMJzEEZIPW1oY/UEvvpd/d8Sfjk5nFzPXr+ySG7xaYW+wrgI1zS9QfrDGFPXR0x98Mj76ucl9T3wCspulj2e6uxtQ36NbTPfuPd/xFcSRJDAF0AXTpJF0AhtBIl26J9xi0VPcYJOny0u/u+LPwqLqktS5eiCE0UWZS+REgilBy1Tm+y6LMAJLDi9JbgE6CbkEKjXShiZfJ67nqHH/YknNT1lrycFLUWvJw6U6chAvhqnP8Ict6WmJcBzQ3MRxFekutP7nqHH/YioTybJofbHOtFBqR5KgkQled4ztxG2czmFuY+iaLMK7INrKx+zGGkBdjp76RjceN7vi74TdRWldqI8mlMUQnmCon8SvRJ7qvc/xhy1lCnkO3pLWqnESt5Rk2px6uOscftTqky/WSnFwU6aUaXh3rueoc34vPJ5nZKS1LTH0j6H5Mv/vUaQysFhdo49MjR3f8vfCb2tzm4YrDi0UTuFkW8yqx4/usxHXpR6dtHZaqaJeyia185zOs4w9b3jchgO5q0K2t6K6xedhik2cXYLLSabzktryXfnfHn4VXqUL0a2WuTbVhsofbso4L7usc32V15SRHc8AmPaUCXQrk8HVYx4/rOdnqdVB1nxT/VxoE3Nc5flS9TrkEHCB6vbjcv9WG63XYxqvEju+xvMyQu9WHwNa3mZvs4my69QYMm+tz1Tn+kFWVk7T6tXmzUGI9KVfuvIPd8WM7nUiJbHywtQCkaTaUqM9nWMd3mWqrG0rSEmx2eLlKXFYpXHWOP2pJYYEtN70VV4BSOUmfguewju+yOmjL/XUlka2zCdiKdj7DOr7LSjZRBHenxLxvsWzK9hzW8V2mW8tr/lStJSWkK5euOscft7iMXx2JOH0IoxM29UFMBjD32BDOizGfF5j7fPDES7+748/Cb/bDhrLPeruEvGUxR3i+b8Lx43LYXIfb9k3k/Yiq+gCAOsN46Xd3/F/BbaSR2ceCfvfAoJ90ELbFywXp208Sc3yP3Z/VmYO2tWUIvYn5LJjPYvoExVhv3A7Hful3d/xZ+H1cV8Vw1ek6ZaOY0lE8Htc5vsOimpI19SrFtgs29zxx39rpqnP8IfvvAdf/x/y/1znuuOOOO+64447/K/hfd8WikmZQdpUAAAAASUVORK5CYII=" style="width: 100px; height: 100px;"><div style="font-size: 0.8em; color: #666; max-width: 200px; line-height: 1.4;">
+                     <div style="margin-bottom: 4px;">Scan this QR code with your banking app to pay this invoice easily.</div>
+                     <div style="font-weight: 600; font-size: 0.9em; color: #333;">Please verify payment details and invoice before executing payment.</div>
+                  </div>
+               </div>
+            </div>
+            <div class="footer-block">
+               <div class="footer-title">VAT Info</div>
+               <div>VAT exempt intra-community supply (Article 138 Directive 2006/112/EC)</div>
+            </div>
+         </div>
+      </div>
+   </body>
+</html>

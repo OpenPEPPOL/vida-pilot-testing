@@ -1,0 +1,209 @@
+{
+    "currencyCode": "EUR",
+    "currencySymbol": "€",
+    "title": "Generic ViDA Sample Invoice - INV-002 (Services)",
+    "number": "ViDA-INV-002",
+    "issueDate": "2026-01-18",
+    "dueDate": "2026-02-17",
+    "deliveryDate": "2025-12-31",
+    "billingPeriodStartDate": "",
+    "billingPeriodEndDate": "",
+    "projectReference": "Project #12345",
+    "contractReference": "Contract ABC",
+    "purchaseOrderReference": "PO-54321",
+    "salesOrderReference": "Order #456789",
+    "note": "FICTITIOUS INVOICE - DO NOT PAY - DO NOT USE IN TAX RETURNS!\nThis is a generic sample invoice to cover a \"regular\" invoicing use case in ViDA.\nAs such, the seller and buyer are located in two different EU member states.",
+    "introText": "In the ViDA Pilot project. blablablabla",
+    "typeCode": "380",
+    "tenderReferences": [],
+    "objectReferences": [],
+    "invoiceReferences": [],
+    "buyerAccountingAccounts": [],
+    "buyerReference": "your buyer reference",
+    "buyerReferenceDisabled": false,
+    "despatchAdviceReference": {
+        "id": "",
+        "issueDate": ""
+    },
+    "receivingAdviceReference": {
+        "id": "",
+        "issueDate": ""
+    },
+    "seller": {
+        "name": "Verkoper Voorbeeldbedrijf B.V.",
+        "tradeName": "VVB B.V.",
+        "tradeId": "",
+        "id": "",
+        "vatId": "NL123456789",
+        "taxId": "",
+        "weeeId": "",
+        "legalInfo": "",
+        "applicableRule": "",
+        "electronicAddress": "NL123456789",
+        "electronicAddressTypeCode": "9944",
+        "websiteText": "",
+        "websiteUrl": "",
+        "address": {
+            "line1": "Grote Markt 123",
+            "line2": "",
+            "postCode": "2511 BG",
+            "city": "Den Haag",
+            "countryCode": "NL"
+        },
+        "contact": {
+            "name": "Peter van Monster",
+            "email": "peter.v.monster@vvb.nl",
+            "phone": "+31 20 1234567",
+            "fax": ""
+        },
+        "logoData": ""
+    },
+    "buyer": {
+        "name": "Sverige Buying Corporation AB",
+        "tradeName": "SBC",
+        "id": "",
+        "idTypeCode": "id",
+        "tradeId": "",
+        "vatId": "SE345678912",
+        "electronicAddress": "SE345678912",
+        "electronicAddressTypeCode": "9955",
+        "address": {
+            "line1": "Vasgatan 345",
+            "line2": "",
+            "postCode": "111 20",
+            "city": "Stockholm",
+            "countryCode": "SE"
+        },
+        "contact": {
+            "name": "Mats Svensson",
+            "email": "mats.svensson@sverige-buying.se",
+            "phone": "+46 8 123 456 78"
+        }
+    },
+    "delivery": {
+        "recipientName": "",
+        "locationId": "",
+        "address": {
+            "line1": "",
+            "line2": "",
+            "line3": "",
+            "postCode": "",
+            "city": "",
+            "countryCode": "",
+            "region": ""
+        }
+    },
+    "payment": {
+        "terms": "Please remit your payment of [Endbetrag] [Währung] before [Fälligkeitsdatum].",
+        "reference": "",
+        "methods": [
+            {
+                "typeCode": "58",
+                "iban": "NL22 5000 0000 0543 2109 8765",
+                "ban": "",
+                "bic": "",
+                "bankName": "",
+                "accountName": "Verkoper Voorbeeldbedrijf B.V."
+            }
+        ]
+    },
+    "items": [
+        {
+            "sellerId": "SSstdVAT_VVB-220123",
+            "buyerId": "Buyer SKU not known",
+            "name": "Super Service (std rate VAT)",
+            "description": "This Super Service is invoiced with a standard VAT rate to force a non-zero value in the VAT Breakdown for test purposes.",
+            "orderPosition": "",
+            "basisQuantity": 1,
+            "quantity": 8,
+            "quantityUnit": "HUR",
+            "quantityUnitSymbol": "",
+            "vatCode": "S",
+            "vatRate": 19,
+            "netUnitPrice": 123,
+            "grossUnitPrice": 146.37,
+            "netAmount": 984,
+            "grossAmount": 1170.96,
+            "vatAmount": 186.96,
+            "billingPeriodStart": "",
+            "billingPeriodEnd": "",
+            "objectReferences": [],
+            "allowances": [],
+            "charges": [],
+            "notes": [],
+            "enteredUnitPrice": "net"
+        },
+        {
+            "sellerId": "SSstdVAT_VVB-100123",
+            "buyerId": "Buyer SKU not known",
+            "name": "Super Service (exempt of VAT for IC supply)",
+            "description": "This Super Service is invoiced with a 0% VAT rate and \"AE\" tax code to indicate use of the ICS tax exemption.",
+            "orderPosition": "",
+            "basisQuantity": 1,
+            "quantity": 16,
+            "quantityUnit": "HUR",
+            "quantityUnitSymbol": "",
+            "vatCode": "AE",
+            "vatRate": 0,
+            "netUnitPrice": 124,
+            "grossUnitPrice": 124,
+            "netAmount": 1984,
+            "grossAmount": 1984,
+            "vatAmount": 0,
+            "billingPeriodStart": "",
+            "billingPeriodEnd": "",
+            "objectReferences": [],
+            "allowances": [],
+            "charges": [],
+            "notes": [],
+            "enteredUnitPrice": "net"
+        }
+    ],
+    "allowances": [],
+    "charges": [],
+    "taxes": {
+        "S-19": {
+            "code": "S",
+            "rate": 19,
+            "netAmount": 984,
+            "vatAmount": 186.96,
+            "exemptionReason": "",
+            "exemptionReasonCode": ""
+        },
+        "AE-0": {
+            "code": "AE",
+            "rate": 0,
+            "netAmount": 1984,
+            "vatAmount": 0,
+            "exemptionReason": "",
+            "exemptionReasonCode": "VATEX-EU-AE"
+        }
+    },
+    "totals": {
+        "itemsNetAmount": 2968,
+        "allowancesNetAmount": 0,
+        "chargesNetAmount": 0,
+        "netAmount": 2968,
+        "vatAmount": 186.96,
+        "grossAmount": 3154.96,
+        "paidAmount": 0,
+        "roundingAmount": 0,
+        "dueAmount": 3154.96
+    },
+    "attachments": [],
+    "outputOptions": {
+        "format": "peppol:ubl",
+        "decimalSeparator": ",",
+        "thousandsSeparator": ".",
+        "dateFormat": "dd.mm.yyyy",
+        "langCode": "en",
+        "quantityUnitDisplayMode": "combined",
+        "taxCategoryDisplayMode": "shown",
+        "taxDisplayMode": "shown",
+        "taxExemptionReasonsDisplayMode": "shown",
+        "logoDisplayMode": "auto",
+        "paymentQrCodeDisplayMode": "hidden",
+        "pageNumbersDisplayMode": "bottom-center",
+        "attachmentsEmbedMode": "xml"
+    }
+}

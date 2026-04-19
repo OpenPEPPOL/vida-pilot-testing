@@ -1,0 +1,190 @@
+<!DOCTYPE HTML>
+<html>
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <title>Invoice NW-HP-002</title>
+      <style>
+                /* Global Defaults */
+                * { box-sizing: border-box; }
+                body {
+                    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                    color: #333;
+                    line-height: 1.5;
+                    margin: 0;
+                    padding: 0;
+                    background-color: #fff;
+                    -webkit-print-color-adjust: exact;
+                    print-color-adjust: exact;
+                }
+                @page { 
+                    size: A4; 
+                    margin: 20mm; 
+                }
+                .invoice-container {
+                    background: #fff;
+                    width: 100%;
+                }
+                h1, h2, h3, h4, h5 { margin: 0; color: #1a2b3c; }
+                h1 { font-size: 24pt; text-align: right; margin-bottom: 20px; text-transform: uppercase; }
+                .header-section { display: flex; justify-content: space-between; margin-bottom: 40px; }
+                .supplier-details { width: 50%; }
+                .invoice-details-box {
+                    background-color: #f5f7f9 !important;
+                    padding: 15px;
+                    border-radius: 4px;
+                    font-size: 0.9em;
+                    width: 100%;
+                }
+                .kv-table { display: table; width: 100%; border-collapse: collapse; }
+                .kv-row { display: table-row; }
+                .kv-key { display: table-cell; font-weight: 600; padding: 4px 8px 4px 0; color: #4a5568; }
+                .kv-value { display: table-cell; text-align: right; padding: 4px 0; }
+                .bold-name { font-weight: bold; font-size: 14pt; margin-bottom: 5px; color: #1a2b3c; }
+                .detail-row { margin-bottom: 2px; font-size: 10pt; }
+                .section-label { font-weight: 600; color: #1a2b3c; margin-bottom: 10px; font-size: 11pt; }
+                .mid-section { display: flex; margin-bottom: 30px; gap: 30px; }
+                .customer-col, .delivery-col { flex: 1; }
+                .references-section { display: flex; margin-bottom: 30px; border-bottom: 1px solid #eee; padding-bottom: 20px; page-break-inside: avoid; }
+                .ref-item { margin-right: 40px; }
+                .ref-label { font-weight: 600; font-size: 0.9em; display: block; color: #4a5568; }
+                table.lines-table { width: 100%; border-collapse: collapse; margin-bottom: 30px; font-size: 10pt; }
+                .lines-table th { text-align: left; font-weight: 600; color: #4a5568; border-bottom: 1px solid #e2e8f0; padding: 10px 0; }
+                .lines-table td { padding: 12px 0; border-bottom: 1px solid #f1f5f9; vertical-align: top; }
+                .lines-table .text-right { text-align: right; }
+                .product-id { font-size: 0.85em; color: #718096; margin-top: 2px; }
+                .totals-section { display: flex; justify-content: flex-end; margin-bottom: 40px; page-break-inside: avoid; }
+                .totals-box { width: 300px; }
+                .total-row { display: flex; justify-content: space-between; padding: 6px 0; font-size: 10pt; }
+                .total-row.final { font-weight: bold; border-top: 1px solid #e2e8f0; margin-top: 5px; padding-top: 10px; font-size: 12pt; }
+                .footer-section { margin-top: 40px; font-size: 9pt; color: #4a5568; page-break-inside: avoid; }
+                .footer-block { margin-bottom: 12px; }
+                .footer-title { font-weight: bold; margin-bottom: 2px; color: #2d3748; }
+                @media print {
+                    body { background: none; }
+                    .invoice-container { width: 100%; margin: 0; padding: 0; box-shadow: none; border: none; }
+                    @page { margin: 15mm; } 
+                }
+            </style>
+   </head>
+   <body>
+      <div class="invoice-container">
+         <div class="header-section">
+            <div class="supplier-details">
+               <div class="bold-name">SSB</div>
+               <div class="detail-row">Exempelgatan 1 </div>
+               <div class="detail-row">111 22 Stockholm</div>
+               <div class="detail-row">SE - </div>
+               <div class="detail-row">VAT: SE556123456701</div>
+               <div class="detail-row">Company ID: </div>
+               <div class="detail-row">erik.svensson@sverige-seller.se</div>
+               <div class="detail-row">+46 8 876 543 21</div>
+            </div>
+            <div class="right-col" style="width: 40%; display: flex; flex-direction: column; align-items: flex-end;">
+               <h1>Invoice</h1>
+               <div class="invoice-details-box">
+                  <div class="kv-table">
+                     <div class="kv-row"><span class="kv-key">Number</span><span class="kv-value">NW-HP-002</span></div>
+                     <div class="kv-row"><span class="kv-key">Issue Date</span><span class="kv-value">2026-02-10</span></div>
+                     <div class="kv-row"><span class="kv-key">Due Date</span><span class="kv-value">2026-03-12</span></div>
+                     <div class="kv-row"><span class="kv-key">Purchase Order</span><span class="kv-value">PO-54321</span></div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="mid-section">
+            <div class="customer-col">
+               <div class="section-label">SP sro</div>
+               <div class="detail-row">Michalská 423/10 </div>
+               <div class="detail-row">811 01 Bratislava</div>
+               <div class="detail-row">SK - </div>
+               <div class="detail-row">VAT: SK2021234567</div>
+               <div class="detail-row">jurek.kovac@priklad.sk</div>
+            </div>
+            <div class="delivery-col">
+               <div class="section-label">Delivery information</div>
+               <div class="detail-row">Delivery date: 2026-01-31</div>
+            </div>
+         </div>
+         <div class="references-section">
+            <div class="ref-item"><span class="ref-label">Sales order reference</span><span class="ref-value">Order #456789</span></div>
+            <div class="ref-item"><span class="ref-label">Buyer Reference</span><span class="ref-value">your buyer reference</span></div>
+         </div>
+         <table class="lines-table">
+            <thead>
+               <tr>
+                  <th style="width: 50%">Product or service</th>
+                  <th class="text-right">Quantity</th>
+                  <th class="text-right">Unit Price</th>
+                  <th class="text-right">Tax</th>
+                  <th class="text-right">Total</th>
+               </tr>
+            </thead>
+            <tbody>
+               <tr>
+                  <td>
+                     <div>Super Service (exempt of VAT reverse charge)</div>
+                     <div style="font-size: 0.9em; color: #666;">This Super Service is invoiced with a 0% VAT rate and "AE" tax code to indicate use
+                        of the reverse charge tax exemption.</div>
+                     <div class="product-id">ID: SS-RC-100123</div>
+                  </td>
+                  <td class="text-right">16 <span style="font-size: 0.8em; color: #777;">HUR</span></td>
+                  <td class="text-right">124.00 SEK</td>
+                  <td class="text-right">0%
+                     </td>
+                  <td class="text-right">1984.00 SEK</td>
+               </tr>
+               <tr>
+                  <td>
+                     <div>More Super Service (exempt of VAT reverse charge)</div>
+                     <div style="font-size: 0.9em; color: #666;">More Super Service, also invoiced with a 0% VAT rate and "AE" tax code.</div>
+                     <div class="product-id">ID: SS-RC-100321</div>
+                  </td>
+                  <td class="text-right">32 <span style="font-size: 0.8em; color: #777;">HUR</span></td>
+                  <td class="text-right">124.00 SEK</td>
+                  <td class="text-right">0%
+                     </td>
+                  <td class="text-right">3968.00 SEK</td>
+               </tr>
+            </tbody>
+         </table>
+         <div class="totals-section">
+            <div class="totals-box">
+               <div class="total-row"><span>Subtotal</span><span>5952 SEK</span></div>
+               <div class="total-row"><span>VAT (0%)</span><span>0 SEK</span></div>
+               <div class="total-row final"><span>Total Amount</span><span>5952 SEK</span></div>
+            </div>
+         </div>
+         <div class="footer-section">
+            <div class="footer-block">
+               <div class="footer-title">Payment Information</div>
+               <div style="margin-bottom: 8px; font-style: italic;">Please remit your payment of 5.952,00 kr before 12.03.2026.</div>
+               <table style="width: 100%; border-collapse: collapse; font-size: 0.9em;">
+                  <tr>
+                     <td style="font-weight: 600; padding: 2px 0;">Account (IBAN):</td>
+                     <td>SE22 1234 5678 9012 3456 7890</td>
+                  </tr>
+                  <tr>
+                     <td style="font-weight: 600; padding: 2px 0;">BIC / SWIFT:</td>
+                     <td>ESSESSBB</td>
+                  </tr>
+                  <tr>
+                     <td style="font-weight: 600; padding: 2px 0;">Payment Method:</td>
+                     <td>SEPA credit transfer 
+                        (58)
+                        </td>
+                  </tr>
+               </table>
+               <div style="margin-top: 20px; display: flex; align-items: flex-start; gap: 15px;"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAeoAAAHqAQAAAADjFjCXAAAEOElEQVR4nO2dUYrjSAyGP60N/ViGPkCOUrnBHGnoI80N7KP0AQLlx4Ey2ocq2ZUMuwu2l+4Q6aFJbH+UA0Ky/pLcohyw6a8jNDjuuOOOO+644447fi4u1XrkyiJMA8h17inHZFiEaVgEZrv0et7qjr8ajqqqElVVNXUKIdcTY2hPqGrGPtmJ8al/u+Nfjc8WvuJnj6pm5DqL6MewSI110pdLRezTd7l5x58c148B5AoQVZX4+aY60ikxdVpO/H+rO/4aeP/wXQi3HuhUJuky07WzEyDKfOrqjr8mbl4XFJhBmXt0ElDmd4BFlJDQ6dqVJ75WV37q3+74V+G1mqhWE+m//bFLvZpwfLeVWLeFL50uGZ0GRCEDRUjpgPBb9D7SffXNO/6k+KqcZDsQcqlhi3JCUNURKLGOoDXgeaxzfL9Zhq2KXPG/uGl4q5BXfS2jmirmXuf4Pmu9LnWmkpgiXD6N0IS+xifd6xzfZU2GjfZJx2B/th2J+lVVx2Ax0L3O8V1WY13I7bGRzpwr0WTdEglLrete5/hu2zJsKSRG1i3YRONrNeppxgoO9zrH99qWYW3jC6yQyGwC3d1Tn2dYxw9Zk2E31yOs8Q8w5QSTTzzDOn4CruPcA/Obys8EOs4i5Xx1M2C6qOrHJaOqv+XM1R1/NZxNlCuKcNVLtH3M02QXj6Xq6DzDOn7E/nyuW9MnD3qdtXtq8gzr+BGrPSfTkBRCAlhEp+HWE3URpuGGQJclJlSg7X766pt3/ElxtuTKVj7ouvE1BjWBOFmu9X1Yx4/hlmFTlYU3/7MTmP+B6XVewzp+zGyTyzZeCbl5cqs7suu27EZ4NeH4ftu8btvar1GPNtfy2PPpXuf4YbzTItpNIgIsQtSMyAAil9zWsOP5qzv+UngzrSOxtAovvcS0APMAcSzdwyoxLT3TgABewzp+xIrXSUzUGZ3pR1KBToWQey2DYj9uvU3wDOsYzwmrO/6auM1NzO+ZOpQIwNIrgMQ0CDEtSEwDEn91uc4onrG646+JWzVhfXOmyHXrMdgqXBPtfEfM8UO29ZyYGNd2dW6KcDkTrb/Oa1jH99uaUjsVqLlWCDdpWuuYB3S6gk7SqcQRlVNWd/w18bsp7GYosTYDNMrxOkZR8q9nWMf3W+t1QCsBh/rAVwW6u9EKz7COH8Xvmuxs4p+5R34mkGvI5RVj7RjZeas7/pr49q5OmEVgfqvO9XGxXDsCMPew9qZ8j5t3/OnwP9/VyTr7mu76oLZq1judHD+Gr51OtDMS6yh2tWB6Sf3qs/+On4qv79mR69xba938plvlSvwUn9Zx/Ig9xLra1RSs+ynay06KtXqxxzrHd9rjuzqBstMKdVBiEYWiDcMkXSb+es+uEjt+wO70uofxsPYVYzX06TrB6LHO8b0m+t/X/LP5f69z3HHHHXfccccd/y7432iqJygUJtXlAAAAAElFTkSuQmCC" style="width: 100px; height: 100px;"><div style="font-size: 0.8em; color: #666; max-width: 200px; line-height: 1.4;">
+                     <div style="margin-bottom: 4px;">Scan this QR code with your banking app to pay this invoice easily.</div>
+                     <div style="font-weight: 600; font-size: 0.9em; color: #333;">Please verify payment details and invoice before executing payment.</div>
+                  </div>
+               </div>
+            </div>
+            <div class="footer-block">
+               <div class="footer-title">VAT Info</div>
+               <div>Reverse Charge applies</div>
+            </div>
+         </div>
+      </div>
+   </body>
+</html>

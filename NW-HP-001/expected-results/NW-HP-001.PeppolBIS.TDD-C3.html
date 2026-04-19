@@ -1,0 +1,178 @@
+<html>
+<head>
+<title>ViDA Tax Data Document</title>
+<style>
+                    body { font-family: Arial, sans-serif; margin: 30px; color: #333; }
+                    .header-box { border: 2px solid #2c3e50; padding: 20px; background-color: #fcfcfc; margin-bottom: 20px; }
+                    .section-title { background: #2c3e50; color: white; padding: 8px 15px; margin: 25px 0 10px 0; font-weight: bold; }
+                    table { width: 100%; border-collapse: collapse; margin-bottom: 20px; }
+                    th, td { text-align: left; padding: 10px; border: 1px solid #ddd; }
+                    th { background-color: #f2f2f2; }
+                    .amount { text-align: right; font-family: 'Courier New', monospace; }
+                    .total-row { font-weight: bold; background-color: #fdfdfe; }
+                    .btid { display: inline; font-family: monospace; color: grey; background-color: #f2f2f2; padding:5px; white-space: nowrap}
+                </style>
+</head>
+<body>
+<div class="header-box">
+<h1>Tax Data Document <br><div class="btid">TDT-003</div>82144c47-4b95-43cd-b899-7f4a2c187a68</h1>
+<table style="display: inline-table; width:45%">
+<tr><th colspan="2">Tax Report</th></tr>
+<tr>
+<th style="width:30%">
+<div class="btid">TDT-004</div>/<div class="btid">TDT-005</div>
+<div>Issued at</div>
+</th>
+<td>2026-04-19 at 17:51:27.169+02:00</td>
+</tr>
+<tr>
+<th>
+<div class="btid">TDT-012</div>
+<div>Reporter Role</div>
+</th>
+<td>C3</td>
+</tr>
+<tr>
+<th>
+<div class="btid">TDT-007</div>
+<div>Tax Data Type Code</div>
+</th>
+<td>S</td>
+</tr>
+<tr>
+<th>
+<div class="btid">TDT-006</div>
+<div>Document Scope</div>
+</th>
+<td>IC</td>
+</tr>
+</table>
+<table style="display: inline-table;width:50%">
+<tr><th colspan="2">
+<div class="btid">TDG-02</div> Invoice</th></tr>
+<tr>
+<th style="width:30%">
+<div class="btid">TDT-017</div> Invoice UUID</th>
+<td>095c9fce-a7a1-5483-8535-4fc03f6f6e35</td>
+</tr>
+<tr>
+<th>Invoice</th>
+<td>
+<div class="btid">BT-001</div>Number: <code>NW-HP-001</code><br><div class="btid">BT-002</div>Of: 2026-02-10<br><div class="btid">BT-003</div>Type: <code>380</code>
+</td>
+</tr>
+<tr>
+<th>
+<div class="btid">BG-04</div> Seller</th>
+<td>
+<div class="btid">BT-040</div>NL<br><div class="btid">BT-031</div>NL123456789B01</td>
+</tr>
+<tr>
+<th>
+<div class="btid">BG-07</div> Buyer</th>
+<td>
+<div class="btid">BT-055</div>SK<br><div class="btid">BT-048</div>SK2021234567</td>
+</tr>
+</table>
+</div>
+<div class="section-title">Parties to the Tax Data Document</div>
+<table>
+<tr>
+<th style="width:40%">
+<div class="btid">TDG-05</div> Reporting Participant ID</th>
+<td>
+<div class="btid">TDT-013</div>
+<code>9913:123456-vidapilot.sk2021234567</code>
+</td>
+</tr>
+<tr>
+<th>
+<div class="btid">TDG-06</div> Receiving Tax Authority</th>
+<td>
+<div>
+<div class="btid">TDT-010</div>SK - <div class="btid">TDT-011</div>Finan&#269;n&#225; spr&#225;va Slovenskej republiky</div>
+<div>
+<div class="btid">TDT-014</div>  Participant ID: <code>0242:990005-taxauthority.sk</code>
+</div>
+</td>
+</tr>
+<tr>
+<th>
+<div class="btid">TDG-07</div> Submitting Service Provider</th>
+<td>
+<div class="btid">TDT-015</div> 
+                            (<code>0242</code>)
+                            987654-vidapilot</td>
+</tr>
+</table>
+<div class="section-title">VAT Breakdown and Monetary Totals</div>
+<table>
+<thead><tr>
+<th>Category</th>
+<th>Tax Rate (%)</th>
+<th>Taxable Amount</th>
+<th>Tax Amount</th>
+</tr></thead>
+<tbody><tr>
+<td>K</td>
+<td class="amount">0%
+                    </td>
+<td class="amount">915.00 EUR</td>
+<td class="amount">0.00 EUR</td>
+</tr></tbody>
+</table>
+<table>
+<tr class="total-row">
+<th style="width:30%">Total Taxable Amount</th>
+<td class="amount">915.00 EUR</td>
+</tr>
+<tr class="total-row">
+<th>Payable Amount</th>
+<td class="amount">915.00 EUR</td>
+</tr>
+<tr class="total-row" style="font-size: 1.2em">
+<th>Total VAT Amount</th>
+<td class="amount">0.00 EUR</td>
+</tr>
+</table>
+<div class="section-title">Invoice Line Item details</div>
+<table>
+<thead><tr>
+<th style="width: 5%">ID</th>
+<th style="width: 40%">Item</th>
+<th>Quantity</th>
+<th>Price</th>
+<th>Amount</th>
+<th>VAT</th>
+</tr></thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Great Good (exempt of VAT for IC supply-Code K)<br><small>This Great Good is invoiced with a 0% VAT rate and "K" tax code to indicate use of the ICS tax exemption</small>
+</td>
+<td>3
+                (H87)
+            </td>
+<td class="amount">102 EUR</td>
+<td class="amount">306.00 EUR</td>
+<td style="white-space: nowrap;">K at
+                <span class="amount">0%</span>
+</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Another Great Good (exempt of VAT for IC supply-Code K)<br><small>Another Great Good, invoiced with a 0% VAT rate and "K" tax code to indicate use of the ICS tax exemption</small>
+</td>
+<td>7
+                (H87)
+            </td>
+<td class="amount">87 EUR</td>
+<td class="amount">609.00 EUR</td>
+<td style="white-space: nowrap;">K at
+                <span class="amount">0%</span>
+</td>
+</tr>
+</tbody>
+</table>
+</body>
+</html>

@@ -12,8 +12,8 @@ The invoice uses the Peppol BIS Billing 3.0 profile.
 ## Details of the test scenario
 
 ### The Participants
-*   **Seller (Accounting Supplier Party):** `VVB B.V.`, located in the **Netherlands** (`NL`).
-*   **Buyer (Accounting Customer Party):** `SP sro`, located in **Slovakia** (`SK`).
+*   **Seller (Accounting Supplier Party):** `VVB B.V.` (Verkoper Voorbeeldbedrijf B.V.), located in the **Netherlands** (`NL`).
+*   **Buyer (Accounting Customer Party):** `SP sro` (Slovenský Príklad s.r.o.), located in **Slovakia** (`SK`).
 *   **Context:** The parties are registered in different EU member states and the chargeable event is a supply of goods, the transaction is given as an intra-community supply.
 
 ### VAT Character of Line Items

@@ -1,10 +1,7 @@
 # NW-HP-002
 
-<<<<<<< HEAD
 File `NW-HP-002.PeppolBIS.xml` implements a testing scenario for a **Reverse Charge** transaction of services, where the VAT rate indeicated is `0%` because the tax responsibility is shifted to the buyer.
-=======
-File `NW-HP-002.PeppolBIS.xml` implements a testing scenario for a **Reverse Charge** transaction of services, where the VAT rate indicated is `0%` because the tax responsibility is shifted to the buyer.
->>>>>>> dev
+
 
 ## Purpose of the test scenario
 
@@ -27,11 +24,7 @@ The invoice contains two line items, both characterized by a **0% VAT rate** usi
 
 **Key VAT Details:**
 *   **Tax Category ID:** `AE` (indicates the reverse charge category).
-<<<<<<< HEAD
-*   **Tax Exemption Reason:** `Reverse Charge applies`.
-=======
 *   **Tax Exemption Reason:** `VATEX-EU-AE` (indicates that reverse charge applies).
->>>>>>> dev
 *   **Total Tax Amount:** The total tax amount for the entire invoice is `0` SEK, as the supply is subject to reverse charge.
 
 ## Choreography of Transaction

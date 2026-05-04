@@ -1,7 +1,6 @@
 # NW-HP-002
 
-File `NW-HP-002.PeppolBIS.xml` implements a testing scenario for a **Reverse Charge** transaction of services, where the VAT rate indeicated is `0%` because the tax responsibility is shifted to the buyer.
-
+File `NW-HP-002.PeppolBIS.xml` implements a testing scenario for a **Reverse Charge** transaction of services, where the VAT rate indicated is `0%` because the tax responsibility is shifted to the buyer.
 
 ## Purpose of the test scenario
 
@@ -33,7 +32,7 @@ The invoice contains two line items, both characterized by a **0% VAT rate** usi
 * C1 sends invoice data to C2 (not in scope of this test scenario).
 * C2 generates the source invoice based on the received data (file `NW-HP-002.PeppolBIS.xml`).
 * C2 validates the generated source invoice against applicable schematrons (files `supporting-files/NW-HP-002.PeppolBIS-validation.xml`)
-* C2 generates the supply-side TDD (file `expected-results/NW-HP-002.PeppolBIS.TDD-C2.xml`)
+* C2 generates the supply-side TDD (file `sample-results/NW-HP-002.PeppolBIS.TDD-C2.xml`)
 * C2 validates the generated supply-side TDD against applicable schematrons (files `supporting-files/NW-HP-002.PeppolBIS.TDD-C2.validation.xml`)
 
 ### Transmission process (1/2):
@@ -45,7 +44,7 @@ The invoice contains two line items, both characterized by a **0% VAT rate** usi
 
 * C3 receives inbound invoice from C2 (file `NW-HP-002.PeppolBIS.xml`).
 * C3 validates the received invoice against applicable schematrons (files `supporting-files/NW-HP-002.PeppolBIS-validation.xml`)
-* C3 generates the buy-side TDD (file `expected-results/NW-HP-002.PeppolBIS.TDD-C3.xml`)
+* C3 generates the buy-side TDD (file `sample-results/NW-HP-002.PeppolBIS.TDD-C3.xml`)
 * C3 validates the generated buy-side TDD against applicable schematrons (files `supporting-files/NW-HP-002.PeppolBIS.TDD-C3.validation.xml`)
 
 ### Transmission process (2/2):
@@ -56,17 +55,17 @@ The invoice contains two line items, both characterized by a **0% VAT rate** usi
 Inbound TDD handling is same at C5A from C2 and at C5B from C3.
 
 * C5 receives inbound TDD from C2/C3, files
-  * `expected-results/NW-HP-002.PeppolBIS.TDD-C2.xml` resp.
-  * `expected-results/NW-HP-002.PeppolBIS.TDD-C3.xml`.
+  * `sample-results/NW-HP-002.PeppolBIS.TDD-C2.xml` resp.
+  * `sample-results/NW-HP-002.PeppolBIS.TDD-C3.xml`.
 * C5 validates the received TDD against applicable schematrons, files
   * `supporting-files/NW-HP-002.PeppolBIS.TDD-C2.validation.xml` and
   * `supporting-files/NW-HP-002.PeppolBIS.TDD-C3.validation.xml`.
 
 ### Message-level status
 
-* C3 sends positive MLS to C2 (file `expected-results/NW-HP-002.PeppolBIS.MLS-C3.xml`)
-* C5A sends positive MLS to C2 (file `expected-results/NW-HP-002.PeppolBIS.MLS-C5A.xml`)
-* C5B sends positive MLS to C3 (file `expected-results/NW-HP-002.PeppolBIS.MLS-C5B.xml`)
+* C3 sends positive MLS to C2 (file `sample-results/NW-HP-002.PeppolBIS.MLS-C3.xml`)
+* C5A sends positive MLS to C2 (file `sample-results/NW-HP-002.PeppolBIS.MLS-C5A.xml`)
+* C5B sends positive MLS to C3 (file `sample-results/NW-HP-002.PeppolBIS.MLS-C5B.xml`)
 
 ### Make results available to C1/C4/C6 (out of scope of Testing Scenario)
 

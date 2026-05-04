@@ -12,14 +12,13 @@ To begin, copy the template directory and rename using your `SP-ID`, a dash `-` 
 
 ## Participant Registration
 
-| Service Provider Name  | SPID   | Contact Name | Contact E-Mail                 |
-|------------------------|--------|--------------|--------------------------------|
-| Company/BU name        | 000123 | John Doe     | john.doe@service-provider.com  |
-|                        |        |              |                                |
-| Pagero/Thomson Reuters | 000088 |              |                                |
-| Billit                 | 000076 |              |                                |
-| mySupply               | 000152 |              |                                |
-|                        |        |              |                                |
+| Service Provider Name  | SPID   | Role  | Contact Name          | 
+|------------------------|--------|-------|-----------------------|
+| Billit                 | 000076 | C2/C3 | Dirk Willekens        | 
+| Pagero/Thomson Reuters | 000088 | C2/C3 | Kristina Groot-Jensen | 
+| mySupply               | 000152 | C5    | Jesper Larsen         | 
+| STORMWARE              | 000834 | C2/C3 |                       |
+|                        |        |       |                       |
 
 ## Contact
-For enquiries please contact [vidapilot@peppol.eu](vidapilot@peppol.eu).
+For enquiries and deteailed contact info please contact [vidapilot@peppol.eu](vidapilot@peppol.eu).

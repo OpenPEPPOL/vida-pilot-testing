@@ -2,9 +2,9 @@
 <pxs:TaxData xmlns:pxs="urn:peppol:schema:vida-taxdata:1.0" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">
   <cbc:CustomizationID>urn:peppol:taxdata:vida-1</cbc:CustomizationID>
   <cbc:ProfileID>urn:peppol:taxreporting</cbc:ProfileID>
-  <cbc:UUID>1d08ba56-06a5-4104-9c5d-fdfff5c47f2e</cbc:UUID>
-  <cbc:IssueDate>2026-04-19</cbc:IssueDate>
-  <cbc:IssueTime>17:50:55.8+02:00</cbc:IssueTime>
+  <cbc:UUID>7feca732-490f-4ed7-baf1-6ef35b4fb8b7</cbc:UUID>
+  <cbc:IssueDate>2026-05-07</cbc:IssueDate>
+  <cbc:IssueTime>19:37:50.274+02:00</cbc:IssueTime>
   <pxs:TaxDataTypeCode>S</pxs:TaxDataTypeCode>
   <pxs:DocumentScope>IC</pxs:DocumentScope>
   <pxs:ReporterRole>C3</pxs:ReporterRole>
@@ -16,7 +16,7 @@
     <cbc:EndpointID schemeID="9913">123456-vidapilot.sk2021234567</cbc:EndpointID>
   </pxs:ReportingParty>
   <pxs:ReceivingParty>
-    <cbc:EndpointID schemeID="0242">990005-taxauthority.sk</cbc:EndpointID>
+    <cbc:EndpointID schemeID="0242">001111-vidapilot.tax_sk</cbc:EndpointID>
   </pxs:ReceivingParty>
   <pxs:ReportersRepresentative>
     <cac:PartyIdentification>

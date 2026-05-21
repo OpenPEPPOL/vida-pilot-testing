@@ -16,8 +16,9 @@ To begin, copy the template directory and rename using your `SP-ID`, a dash `-` 
 |------------------------|--------|-------|-----------------------|
 | Billit                 | 000076 | C2/C3 | Dirk Willekens        | 
 | Pagero/Thomson Reuters | 000088 | C2/C3 | Kristina Groot-Jensen | 
-| mySupply               | 000152 | C5    | Jesper Larsen         | 
+| mySupply               | 000152 | C2/C3 | Jesper Larsen         | 
 | STORMWARE              | 000834 | C2/C3 | Richard Rod           |
+| EDICOM CAPITAL         | 000045 | C2/C3 | Sergio Dasi Vivo      |
 |                        |        |       |                       |
 
 ## Contact

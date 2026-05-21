@@ -1,0 +1,1 @@
+This is the test data home directory for POP000045 - EDICOM CAPITAL S.L.

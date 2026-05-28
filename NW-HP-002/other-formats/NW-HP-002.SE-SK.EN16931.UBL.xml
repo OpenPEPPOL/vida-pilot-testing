@@ -21,7 +21,7 @@ As such, the seller and buyer are located in two different EU member states.</cb
 	</cac:ContractDocumentReference>
 	<cac:AccountingSupplierParty>
 		<cac:Party>
-			<cbc:EndpointID schemeID="9913">001109-vidapilot.5561234567</cbc:EndpointID>
+			<cbc:EndpointID schemeID="9913">001109-vidapilot.SE5561234567</cbc:EndpointID>
 			<cac:PartyIdentification>
 				<cbc:ID>9999-654321</cbc:ID>
 			</cac:PartyIdentification>

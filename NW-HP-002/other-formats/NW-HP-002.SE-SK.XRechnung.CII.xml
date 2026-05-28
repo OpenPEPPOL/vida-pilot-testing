@@ -109,7 +109,7 @@ As such, the seller and buyer are located in two different EU member states.</ra
 					<ram:CountryID>SE</ram:CountryID>
 				</ram:PostalTradeAddress>
 				<ram:URIUniversalCommunication>
-					<ram:URIID schemeID="9913">001109-vidapilot.5561234567</ram:URIID>
+					<ram:URIID schemeID="9913">001109-vidapilot.SE5561234567</ram:URIID>
 				</ram:URIUniversalCommunication>
 				<ram:SpecifiedTaxRegistration>
 					<ram:ID schemeID="VA">SE556123456701</ram:ID>

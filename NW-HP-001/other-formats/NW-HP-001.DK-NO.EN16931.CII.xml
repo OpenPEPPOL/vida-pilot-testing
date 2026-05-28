@@ -136,10 +136,10 @@ As such, the seller and buyer are located in two different EU member states.</ra
 					<ram:CountryID>NO</ram:CountryID>
 				</ram:PostalTradeAddress>
 				<ram:URIUniversalCommunication>
-					<ram:URIID schemeID="9913">001110-vidapilot.NO123456785MVA</ram:URIID>
+					<ram:URIID schemeID="9913">001110-vidapilot.NO234567896MVA</ram:URIID>
 				</ram:URIUniversalCommunication>
 				<ram:SpecifiedTaxRegistration>
-					<ram:ID schemeID="VA">NO123456785MVA</ram:ID>
+					<ram:ID schemeID="VA">NO234567896MVA</ram:ID>
 				</ram:SpecifiedTaxRegistration>
 			</ram:BuyerTradeParty>
 			<ram:SellerOrderReferencedDocument>

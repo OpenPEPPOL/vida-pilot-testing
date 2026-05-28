@@ -61,10 +61,10 @@ As such, the seller and buyer are located in two different EU member states.</xr
       <xr:Buyer_trading_name xr:id="BT-45"
                              xr:src="/Invoice/cac:AccountingCustomerParty/cac:Party/cac:PartyName/cbc:Name">Kjøper Norge</xr:Buyer_trading_name>
       <xr:Buyer_VAT_identifier xr:id="BT-48"
-                               xr:src="/Invoice/cac:AccountingCustomerParty/cac:Party/cac:PartyTaxScheme/cbc:CompanyID">NO123456785MVA</xr:Buyer_VAT_identifier>
+                               xr:src="/Invoice/cac:AccountingCustomerParty/cac:Party/cac:PartyTaxScheme/cbc:CompanyID">NO234567896MVA</xr:Buyer_VAT_identifier>
       <xr:Buyer_electronic_address xr:id="BT-49"
                                    xr:src="/Invoice/cac:AccountingCustomerParty/cac:Party/cbc:EndpointID"
-                                   scheme_identifier="9913">001110-vidapilot.NO123456785MVA</xr:Buyer_electronic_address>
+                                   scheme_identifier="9913">001110-vidapilot.NO234567896MVA</xr:Buyer_electronic_address>
       <xr:BUYER_POSTAL_ADDRESS xr:id="BG-8"
                                xr:src="/Invoice/cac:AccountingCustomerParty/cac:Party/cac:PostalAddress">
          <xr:Buyer_address_line_1 xr:id="BT-50"

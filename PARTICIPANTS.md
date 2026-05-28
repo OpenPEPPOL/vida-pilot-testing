@@ -21,6 +21,9 @@ To begin, copy the template directory and rename using your `SP-ID`, a dash `-` 
 | mySupply               | 000152 | C2/C3 | Jesper Larsen         | 
 | STORMWARE              | 000834 | C2/C3 | Richard Rod           |
 | EDICOM CAPITAL         | 000045 | C2/C3 | Sergio Dasi Vivo      |
+| QITS                   | 000725 | C2/C3 | Felix Düchting        |
+| OpenText               | 000222 | C2/C3 |                       |
+
 *... to be extended*
 
 ### Tax Administrations

@@ -29,7 +29,7 @@ As such, the seller and buyer are located in two different EU member states.</ra
 			<ram:SpecifiedTradeProduct>
 				<ram:SellerAssignedID>GG-100124</ram:SellerAssignedID>
 				<ram:BuyerAssignedID>Buyer SKU not known</ram:BuyerAssignedID>
-				<ram:Name>Great Good (import from third country-Code G)</ram:Name>
+				<ram:Name>Great Good (Intra-community supply - K)</ram:Name>
 				<ram:Description>This Great Good is invoiced with a 0% VAT rate and "K" tax code to indicate use of the ICS tax exemption</ram:Description>
 			</ram:SpecifiedTradeProduct>
 			<ram:SpecifiedLineTradeAgreement>
@@ -39,17 +39,17 @@ As such, the seller and buyer are located in two different EU member states.</ra
 				</ram:NetPriceProductTradePrice>
 			</ram:SpecifiedLineTradeAgreement>
 			<ram:SpecifiedLineTradeDelivery>
-				<ram:BilledQuantity unitCode="H87">10</ram:BilledQuantity>
+				<ram:BilledQuantity unitCode="H87">9</ram:BilledQuantity>
 			</ram:SpecifiedLineTradeDelivery>
 			<ram:SpecifiedLineTradeSettlement>
 				<ram:ApplicableTradeTax>
 					<ram:TypeCode>VAT</ram:TypeCode>
-					<ram:ExemptionReason>Import into EU</ram:ExemptionReason>
-					<ram:CategoryCode>G</ram:CategoryCode>
+					<ram:ExemptionReason>VAT exempt intra-community supply (Article 138 Directive 2006/112/EC)</ram:ExemptionReason>
+					<ram:CategoryCode>K</ram:CategoryCode>
 					<ram:RateApplicablePercent>0</ram:RateApplicablePercent>
 				</ram:ApplicableTradeTax>
 				<ram:SpecifiedTradeSettlementLineMonetarySummation>
-					<ram:LineTotalAmount>1020.00</ram:LineTotalAmount>
+					<ram:LineTotalAmount>918.00</ram:LineTotalAmount>
 				</ram:SpecifiedTradeSettlementLineMonetarySummation>
 			</ram:SpecifiedLineTradeSettlement>
 		</ram:IncludedSupplyChainTradeLineItem>
@@ -60,7 +60,7 @@ As such, the seller and buyer are located in two different EU member states.</ra
 			<ram:SpecifiedTradeProduct>
 				<ram:SellerAssignedID>GG-100993</ram:SellerAssignedID>
 				<ram:BuyerAssignedID>Buyer SKU not known</ram:BuyerAssignedID>
-				<ram:Name>Another Great Good (import from third country-Code G)</ram:Name>
+				<ram:Name>Another Great Good (Intra-community supply - K)</ram:Name>
 				<ram:Description>Another Great Good, invoiced with a 0% VAT rate and "K" tax code to indicate use of the ICS tax exemption</ram:Description>
 			</ram:SpecifiedTradeProduct>
 			<ram:SpecifiedLineTradeAgreement>
@@ -70,17 +70,17 @@ As such, the seller and buyer are located in two different EU member states.</ra
 				</ram:NetPriceProductTradePrice>
 			</ram:SpecifiedLineTradeAgreement>
 			<ram:SpecifiedLineTradeDelivery>
-				<ram:BilledQuantity unitCode="H87">9</ram:BilledQuantity>
+				<ram:BilledQuantity unitCode="H87">7</ram:BilledQuantity>
 			</ram:SpecifiedLineTradeDelivery>
 			<ram:SpecifiedLineTradeSettlement>
 				<ram:ApplicableTradeTax>
 					<ram:TypeCode>VAT</ram:TypeCode>
-					<ram:ExemptionReason>Import into EU</ram:ExemptionReason>
-					<ram:CategoryCode>G</ram:CategoryCode>
+					<ram:ExemptionReason>VAT exempt intra-community supply (Article 138 Directive 2006/112/EC)</ram:ExemptionReason>
+					<ram:CategoryCode>K</ram:CategoryCode>
 					<ram:RateApplicablePercent>0</ram:RateApplicablePercent>
 				</ram:ApplicableTradeTax>
 				<ram:SpecifiedTradeSettlementLineMonetarySummation>
-					<ram:LineTotalAmount>783.00</ram:LineTotalAmount>
+					<ram:LineTotalAmount>609.00</ram:LineTotalAmount>
 				</ram:SpecifiedTradeSettlementLineMonetarySummation>
 			</ram:SpecifiedLineTradeSettlement>
 		</ram:IncludedSupplyChainTradeLineItem>
@@ -187,24 +187,24 @@ As such, the seller and buyer are located in two different EU member states.</ra
 			<ram:ApplicableTradeTax>
 				<ram:CalculatedAmount>0.00</ram:CalculatedAmount>
 				<ram:TypeCode>VAT</ram:TypeCode>
-				<ram:ExemptionReason>Import into EU</ram:ExemptionReason>
-				<ram:BasisAmount>1803.00</ram:BasisAmount>
-				<ram:CategoryCode>G</ram:CategoryCode>
-				<ram:ExemptionReasonCode>VATEX-EU-G</ram:ExemptionReasonCode>
+				<ram:ExemptionReason>VAT exempt intra-community supply (Article 138 Directive 2006/112/EC)</ram:ExemptionReason>
+				<ram:BasisAmount>1527.00</ram:BasisAmount>
+				<ram:CategoryCode>K</ram:CategoryCode>
+				<ram:ExemptionReasonCode>VATEX-EU-IC</ram:ExemptionReasonCode>
 				<ram:RateApplicablePercent>0</ram:RateApplicablePercent>
 			</ram:ApplicableTradeTax>
 			<ram:SpecifiedTradePaymentTerms>
-				<ram:Description>Please remit your payment of 1.803,00 kr before 12.03.2026.</ram:Description>
+				<ram:Description>Please remit your payment of 1.527,00 kr before 12.03.2026.</ram:Description>
 				<ram:DueDateDateTime>
 					<udt:DateTimeString format="102">20260312</udt:DateTimeString>
 				</ram:DueDateDateTime>
 			</ram:SpecifiedTradePaymentTerms>
 			<ram:SpecifiedTradeSettlementHeaderMonetarySummation>
-				<ram:LineTotalAmount>1803.00</ram:LineTotalAmount>
-				<ram:TaxBasisTotalAmount>1803.00</ram:TaxBasisTotalAmount>
+				<ram:LineTotalAmount>1527.00</ram:LineTotalAmount>
+				<ram:TaxBasisTotalAmount>1527.00</ram:TaxBasisTotalAmount>
 				<ram:TaxTotalAmount currencyID="NOK">0.00</ram:TaxTotalAmount>
-				<ram:GrandTotalAmount>1803.00</ram:GrandTotalAmount>
-				<ram:DuePayableAmount>1803.00</ram:DuePayableAmount>
+				<ram:GrandTotalAmount>1527.00</ram:GrandTotalAmount>
+				<ram:DuePayableAmount>1527.00</ram:DuePayableAmount>
 			</ram:SpecifiedTradeSettlementHeaderMonetarySummation>
 		</ram:ApplicableHeaderTradeSettlement>
 	</rsm:SupplyChainTradeTransaction>

@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<pxs:TaxData xmlns:pxs="urn:peppol:schema:vida-taxdata:1.0" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">
+<pxs:TaxData xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:pxs="urn:peppol:schema:vida-taxdata:1.0" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">
   <cbc:CustomizationID>urn:peppol:taxdata:vida-1</cbc:CustomizationID>
   <cbc:ProfileID>urn:peppol:taxreporting</cbc:ProfileID>
-  <cbc:UUID>7287015a-7037-4429-9e2e-49281a2bb68a</cbc:UUID>
-  <cbc:IssueDate>2026-05-26</cbc:IssueDate>
-  <cbc:IssueTime>15:16:06.673+02:00</cbc:IssueTime>
+  <cbc:UUID>17f81078-b405-459c-b47f-138ba921f7a3</cbc:UUID>
+  <cbc:IssueDate>2026-05-27</cbc:IssueDate>
+  <cbc:IssueTime>11:34:08.153+02:00</cbc:IssueTime>
   <pxs:TaxDataTypeCode>S</pxs:TaxDataTypeCode>
   <pxs:DocumentScope>Intl</pxs:DocumentScope>
   <pxs:ReporterRole>C3</pxs:ReporterRole>
@@ -77,7 +77,7 @@ As such, the seller and buyer are located in two different EU member states.</cb
           <cbc:TaxableAmount currencyID="EUR">915</cbc:TaxableAmount>
           <cbc:TaxAmount currencyID="EUR">0</cbc:TaxAmount>
           <cac:TaxCategory>
-            <cbc:ID>G</cbc:ID>
+            <cbc:ID>K</cbc:ID>
             <cbc:Percent>0</cbc:Percent>
             <cac:TaxScheme>
               <cbc:ID>VAT</cbc:ID>
@@ -97,9 +97,9 @@ As such, the seller and buyer are located in two different EU member states.</cb
         <cbc:LineExtensionAmount currencyID="EUR">306</cbc:LineExtensionAmount>
         <cac:Item>
           <cbc:Description>This Great Good is invoiced with a 0% VAT rate and "K" tax code to indicate use of the ICS tax exemption</cbc:Description>
-          <cbc:Name>Great Good (exempt of VAT for export outside EU-Code G)</cbc:Name>
+          <cbc:Name>Great Good (exempt of VAT for IC supply-Code K)</cbc:Name>
           <cac:ClassifiedTaxCategory>
-            <cbc:ID>G</cbc:ID>
+            <cbc:ID>K</cbc:ID>
             <cbc:Percent>0</cbc:Percent>
             <cac:TaxScheme>
               <cbc:ID>VAT</cbc:ID>
@@ -116,9 +116,9 @@ As such, the seller and buyer are located in two different EU member states.</cb
         <cbc:LineExtensionAmount currencyID="EUR">609</cbc:LineExtensionAmount>
         <cac:Item>
           <cbc:Description>Another Great Good, invoiced with a 0% VAT rate and "K" tax code to indicate use of the ICS tax exemption</cbc:Description>
-          <cbc:Name>Another Great Good (exempt of VAT for export outside EU-Code G)</cbc:Name>
+          <cbc:Name>Another Great Good (exempt of VAT for IC supply-Code K)</cbc:Name>
           <cac:ClassifiedTaxCategory>
-            <cbc:ID>G</cbc:ID>
+            <cbc:ID>K</cbc:ID>
             <cbc:Percent>0</cbc:Percent>
             <cac:TaxScheme>
               <cbc:ID>VAT</cbc:ID>

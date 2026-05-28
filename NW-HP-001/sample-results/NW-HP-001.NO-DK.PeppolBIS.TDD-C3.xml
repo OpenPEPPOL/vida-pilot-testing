@@ -2,9 +2,9 @@
 <pxs:TaxData xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:pxs="urn:peppol:schema:vida-taxdata:1.0" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">
   <cbc:CustomizationID>urn:peppol:taxdata:vida-1</cbc:CustomizationID>
   <cbc:ProfileID>urn:peppol:taxreporting</cbc:ProfileID>
-  <cbc:UUID>f69f89d8-288d-48a4-b028-594ccb5b96a9</cbc:UUID>
-  <cbc:IssueDate>2026-05-26</cbc:IssueDate>
-  <cbc:IssueTime>15:16:08.021+02:00</cbc:IssueTime>
+  <cbc:UUID>ad3b6304-dd8e-4d2c-8934-9b01d5ef8726</cbc:UUID>
+  <cbc:IssueDate>2026-05-27</cbc:IssueDate>
+  <cbc:IssueTime>11:34:09.498+02:00</cbc:IssueTime>
   <pxs:TaxDataTypeCode>S</pxs:TaxDataTypeCode>
   <pxs:DocumentScope>Intl</pxs:DocumentScope>
   <pxs:ReporterRole>C3</pxs:ReporterRole>
@@ -74,10 +74,10 @@ As such, the seller and buyer are located in two different EU member states.</cb
       <cac:TaxTotal>
         <cbc:TaxAmount currencyID="NOK">0</cbc:TaxAmount>
         <cac:TaxSubtotal>
-          <cbc:TaxableAmount currencyID="NOK">1803</cbc:TaxableAmount>
+          <cbc:TaxableAmount currencyID="NOK">1527</cbc:TaxableAmount>
           <cbc:TaxAmount currencyID="NOK">0</cbc:TaxAmount>
           <cac:TaxCategory>
-            <cbc:ID>G</cbc:ID>
+            <cbc:ID>K</cbc:ID>
             <cbc:Percent>0</cbc:Percent>
             <cac:TaxScheme>
               <cbc:ID>VAT</cbc:ID>
@@ -86,20 +86,20 @@ As such, the seller and buyer are located in two different EU member states.</cb
         </cac:TaxSubtotal>
       </cac:TaxTotal>
       <pxs:MonetaryTotal>
-        <cbc:LineExtensionAmount currencyID="NOK">1803</cbc:LineExtensionAmount>
-        <cbc:TaxExclusiveAmount currencyID="NOK">1803</cbc:TaxExclusiveAmount>
-        <cbc:TaxInclusiveAmount currencyID="NOK">1803</cbc:TaxInclusiveAmount>
-        <cbc:PayableAmount currencyID="NOK">1803</cbc:PayableAmount>
+        <cbc:LineExtensionAmount currencyID="NOK">1527</cbc:LineExtensionAmount>
+        <cbc:TaxExclusiveAmount currencyID="NOK">1527</cbc:TaxExclusiveAmount>
+        <cbc:TaxInclusiveAmount currencyID="NOK">1527</cbc:TaxInclusiveAmount>
+        <cbc:PayableAmount currencyID="NOK">1527</cbc:PayableAmount>
       </pxs:MonetaryTotal>
       <pxs:DocumentLine>
         <cbc:ID>1</cbc:ID>
-        <cbc:InvoicedQuantity unitCode="H87">10</cbc:InvoicedQuantity>
-        <cbc:LineExtensionAmount currencyID="NOK">1020</cbc:LineExtensionAmount>
+        <cbc:InvoicedQuantity unitCode="H87">9</cbc:InvoicedQuantity>
+        <cbc:LineExtensionAmount currencyID="NOK">918</cbc:LineExtensionAmount>
         <cac:Item>
           <cbc:Description>This Great Good is invoiced with a 0% VAT rate and "K" tax code to indicate use of the ICS tax exemption</cbc:Description>
-          <cbc:Name>Great Good (import from third country-Code G)</cbc:Name>
+          <cbc:Name>Great Good (Intra-community supply - K)</cbc:Name>
           <cac:ClassifiedTaxCategory>
-            <cbc:ID>G</cbc:ID>
+            <cbc:ID>K</cbc:ID>
             <cbc:Percent>0</cbc:Percent>
             <cac:TaxScheme>
               <cbc:ID>VAT</cbc:ID>
@@ -112,13 +112,13 @@ As such, the seller and buyer are located in two different EU member states.</cb
       </pxs:DocumentLine>
       <pxs:DocumentLine>
         <cbc:ID>2</cbc:ID>
-        <cbc:InvoicedQuantity unitCode="H87">9</cbc:InvoicedQuantity>
-        <cbc:LineExtensionAmount currencyID="NOK">783</cbc:LineExtensionAmount>
+        <cbc:InvoicedQuantity unitCode="H87">7</cbc:InvoicedQuantity>
+        <cbc:LineExtensionAmount currencyID="NOK">609</cbc:LineExtensionAmount>
         <cac:Item>
           <cbc:Description>Another Great Good, invoiced with a 0% VAT rate and "K" tax code to indicate use of the ICS tax exemption</cbc:Description>
-          <cbc:Name>Another Great Good (import from third country-Code G)</cbc:Name>
+          <cbc:Name>Another Great Good (Intra-community supply - K)</cbc:Name>
           <cac:ClassifiedTaxCategory>
-            <cbc:ID>G</cbc:ID>
+            <cbc:ID>K</cbc:ID>
             <cbc:Percent>0</cbc:Percent>
             <cac:TaxScheme>
               <cbc:ID>VAT</cbc:ID>

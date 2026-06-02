@@ -9,7 +9,7 @@
    <xr:Contract_reference xr:id="BT-12" xr:src="/Invoice/cac:ContractDocumentReference/cbc:ID">Contract ABC</xr:Contract_reference>
    <xr:Purchase_order_reference xr:id="BT-13" xr:src="/Invoice/cac:OrderReference/cbc:ID">PO-54321</xr:Purchase_order_reference>
    <xr:Sales_order_reference xr:id="BT-14" xr:src="/Invoice/cac:OrderReference/cbc:SalesOrderID">Order #456789</xr:Sales_order_reference>
-   <xr:Payment_terms xr:id="BT-20" xr:src="/Invoice/cac:PaymentTerms/cbc:Note">Please remit your payment of 1.149,00 kr. before 12.03.2026.</xr:Payment_terms>
+   <xr:Payment_terms xr:id="BT-20" xr:src="/Invoice/cac:PaymentTerms/cbc:Note">Please remit your payment of 915,00 kr. before 12.03.2026.</xr:Payment_terms>
    <xr:INVOICE_NOTE xr:id="BG-1" xr:src="/Invoice">
       <xr:Invoice_note xr:id="BT-22" xr:src="/Invoice/cbc:Note">FICTITIOUS INVOICE - DO NOT PAY - DO NOT USE IN TAX RETURNS!
 This is a generic sample invoice to cover a "regular" invoicing use case in ViDA.
@@ -116,37 +116,37 @@ As such, the seller and buyer are located in two different EU member states.</xr
    </xr:PAYMENT_INSTRUCTIONS>
    <xr:DOCUMENT_TOTALS xr:id="BG-22" xr:src="/Invoice/cac:LegalMonetaryTotal">
       <xr:Sum_of_Invoice_line_net_amount xr:id="BT-106"
-                                         xr:src="/Invoice/cac:LegalMonetaryTotal/cbc:LineExtensionAmount">1149</xr:Sum_of_Invoice_line_net_amount>
+                                         xr:src="/Invoice/cac:LegalMonetaryTotal/cbc:LineExtensionAmount">915</xr:Sum_of_Invoice_line_net_amount>
       <xr:Invoice_total_amount_without_VAT xr:id="BT-109"
-                                           xr:src="/Invoice/cac:LegalMonetaryTotal/cbc:TaxExclusiveAmount">1149</xr:Invoice_total_amount_without_VAT>
+                                           xr:src="/Invoice/cac:LegalMonetaryTotal/cbc:TaxExclusiveAmount">915</xr:Invoice_total_amount_without_VAT>
       <xr:Invoice_total_VAT_amount xr:id="BT-110" xr:src="/Invoice/cac:TaxTotal/cbc:TaxAmount">0</xr:Invoice_total_VAT_amount>
       <xr:Invoice_total_amount_with_VAT xr:id="BT-112"
-                                        xr:src="/Invoice/cac:LegalMonetaryTotal/cbc:TaxInclusiveAmount">1149</xr:Invoice_total_amount_with_VAT>
+                                        xr:src="/Invoice/cac:LegalMonetaryTotal/cbc:TaxInclusiveAmount">915</xr:Invoice_total_amount_with_VAT>
       <xr:Amount_due_for_payment xr:id="BT-115"
-                                 xr:src="/Invoice/cac:LegalMonetaryTotal/cbc:PayableAmount">1149</xr:Amount_due_for_payment>
+                                 xr:src="/Invoice/cac:LegalMonetaryTotal/cbc:PayableAmount">915</xr:Amount_due_for_payment>
    </xr:DOCUMENT_TOTALS>
    <xr:VAT_BREAKDOWN xr:id="BG-23" xr:src="/Invoice/cac:TaxTotal/cac:TaxSubtotal">
       <xr:VAT_category_taxable_amount xr:id="BT-116"
-                                      xr:src="/Invoice/cac:TaxTotal/cac:TaxSubtotal/cbc:TaxableAmount">1149</xr:VAT_category_taxable_amount>
+                                      xr:src="/Invoice/cac:TaxTotal/cac:TaxSubtotal/cbc:TaxableAmount">915</xr:VAT_category_taxable_amount>
       <xr:VAT_category_tax_amount xr:id="BT-117"
                                   xr:src="/Invoice/cac:TaxTotal/cac:TaxSubtotal/cbc:TaxAmount">0</xr:VAT_category_tax_amount>
       <xr:VAT_category_code xr:id="BT-118"
-                            xr:src="/Invoice/cac:TaxTotal/cac:TaxSubtotal/cac:TaxCategory/cbc:ID">K</xr:VAT_category_code>
+                            xr:src="/Invoice/cac:TaxTotal/cac:TaxSubtotal/cac:TaxCategory/cbc:ID">G</xr:VAT_category_code>
       <xr:VAT_category_rate xr:id="BT-119"
                             xr:src="/Invoice/cac:TaxTotal/cac:TaxSubtotal/cac:TaxCategory/cbc:Percent">0</xr:VAT_category_rate>
       <xr:VAT_exemption_reason_text xr:id="BT-120"
-                                    xr:src="/Invoice/cac:TaxTotal/cac:TaxSubtotal/cac:TaxCategory/cbc:TaxExemptionReason">VAT exempt intra-community supply (Article 138 Directive 2006/112/EC)</xr:VAT_exemption_reason_text>
+                                    xr:src="/Invoice/cac:TaxTotal/cac:TaxSubtotal/cac:TaxCategory/cbc:TaxExemptionReason">Export outside of EU</xr:VAT_exemption_reason_text>
       <xr:VAT_exemption_reason_code xr:id="BT-121"
-                                    xr:src="/Invoice/cac:TaxTotal/cac:TaxSubtotal/cac:TaxCategory/cbc:TaxExemptionReasonCode">VATEX-EU-IC</xr:VAT_exemption_reason_code>
+                                    xr:src="/Invoice/cac:TaxTotal/cac:TaxSubtotal/cac:TaxCategory/cbc:TaxExemptionReasonCode">VATEX-EU-G</xr:VAT_exemption_reason_code>
    </xr:VAT_BREAKDOWN>
    <xr:INVOICE_LINE xr:id="BG-25" xr:src="/Invoice/cac:InvoiceLine[1]">
       <xr:Invoice_line_identifier xr:id="BT-126" xr:src="/Invoice/cac:InvoiceLine[1]/cbc:ID">1</xr:Invoice_line_identifier>
       <xr:Invoiced_quantity xr:id="BT-129"
-                            xr:src="/Invoice/cac:InvoiceLine[1]/cbc:InvoicedQuantity">7</xr:Invoiced_quantity>
+                            xr:src="/Invoice/cac:InvoiceLine[1]/cbc:InvoicedQuantity">3</xr:Invoiced_quantity>
       <xr:Invoiced_quantity_unit_of_measure_code xr:id="BT-130"
                                                  xr:src="/Invoice/cac:InvoiceLine[1]/cbc:InvoicedQuantity/@unitCode">H87</xr:Invoiced_quantity_unit_of_measure_code>
       <xr:Invoice_line_net_amount xr:id="BT-131"
-                                  xr:src="/Invoice/cac:InvoiceLine[1]/cbc:LineExtensionAmount">714</xr:Invoice_line_net_amount>
+                                  xr:src="/Invoice/cac:InvoiceLine[1]/cbc:LineExtensionAmount">306</xr:Invoice_line_net_amount>
       <xr:PRICE_DETAILS xr:id="BG-29" xr:src="/Invoice/cac:InvoiceLine[1]/cac:Price">
          <xr:Item_net_price xr:id="BT-146"
                             xr:src="/Invoice/cac:InvoiceLine[1]/cac:Price/cbc:PriceAmount">102</xr:Item_net_price>
@@ -154,14 +154,14 @@ As such, the seller and buyer are located in two different EU member states.</xr
       <xr:LINE_VAT_INFORMATION xr:id="BG-30"
                                xr:src="/Invoice/cac:InvoiceLine[1]/cac:Item/cac:ClassifiedTaxCategory">
          <xr:Invoiced_item_VAT_category_code xr:id="BT-151"
-                                             xr:src="/Invoice/cac:InvoiceLine[1]/cac:Item/cac:ClassifiedTaxCategory/cbc:ID">K</xr:Invoiced_item_VAT_category_code>
+                                             xr:src="/Invoice/cac:InvoiceLine[1]/cac:Item/cac:ClassifiedTaxCategory/cbc:ID">G</xr:Invoiced_item_VAT_category_code>
          <xr:Invoiced_item_VAT_rate xr:id="BT-152"
                                     xr:src="/Invoice/cac:InvoiceLine[1]/cac:Item/cac:ClassifiedTaxCategory/cbc:Percent">0</xr:Invoiced_item_VAT_rate>
       </xr:LINE_VAT_INFORMATION>
       <xr:ITEM_INFORMATION xr:id="BG-31" xr:src="/Invoice/cac:InvoiceLine[1]/cac:Item">
-         <xr:Item_name xr:id="BT-153" xr:src="/Invoice/cac:InvoiceLine[1]/cac:Item/cbc:Name">Great Good (exempt of VAT for IC supply-Code K)</xr:Item_name>
+         <xr:Item_name xr:id="BT-153" xr:src="/Invoice/cac:InvoiceLine[1]/cac:Item/cbc:Name">Great Good (exempt of VAT for export outside EU-Code G)</xr:Item_name>
          <xr:Item_description xr:id="BT-154"
-                              xr:src="/Invoice/cac:InvoiceLine[1]/cac:Item/cbc:Description">This Great Good is invoiced with a 0% VAT rate and "K" tax code to indicate use of the ICS tax exemption</xr:Item_description>
+                              xr:src="/Invoice/cac:InvoiceLine[1]/cac:Item/cbc:Description">This Great Good is invoiced with a 0% VAT rate and "G" tax code to indicate export of goods outside of the EU.</xr:Item_description>
          <xr:Item_Sellers_identifier xr:id="BT-155"
                                      xr:src="/Invoice/cac:InvoiceLine[1]/cac:Item/cac:SellersItemIdentification/cbc:ID">GG-100124</xr:Item_Sellers_identifier>
          <xr:Item_Buyers_identifier xr:id="BT-156"
@@ -171,11 +171,11 @@ As such, the seller and buyer are located in two different EU member states.</xr
    <xr:INVOICE_LINE xr:id="BG-25" xr:src="/Invoice/cac:InvoiceLine[2]">
       <xr:Invoice_line_identifier xr:id="BT-126" xr:src="/Invoice/cac:InvoiceLine[2]/cbc:ID">2</xr:Invoice_line_identifier>
       <xr:Invoiced_quantity xr:id="BT-129"
-                            xr:src="/Invoice/cac:InvoiceLine[2]/cbc:InvoicedQuantity">5</xr:Invoiced_quantity>
+                            xr:src="/Invoice/cac:InvoiceLine[2]/cbc:InvoicedQuantity">7</xr:Invoiced_quantity>
       <xr:Invoiced_quantity_unit_of_measure_code xr:id="BT-130"
                                                  xr:src="/Invoice/cac:InvoiceLine[2]/cbc:InvoicedQuantity/@unitCode">H87</xr:Invoiced_quantity_unit_of_measure_code>
       <xr:Invoice_line_net_amount xr:id="BT-131"
-                                  xr:src="/Invoice/cac:InvoiceLine[2]/cbc:LineExtensionAmount">435</xr:Invoice_line_net_amount>
+                                  xr:src="/Invoice/cac:InvoiceLine[2]/cbc:LineExtensionAmount">609</xr:Invoice_line_net_amount>
       <xr:PRICE_DETAILS xr:id="BG-29" xr:src="/Invoice/cac:InvoiceLine[2]/cac:Price">
          <xr:Item_net_price xr:id="BT-146"
                             xr:src="/Invoice/cac:InvoiceLine[2]/cac:Price/cbc:PriceAmount">87</xr:Item_net_price>
@@ -183,14 +183,14 @@ As such, the seller and buyer are located in two different EU member states.</xr
       <xr:LINE_VAT_INFORMATION xr:id="BG-30"
                                xr:src="/Invoice/cac:InvoiceLine[2]/cac:Item/cac:ClassifiedTaxCategory">
          <xr:Invoiced_item_VAT_category_code xr:id="BT-151"
-                                             xr:src="/Invoice/cac:InvoiceLine[2]/cac:Item/cac:ClassifiedTaxCategory/cbc:ID">K</xr:Invoiced_item_VAT_category_code>
+                                             xr:src="/Invoice/cac:InvoiceLine[2]/cac:Item/cac:ClassifiedTaxCategory/cbc:ID">G</xr:Invoiced_item_VAT_category_code>
          <xr:Invoiced_item_VAT_rate xr:id="BT-152"
                                     xr:src="/Invoice/cac:InvoiceLine[2]/cac:Item/cac:ClassifiedTaxCategory/cbc:Percent">0</xr:Invoiced_item_VAT_rate>
       </xr:LINE_VAT_INFORMATION>
       <xr:ITEM_INFORMATION xr:id="BG-31" xr:src="/Invoice/cac:InvoiceLine[2]/cac:Item">
-         <xr:Item_name xr:id="BT-153" xr:src="/Invoice/cac:InvoiceLine[2]/cac:Item/cbc:Name">Another Great Good (exempt of VAT for IC supply-Code K)</xr:Item_name>
+         <xr:Item_name xr:id="BT-153" xr:src="/Invoice/cac:InvoiceLine[2]/cac:Item/cbc:Name">Another Great Good (exempt of VAT for export outside EU-Code G)</xr:Item_name>
          <xr:Item_description xr:id="BT-154"
-                              xr:src="/Invoice/cac:InvoiceLine[2]/cac:Item/cbc:Description">Another Great Good, invoiced with a 0% VAT rate and "K" tax code to indicate use of the ICS tax exemption</xr:Item_description>
+                              xr:src="/Invoice/cac:InvoiceLine[2]/cac:Item/cbc:Description">Another Great Good, invoiced with a 0% VAT rate and "G" tax code to indicate export of goods outside of the EU.</xr:Item_description>
          <xr:Item_Sellers_identifier xr:id="BT-155"
                                      xr:src="/Invoice/cac:InvoiceLine[2]/cac:Item/cac:SellersItemIdentification/cbc:ID">GG-100993</xr:Item_Sellers_identifier>
          <xr:Item_Buyers_identifier xr:id="BT-156"

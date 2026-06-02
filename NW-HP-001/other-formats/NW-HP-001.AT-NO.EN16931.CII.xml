@@ -29,8 +29,8 @@ As such, the seller and buyer are located in two different EU member states.</ra
 			<ram:SpecifiedTradeProduct>
 				<ram:SellerAssignedID>GG-100124</ram:SellerAssignedID>
 				<ram:BuyerAssignedID>Buyer SKU not known</ram:BuyerAssignedID>
-				<ram:Name>Great Good (exempt of VAT for IC supply-Code K)</ram:Name>
-				<ram:Description>This Great Good is invoiced with a 0% VAT rate and "K" tax code to indicate use of the ICS tax exemption</ram:Description>
+				<ram:Name>Great Good (exempt of VAT for export outside EU-Code G)</ram:Name>
+				<ram:Description>This Great Good is invoiced with a 0% VAT rate and "G" tax code to indicate export of goods outside of the EU.</ram:Description>
 			</ram:SpecifiedTradeProduct>
 			<ram:SpecifiedLineTradeAgreement>
 				<ram:NetPriceProductTradePrice>
@@ -44,8 +44,8 @@ As such, the seller and buyer are located in two different EU member states.</ra
 			<ram:SpecifiedLineTradeSettlement>
 				<ram:ApplicableTradeTax>
 					<ram:TypeCode>VAT</ram:TypeCode>
-					<ram:ExemptionReason>VAT exempt intra-community supply (Article 138 Directive 2006/112/EC)</ram:ExemptionReason>
-					<ram:CategoryCode>K</ram:CategoryCode>
+					<ram:ExemptionReason>Export outside of EU</ram:ExemptionReason>
+					<ram:CategoryCode>G</ram:CategoryCode>
 					<ram:RateApplicablePercent>0</ram:RateApplicablePercent>
 				</ram:ApplicableTradeTax>
 				<ram:SpecifiedTradeSettlementLineMonetarySummation>
@@ -60,8 +60,8 @@ As such, the seller and buyer are located in two different EU member states.</ra
 			<ram:SpecifiedTradeProduct>
 				<ram:SellerAssignedID>GG-100993</ram:SellerAssignedID>
 				<ram:BuyerAssignedID>Buyer SKU not known</ram:BuyerAssignedID>
-				<ram:Name>Another Great Good (exempt of VAT for IC supply-Code K)</ram:Name>
-				<ram:Description>Another Great Good, invoiced with a 0% VAT rate and "K" tax code to indicate use of the ICS tax exemption</ram:Description>
+				<ram:Name>Another Great Good (exempt of VAT for export outside EU-Code G)</ram:Name>
+				<ram:Description>Another Great Good, invoiced with a 0% VAT rate and "G" tax code to indicate export of goods outside of the EU.</ram:Description>
 			</ram:SpecifiedTradeProduct>
 			<ram:SpecifiedLineTradeAgreement>
 				<ram:NetPriceProductTradePrice>
@@ -75,8 +75,8 @@ As such, the seller and buyer are located in two different EU member states.</ra
 			<ram:SpecifiedLineTradeSettlement>
 				<ram:ApplicableTradeTax>
 					<ram:TypeCode>VAT</ram:TypeCode>
-					<ram:ExemptionReason>VAT exempt intra-community supply (Article 138 Directive 2006/112/EC)</ram:ExemptionReason>
-					<ram:CategoryCode>K</ram:CategoryCode>
+					<ram:ExemptionReason>Export outside of EU</ram:ExemptionReason>
+					<ram:CategoryCode>G</ram:CategoryCode>
 					<ram:RateApplicablePercent>0</ram:RateApplicablePercent>
 				</ram:ApplicableTradeTax>
 				<ram:SpecifiedTradeSettlementLineMonetarySummation>
@@ -188,10 +188,10 @@ As such, the seller and buyer are located in two different EU member states.</ra
 			<ram:ApplicableTradeTax>
 				<ram:CalculatedAmount>0.00</ram:CalculatedAmount>
 				<ram:TypeCode>VAT</ram:TypeCode>
-				<ram:ExemptionReason>VAT exempt intra-community supply (Article 138 Directive 2006/112/EC)</ram:ExemptionReason>
+				<ram:ExemptionReason>Export outside of EU</ram:ExemptionReason>
 				<ram:BasisAmount>915.00</ram:BasisAmount>
-				<ram:CategoryCode>K</ram:CategoryCode>
-				<ram:ExemptionReasonCode>VATEX-EU-IC</ram:ExemptionReasonCode>
+				<ram:CategoryCode>G</ram:CategoryCode>
+				<ram:ExemptionReasonCode>VATEX-EU-G</ram:ExemptionReasonCode>
 				<ram:RateApplicablePercent>0</ram:RateApplicablePercent>
 			</ram:ApplicableTradeTax>
 			<ram:SpecifiedTradePaymentTerms>

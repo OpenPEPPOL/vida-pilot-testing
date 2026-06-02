@@ -128,13 +128,13 @@ As such, the seller and buyer are located in two different EU member states.</xr
       <xr:VAT_category_tax_amount xr:id="BT-117"
                                   xr:src="/Invoice/cac:TaxTotal/cac:TaxSubtotal/cbc:TaxAmount">0</xr:VAT_category_tax_amount>
       <xr:VAT_category_code xr:id="BT-118"
-                            xr:src="/Invoice/cac:TaxTotal/cac:TaxSubtotal/cac:TaxCategory/cbc:ID">K</xr:VAT_category_code>
+                            xr:src="/Invoice/cac:TaxTotal/cac:TaxSubtotal/cac:TaxCategory/cbc:ID">G</xr:VAT_category_code>
       <xr:VAT_category_rate xr:id="BT-119"
                             xr:src="/Invoice/cac:TaxTotal/cac:TaxSubtotal/cac:TaxCategory/cbc:Percent">0</xr:VAT_category_rate>
       <xr:VAT_exemption_reason_text xr:id="BT-120"
-                                    xr:src="/Invoice/cac:TaxTotal/cac:TaxSubtotal/cac:TaxCategory/cbc:TaxExemptionReason">VAT exempt intra-community supply (Article 138 Directive 2006/112/EC)</xr:VAT_exemption_reason_text>
+                                    xr:src="/Invoice/cac:TaxTotal/cac:TaxSubtotal/cac:TaxCategory/cbc:TaxExemptionReason">Export outside of EU</xr:VAT_exemption_reason_text>
       <xr:VAT_exemption_reason_code xr:id="BT-121"
-                                    xr:src="/Invoice/cac:TaxTotal/cac:TaxSubtotal/cac:TaxCategory/cbc:TaxExemptionReasonCode">VATEX-EU-IC</xr:VAT_exemption_reason_code>
+                                    xr:src="/Invoice/cac:TaxTotal/cac:TaxSubtotal/cac:TaxCategory/cbc:TaxExemptionReasonCode">VATEX-EU-G</xr:VAT_exemption_reason_code>
    </xr:VAT_BREAKDOWN>
    <xr:INVOICE_LINE xr:id="BG-25" xr:src="/Invoice/cac:InvoiceLine[1]">
       <xr:Invoice_line_identifier xr:id="BT-126" xr:src="/Invoice/cac:InvoiceLine[1]/cbc:ID">1</xr:Invoice_line_identifier>
@@ -151,14 +151,14 @@ As such, the seller and buyer are located in two different EU member states.</xr
       <xr:LINE_VAT_INFORMATION xr:id="BG-30"
                                xr:src="/Invoice/cac:InvoiceLine[1]/cac:Item/cac:ClassifiedTaxCategory">
          <xr:Invoiced_item_VAT_category_code xr:id="BT-151"
-                                             xr:src="/Invoice/cac:InvoiceLine[1]/cac:Item/cac:ClassifiedTaxCategory/cbc:ID">K</xr:Invoiced_item_VAT_category_code>
+                                             xr:src="/Invoice/cac:InvoiceLine[1]/cac:Item/cac:ClassifiedTaxCategory/cbc:ID">G</xr:Invoiced_item_VAT_category_code>
          <xr:Invoiced_item_VAT_rate xr:id="BT-152"
                                     xr:src="/Invoice/cac:InvoiceLine[1]/cac:Item/cac:ClassifiedTaxCategory/cbc:Percent">0</xr:Invoiced_item_VAT_rate>
       </xr:LINE_VAT_INFORMATION>
       <xr:ITEM_INFORMATION xr:id="BG-31" xr:src="/Invoice/cac:InvoiceLine[1]/cac:Item">
-         <xr:Item_name xr:id="BT-153" xr:src="/Invoice/cac:InvoiceLine[1]/cac:Item/cbc:Name">Great Good (exempt of VAT for IC supply-Code K)</xr:Item_name>
+         <xr:Item_name xr:id="BT-153" xr:src="/Invoice/cac:InvoiceLine[1]/cac:Item/cbc:Name">Great Good (exempt of VAT for export outside EU-Code G)</xr:Item_name>
          <xr:Item_description xr:id="BT-154"
-                              xr:src="/Invoice/cac:InvoiceLine[1]/cac:Item/cbc:Description">This Great Good is invoiced with a 0% VAT rate and "K" tax code to indicate use of the ICS tax exemption</xr:Item_description>
+                              xr:src="/Invoice/cac:InvoiceLine[1]/cac:Item/cbc:Description">This Great Good is invoiced with a 0% VAT rate and "G" tax code to indicate export of goods outside of the EU.</xr:Item_description>
          <xr:Item_Sellers_identifier xr:id="BT-155"
                                      xr:src="/Invoice/cac:InvoiceLine[1]/cac:Item/cac:SellersItemIdentification/cbc:ID">GG-100124</xr:Item_Sellers_identifier>
          <xr:Item_Buyers_identifier xr:id="BT-156"
@@ -180,14 +180,14 @@ As such, the seller and buyer are located in two different EU member states.</xr
       <xr:LINE_VAT_INFORMATION xr:id="BG-30"
                                xr:src="/Invoice/cac:InvoiceLine[2]/cac:Item/cac:ClassifiedTaxCategory">
          <xr:Invoiced_item_VAT_category_code xr:id="BT-151"
-                                             xr:src="/Invoice/cac:InvoiceLine[2]/cac:Item/cac:ClassifiedTaxCategory/cbc:ID">K</xr:Invoiced_item_VAT_category_code>
+                                             xr:src="/Invoice/cac:InvoiceLine[2]/cac:Item/cac:ClassifiedTaxCategory/cbc:ID">G</xr:Invoiced_item_VAT_category_code>
          <xr:Invoiced_item_VAT_rate xr:id="BT-152"
                                     xr:src="/Invoice/cac:InvoiceLine[2]/cac:Item/cac:ClassifiedTaxCategory/cbc:Percent">0</xr:Invoiced_item_VAT_rate>
       </xr:LINE_VAT_INFORMATION>
       <xr:ITEM_INFORMATION xr:id="BG-31" xr:src="/Invoice/cac:InvoiceLine[2]/cac:Item">
-         <xr:Item_name xr:id="BT-153" xr:src="/Invoice/cac:InvoiceLine[2]/cac:Item/cbc:Name">Another Great Good (exempt of VAT for IC supply-Code K)</xr:Item_name>
+         <xr:Item_name xr:id="BT-153" xr:src="/Invoice/cac:InvoiceLine[2]/cac:Item/cbc:Name">Another Great Good (exempt of VAT for export outside EU-Code G)</xr:Item_name>
          <xr:Item_description xr:id="BT-154"
-                              xr:src="/Invoice/cac:InvoiceLine[2]/cac:Item/cbc:Description">Another Great Good, invoiced with a 0% VAT rate and "K" tax code to indicate use of the ICS tax exemption</xr:Item_description>
+                              xr:src="/Invoice/cac:InvoiceLine[2]/cac:Item/cbc:Description">Another Great Good, invoiced with a 0% VAT rate and "G" tax code to indicate export of goods outside of the EU.</xr:Item_description>
          <xr:Item_Sellers_identifier xr:id="BT-155"
                                      xr:src="/Invoice/cac:InvoiceLine[2]/cac:Item/cac:SellersItemIdentification/cbc:ID">GG-100993</xr:Item_Sellers_identifier>
          <xr:Item_Buyers_identifier xr:id="BT-156"

@@ -23,6 +23,7 @@ To begin, copy the template directory and rename using your `SP-ID`, a dash `-` 
 | EDICOM CAPITAL         | 000045 | C2/C3 | Sergio Dasi Vivo      |
 | QITS                   | 000725 | C2/C3 | Felix Düchting        |
 | OpenText               | 000222 | C2/C3 | Sandya Bheemaiah      |
+| Vigasoft               | 001135 | C2/C3 | Luc Vigato.           |
 
 *... to be extended*
 

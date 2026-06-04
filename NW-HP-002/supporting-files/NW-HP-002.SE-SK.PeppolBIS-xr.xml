@@ -33,7 +33,7 @@ As such, the seller and buyer are located in two different EU member states.</xr
                                 xr:src="/Invoice/cac:AccountingSupplierParty/cac:Party/cac:PartyTaxScheme/cbc:CompanyID">SE556123456701</xr:Seller_VAT_identifier>
       <xr:Seller_electronic_address xr:id="BT-34"
                                     xr:src="/Invoice/cac:AccountingSupplierParty/cac:Party/cbc:EndpointID"
-                                    scheme_identifier="9913">001109-vidapilot.5561234567</xr:Seller_electronic_address>
+                                    scheme_identifier="9913">001109-vidapilot.SE5561234567</xr:Seller_electronic_address>
       <xr:SELLER_POSTAL_ADDRESS xr:id="BG-5"
                                 xr:src="/Invoice/cac:AccountingSupplierParty/cac:Party/cac:PostalAddress">
          <xr:Seller_address_line_1 xr:id="BT-35"

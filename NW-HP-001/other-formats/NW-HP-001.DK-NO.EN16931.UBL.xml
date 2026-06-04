@@ -109,18 +109,18 @@ As such, the seller and buyer are located in two different EU member states.</cb
 		</cac:PayeeFinancialAccount>
 	</cac:PaymentMeans>
 	<cac:PaymentTerms>
-		<cbc:Note>Please remit your payment of 1.149,00 kr. before 12.03.2026.</cbc:Note>
+		<cbc:Note>Please remit your payment of 915,00 kr. before 12.03.2026.</cbc:Note>
 	</cac:PaymentTerms>
 	<cac:TaxTotal>
 		<cbc:TaxAmount currencyID="DKK">0</cbc:TaxAmount>
 		<cac:TaxSubtotal>
-			<cbc:TaxableAmount currencyID="DKK">1149</cbc:TaxableAmount>
+			<cbc:TaxableAmount currencyID="DKK">915</cbc:TaxableAmount>
 			<cbc:TaxAmount currencyID="DKK">0</cbc:TaxAmount>
 			<cac:TaxCategory>
-				<cbc:ID>K</cbc:ID>
+				<cbc:ID>G</cbc:ID>
 				<cbc:Percent>0</cbc:Percent>
-				<cbc:TaxExemptionReasonCode>VATEX-EU-IC</cbc:TaxExemptionReasonCode>
-				<cbc:TaxExemptionReason>VAT exempt intra-community supply (Article 138 Directive 2006/112/EC)</cbc:TaxExemptionReason>
+				<cbc:TaxExemptionReasonCode>VATEX-EU-G</cbc:TaxExemptionReasonCode>
+				<cbc:TaxExemptionReason>Export outside of EU</cbc:TaxExemptionReason>
 				<cac:TaxScheme>
 					<cbc:ID>VAT</cbc:ID>
 				</cac:TaxScheme>
@@ -128,18 +128,18 @@ As such, the seller and buyer are located in two different EU member states.</cb
 		</cac:TaxSubtotal>
 	</cac:TaxTotal>
 	<cac:LegalMonetaryTotal>
-		<cbc:LineExtensionAmount currencyID="DKK">1149</cbc:LineExtensionAmount>
-		<cbc:TaxExclusiveAmount currencyID="DKK">1149</cbc:TaxExclusiveAmount>
-		<cbc:TaxInclusiveAmount currencyID="DKK">1149</cbc:TaxInclusiveAmount>
-		<cbc:PayableAmount currencyID="DKK">1149</cbc:PayableAmount>
+		<cbc:LineExtensionAmount currencyID="DKK">915</cbc:LineExtensionAmount>
+		<cbc:TaxExclusiveAmount currencyID="DKK">915</cbc:TaxExclusiveAmount>
+		<cbc:TaxInclusiveAmount currencyID="DKK">915</cbc:TaxInclusiveAmount>
+		<cbc:PayableAmount currencyID="DKK">915</cbc:PayableAmount>
 	</cac:LegalMonetaryTotal>
 	<cac:InvoiceLine>
 		<cbc:ID>1</cbc:ID>
-		<cbc:InvoicedQuantity unitCode="H87">7</cbc:InvoicedQuantity>
-		<cbc:LineExtensionAmount currencyID="DKK">714</cbc:LineExtensionAmount>
+		<cbc:InvoicedQuantity unitCode="H87">3</cbc:InvoicedQuantity>
+		<cbc:LineExtensionAmount currencyID="DKK">306</cbc:LineExtensionAmount>
 		<cac:Item>
-			<cbc:Description>This Great Good is invoiced with a 0% VAT rate and "K" tax code to indicate use of the ICS tax exemption</cbc:Description>
-			<cbc:Name>Great Good (exempt of VAT for IC supply-Code K)</cbc:Name>
+			<cbc:Description>This Great Good is invoiced with a 0% VAT rate and "G" tax code to indicate export of goods outside of the EU.</cbc:Description>
+			<cbc:Name>Great Good (exempt of VAT for export outside EU-Code G)</cbc:Name>
 			<cac:BuyersItemIdentification>
 				<cbc:ID>Buyer SKU not known</cbc:ID>
 			</cac:BuyersItemIdentification>
@@ -147,7 +147,7 @@ As such, the seller and buyer are located in two different EU member states.</cb
 				<cbc:ID>GG-100124</cbc:ID>
 			</cac:SellersItemIdentification>
 			<cac:ClassifiedTaxCategory>
-				<cbc:ID>K</cbc:ID>
+				<cbc:ID>G</cbc:ID>
 				<cbc:Percent>0</cbc:Percent>
 				<cac:TaxScheme>
 					<cbc:ID>VAT</cbc:ID>
@@ -160,11 +160,11 @@ As such, the seller and buyer are located in two different EU member states.</cb
 	</cac:InvoiceLine>
 	<cac:InvoiceLine>
 		<cbc:ID>2</cbc:ID>
-		<cbc:InvoicedQuantity unitCode="H87">5</cbc:InvoicedQuantity>
-		<cbc:LineExtensionAmount currencyID="DKK">435</cbc:LineExtensionAmount>
+		<cbc:InvoicedQuantity unitCode="H87">7</cbc:InvoicedQuantity>
+		<cbc:LineExtensionAmount currencyID="DKK">609</cbc:LineExtensionAmount>
 		<cac:Item>
-			<cbc:Description>Another Great Good, invoiced with a 0% VAT rate and "K" tax code to indicate use of the ICS tax exemption</cbc:Description>
-			<cbc:Name>Another Great Good (exempt of VAT for IC supply-Code K)</cbc:Name>
+			<cbc:Description>Another Great Good, invoiced with a 0% VAT rate and "G" tax code to indicate export of goods outside of the EU.</cbc:Description>
+			<cbc:Name>Another Great Good (exempt of VAT for export outside EU-Code G)</cbc:Name>
 			<cac:BuyersItemIdentification>
 				<cbc:ID>Buyer SKU not known</cbc:ID>
 			</cac:BuyersItemIdentification>
@@ -172,7 +172,7 @@ As such, the seller and buyer are located in two different EU member states.</cb
 				<cbc:ID>GG-100993</cbc:ID>
 			</cac:SellersItemIdentification>
 			<cac:ClassifiedTaxCategory>
-				<cbc:ID>K</cbc:ID>
+				<cbc:ID>G</cbc:ID>
 				<cbc:Percent>0</cbc:Percent>
 				<cac:TaxScheme>
 					<cbc:ID>VAT</cbc:ID>

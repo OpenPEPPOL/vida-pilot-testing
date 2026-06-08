@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ubl:ApplicationResponse
+    xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2"
+    xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2"
+    xmlns:ubl="urn:oasis:names:specification:ubl:schema:xsd:ApplicationResponse-2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <cbc:CustomizationID>urn:peppol:edec:mls:1.0</cbc:CustomizationID>
+    <cbc:ProfileID>urn:peppol:edec:mls</cbc:ProfileID>
+    <cbc:ID>NW-HP-002 - DK-NO_178409606</cbc:ID>
+    <cbc:IssueDate>2026-05-29</cbc:IssueDate>
+    <cbc:IssueTime>08:44:49Z</cbc:IssueTime>
+    <cac:SenderParty>
+        <cbc:EndpointID schemeID="9913">000045-VIDAPILOT.NO123456789012</cbc:EndpointID>
+        <cac:PartyLegalEntity>
+            <cbc:RegistrationName>Norway Príklad s.r.o.</cbc:RegistrationName>
+        </cac:PartyLegalEntity>
+        <cac:Contact>
+            <cbc:Name>Jurek Kováč</cbc:Name>
+            <cbc:Telephone>+421 2 555 123 45</cbc:Telephone>
+            <cbc:ElectronicMail>jurek.kovac@priklad.no</cbc:ElectronicMail>
+        </cac:Contact>
+    </cac:SenderParty>
+    <cac:ReceiverParty>
+        <cbc:EndpointID schemeID="9913">000045-VIDAPILOT.DK123456789012</cbc:EndpointID>
+        <cac:PartyIdentification>
+            <cbc:ID>DK123456789012</cbc:ID>
+        </cac:PartyIdentification>
+        <cac:PartyLegalEntity>
+            <cbc:RegistrationName>Denmark Seller Business AB</cbc:RegistrationName>
+        </cac:PartyLegalEntity>
+    </cac:ReceiverParty>
+    <cac:DocumentResponse>
+        <cac:Response>
+            <cbc:ResponseCode>AP</cbc:ResponseCode>
+        </cac:Response>
+        <cac:DocumentReference>
+            <cbc:ID>c51674eb-da2a-4001-89b7-37c4d52e98b3</cbc:ID>
+            <cbc:IssueDate>2026-02-10</cbc:IssueDate>
+            <cbc:DocumentTypeCode>380</cbc:DocumentTypeCode>
+        </cac:DocumentReference>
+        <cac:IssuerParty>
+            <cac:PartyIdentification>
+                <cbc:ID>DK123456789012</cbc:ID>
+            </cac:PartyIdentification>
+            <cac:PartyName>
+                <cbc:Name>Denmark Seller Business</cbc:Name>
+            </cac:PartyName>
+        </cac:IssuerParty>
+        <cac:RecipientParty>
+            <cac:PartyName>
+                <cbc:Name>Norway Príklad sro</cbc:Name>
+            </cac:PartyName>
+        </cac:RecipientParty>
+    </cac:DocumentResponse>
+</ubl:ApplicationResponse>

@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TaxData xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:cec="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2" xmlns:n0="urn:oasis:names:specification:ubl:schema:xsd:CommonSignatureComponents-2" xmlns:qdt="urn:oasis:names:specification:ubl:schema:xsd:QualifiedDataTypes-2" xmlns:sac="urn:oasis:names:specification:ubl:schema:xsd:SignatureAggregateComponents-2" xmlns:sbc="urn:oasis:names:specification:ubl:schema:xsd:SignatureBasicComponents-2" xmlns:udt="urn:oasis:names:specification:ubl:schema:xsd:UnqualifiedDataTypes-2" xmlns:ccts-cct="urn:un:unece:uncefact:data:specification:CoreComponentTypeSchemaModule:2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:peppol:schema:vida-taxdata:1.0 file:///C:/gitsrc/products/TestData/repository-basedir/Public/xsd-schemas/peppol-vida/Peppol-ViDA-TDD.xsd" xmlns="urn:peppol:schema:vida-taxdata:1.0">
+  <cbc:CustomizationID>urn:peppol:taxdata:vida-1</cbc:CustomizationID>
+  <cbc:ProfileID>urn:peppol:taxreporting</cbc:ProfileID>
+  <cbc:UUID>3a3dd202-ec7b-40b4-bc8c-17988c71bbf2</cbc:UUID>
+  <cbc:IssueDate>2026-06-09</cbc:IssueDate>
+  <cbc:IssueTime>16:41:55.2832015Z</cbc:IssueTime>
+  <TaxDataTypeCode>S</TaxDataTypeCode>
+  <DocumentScope>IC</DocumentScope>
+  <ReporterRole>C3</ReporterRole>
+  <TaxAuthority>
+    <cbc:ID schemeID="0242">000061-vidapilot.mls</cbc:ID>
+    <cbc:Name>TaxMan</cbc:Name>
+  </TaxAuthority>
+  <ReportingParty>
+    <cbc:EndpointID schemeID="9913">000061-vidapilot.DK12345674</cbc:EndpointID>
+  </ReportingParty>
+  <ReceivingParty>
+    <cbc:EndpointID schemeID="0242">000061-vidapilot.mls</cbc:EndpointID>
+  </ReceivingParty>
+  <ReportersRepresentative>
+    <cac:PartyIdentification>
+      <cbc:ID schemeID="0242">000061</cbc:ID>
+    </cac:PartyIdentification>
+  </ReportersRepresentative>
+  <ReportedTransaction>
+    <ReportedDocument>
+      <cbc:CustomizationID>urn:cen.eu:en16931:2017#compliant#urn:fdc:peppol.eu:2017:poacc:billing:3.0</cbc:CustomizationID>
+      <cbc:ProfileID>urn:fdc:peppol.eu:2017:poacc:billing:01:1.0</cbc:ProfileID>
+      <cbc:ID>Unimaze NW-HP-001 - AT-DK</cbc:ID>
+      <cbc:UUID>e03b2d48-e22f-555f-b71c-3a9fd44d8d20</cbc:UUID>
+      <cbc:IssueDate>2026-02-10</cbc:IssueDate>
+      <DocumentTypeCode>380</DocumentTypeCode>
+      <cbc:Note>FICTITIOUS INVOICE - DO NOT PAY - DO NOT USE IN TAX RETURNS!
+This is a generic sample invoice to cover a "regular" invoicing use case in ViDA.
+As such, the seller and buyer are located in two different EU member states.</cbc:Note>
+      <cbc:DocumentCurrencyCode>EUR</cbc:DocumentCurrencyCode>
+      <cac:AccountingSupplierParty>
+        <cac:Party>
+          <cac:PostalAddress>
+            <cac:Country>
+              <cbc:IdentificationCode>AT</cbc:IdentificationCode>
+            </cac:Country>
+          </cac:PostalAddress>
+          <cac:PartyTaxScheme>
+            <cbc:CompanyID>ATU99887766</cbc:CompanyID>
+            <cac:TaxScheme>
+              <cbc:ID>VAT</cbc:ID>
+            </cac:TaxScheme>
+          </cac:PartyTaxScheme>
+        </cac:Party>
+      </cac:AccountingSupplierParty>
+      <cac:AccountingCustomerParty>
+        <cac:Party>
+          <cac:PostalAddress>
+            <cac:Country>
+              <cbc:IdentificationCode>DK</cbc:IdentificationCode>
+            </cac:Country>
+          </cac:PostalAddress>
+          <cac:PartyTaxScheme>
+            <cbc:CompanyID>DK12345674</cbc:CompanyID>
+            <cac:TaxScheme>
+              <cbc:ID>VAT</cbc:ID>
+            </cac:TaxScheme>
+          </cac:PartyTaxScheme>
+        </cac:Party>
+      </cac:AccountingCustomerParty>
+      <cac:Delivery>
+        <cbc:ActualDeliveryDate>2026-01-31</cbc:ActualDeliveryDate>
+      </cac:Delivery>
+      <cac:PaymentMeans>
+        <cbc:PaymentMeansCode name="SEPA credit transfer">58</cbc:PaymentMeansCode>
+        <cac:PayeeFinancialAccount>
+          <cbc:ID>AT55 2040 4000 4523 5017</cbc:ID>
+          <cac:FinancialInstitutionBranch>
+            <cbc:ID>SBGSAT2SXXX</cbc:ID>
+          </cac:FinancialInstitutionBranch>
+        </cac:PayeeFinancialAccount>
+      </cac:PaymentMeans>
+      <cac:TaxTotal>
+        <cbc:TaxAmount currencyID="EUR">0</cbc:TaxAmount>
+        <cac:TaxSubtotal>
+          <cbc:TaxableAmount currencyID="EUR">915</cbc:TaxableAmount>
+          <cbc:TaxAmount currencyID="EUR">0</cbc:TaxAmount>
+          <cac:TaxCategory>
+            <cbc:ID>K</cbc:ID>
+            <cbc:Percent>0</cbc:Percent>
+            <cbc:TaxExemptionReasonCode>VATEX-EU-IC</cbc:TaxExemptionReasonCode>
+            <cbc:TaxExemptionReason>VAT exempt intra-community supply (Article 138 Directive 2006/112/EC)</cbc:TaxExemptionReason>
+            <cac:TaxScheme>
+              <cbc:ID>VAT</cbc:ID>
+            </cac:TaxScheme>
+          </cac:TaxCategory>
+        </cac:TaxSubtotal>
+      </cac:TaxTotal>
+      <MonetaryTotal>
+        <cbc:LineExtensionAmount currencyID="EUR">915</cbc:LineExtensionAmount>
+        <cbc:TaxExclusiveAmount currencyID="EUR">915</cbc:TaxExclusiveAmount>
+        <cbc:TaxInclusiveAmount currencyID="EUR">915</cbc:TaxInclusiveAmount>
+        <cbc:PayableAmount currencyID="EUR">915</cbc:PayableAmount>
+      </MonetaryTotal>
+      <DocumentLine>
+        <cbc:ID>1</cbc:ID>
+        <cbc:InvoicedQuantity unitCode="H87">3</cbc:InvoicedQuantity>
+        <cbc:LineExtensionAmount currencyID="EUR">306</cbc:LineExtensionAmount>
+        <cac:Item>
+          <cbc:Description>This Great Good is invoiced with a 0% VAT rate and "K" tax code to indicate use of the ICS tax exemption</cbc:Description>
+          <cbc:Name>Great Good (exempt of VAT for IC supply-Code K)</cbc:Name>
+          <cac:ClassifiedTaxCategory>
+            <cbc:ID>K</cbc:ID>
+            <cbc:Percent>0</cbc:Percent>
+            <cac:TaxScheme>
+              <cbc:ID>VAT</cbc:ID>
+            </cac:TaxScheme>
+          </cac:ClassifiedTaxCategory>
+        </cac:Item>
+        <cac:Price>
+          <cbc:PriceAmount currencyID="EUR">102</cbc:PriceAmount>
+        </cac:Price>
+      </DocumentLine>
+      <DocumentLine>
+        <cbc:ID>2</cbc:ID>
+        <cbc:InvoicedQuantity unitCode="H87">7</cbc:InvoicedQuantity>
+        <cbc:LineExtensionAmount currencyID="EUR">609</cbc:LineExtensionAmount>
+        <cac:Item>
+          <cbc:Description>Another Great Good, invoiced with a 0% VAT rate and "K" tax code to indicate use of the ICS tax exemption</cbc:Description>
+          <cbc:Name>Another Great Good (exempt of VAT for IC supply-Code K)</cbc:Name>
+          <cac:ClassifiedTaxCategory>
+            <cbc:ID>K</cbc:ID>
+            <cbc:Percent>0</cbc:Percent>
+            <cac:TaxScheme>
+              <cbc:ID>VAT</cbc:ID>
+            </cac:TaxScheme>
+          </cac:ClassifiedTaxCategory>
+        </cac:Item>
+        <cac:Price>
+          <cbc:PriceAmount currencyID="EUR">87</cbc:PriceAmount>
+        </cac:Price>
+      </DocumentLine>
+    </ReportedDocument>
+  </ReportedTransaction>
+</TaxData>

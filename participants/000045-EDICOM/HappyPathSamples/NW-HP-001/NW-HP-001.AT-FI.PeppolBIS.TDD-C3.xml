@@ -28,7 +28,7 @@
         <cbc:EndpointID schemeID="9913">000045-vidapilot.FI123456789012</cbc:EndpointID>
     </pxs:ReportingParty>
     <pxs:ReceivingParty>
-        <cbc:EndpointID schemeID="0242">000045-vidapilot.FI123456789012</cbc:EndpointID>
+        <cbc:EndpointID schemeID="0242">0242:001111-vidapilot.tax_fi</cbc:EndpointID>
     </pxs:ReceivingParty>
     <pxs:ReportersRepresentative>
         <cac:PartyIdentification>

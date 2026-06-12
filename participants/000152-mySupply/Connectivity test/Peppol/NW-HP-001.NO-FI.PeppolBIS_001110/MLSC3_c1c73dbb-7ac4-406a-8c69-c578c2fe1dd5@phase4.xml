@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?><?vaxTimestamp 2026-06-04T13:44:28?><?vaxDocId fd5009be-3_9D184387?>
+<?mySupplyNote The following 4 process Instructions has been added by mySupply ApS for Endpoint mapping.?>
+<?MessageRecipientId 000152?>
+<?MessageRecipientType 0242?>
+<?MessageSenderId 001110?>
+<?MessageSenderType 0242?>
+<ApplicationResponse xmlns:cec="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns="urn:oasis:names:specification:ubl:schema:xsd:ApplicationResponse-2">
+  <cbc:CustomizationID>urn:peppol:edec:mls:1.0</cbc:CustomizationID>
+  <cbc:ProfileID>urn:peppol:edec:mls</cbc:ProfileID>
+  <cbc:ID>7bedf65a-03af-4f84-837b-d0d76f523587</cbc:ID>
+  <cbc:IssueDate>2026-06-04</cbc:IssueDate>
+  <cbc:IssueTime>11:43:34.339863035Z</cbc:IssueTime>
+  <cac:SenderParty>
+    <cbc:EndpointID schemeID="0242">001110</cbc:EndpointID>
+  </cac:SenderParty>
+  <cac:ReceiverParty>
+    <cbc:EndpointID schemeID="0242">000152</cbc:EndpointID>
+  </cac:ReceiverParty>
+  <cac:DocumentResponse>
+    <cac:Response>
+      <cbc:ResponseCode>RE</cbc:ResponseCode>
+      <cbc:Description>The corresponding document has been Rejected</cbc:Description>
+    </cac:Response>
+    <cac:DocumentReference>
+      <cbc:ID>6dd63c72-97a1-47b5-bb7b-4a6ed793afd5</cbc:ID>
+    </cac:DocumentReference>
+    <cac:LineResponse>
+      <cac:LineReference>
+        <cbc:LineID>NA</cbc:LineID>
+      </cac:LineReference>
+      <cac:Response>
+        <cbc:Description>Document delivery failed while forwarding to outer-corner delivery API (targetRole='C4', targetUrl='null')</cbc:Description>
+        <cac:Status>
+          <cbc:StatusReasonCode>BV</cbc:StatusReasonCode>
+        </cac:Status>
+      </cac:Response>
+    </cac:LineResponse>
+  </cac:DocumentResponse>
+</ApplicationResponse>

@@ -21,14 +21,14 @@
     <pxs:DocumentScope>INTL</pxs:DocumentScope>
     <pxs:ReporterRole>C2</pxs:ReporterRole>
     <pxs:TaxAuthority>
-        <cbc:ID>12345678</cbc:ID>
-        <cbc:Name>TaxAuthority</cbc:Name>
+        <cbc:ID>0242:001111-vidapilot.tax_no</cbc:ID>
+        <cbc:Name>Norway Tax Authority</cbc:Name>
     </pxs:TaxAuthority>
     <pxs:ReportingParty>
         <cbc:EndpointID schemeID="9913">000045-VIDAPILOT.NO123456789012</cbc:EndpointID>
     </pxs:ReportingParty>
     <pxs:ReceivingParty>
-        <cbc:EndpointID schemeID="0242">001111-VIDAPILOT.TAX_123NO</cbc:EndpointID>
+        <cbc:EndpointID schemeID="0242">001111-vidapilot.tax_no</cbc:EndpointID>
     </pxs:ReceivingParty>
     <pxs:ReportersRepresentative>
         <cac:PartyIdentification>

@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?><?vaxTimestamp 2026-06-04T13:43:36?><?vaxDocId 9ea5f2ae-6_73FA16E3?>
+<?mySupplyNote The following 4 process Instructions has been added by mySupply ApS for Endpoint mapping.?>
+<?MessageRecipientId 000152?>
+<?MessageRecipientType 0242?>
+<?MessageSenderId 001111?>
+<?MessageSenderType 0242?>
+<ApplicationResponse xmlns:cec="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns="urn:oasis:names:specification:ubl:schema:xsd:ApplicationResponse-2">
+  <cbc:CustomizationID>urn:peppol:edec:mls:1.0</cbc:CustomizationID>
+  <cbc:ProfileID>urn:peppol:edec:mls</cbc:ProfileID>
+  <cbc:ID>9fbfa956-18f6-45f5-a0b8-ad82c4b16b30</cbc:ID>
+  <cbc:IssueDate>2026-06-04</cbc:IssueDate>
+  <cbc:IssueTime>11:43:30.951570023Z</cbc:IssueTime>
+  <cac:SenderParty>
+    <cbc:EndpointID schemeID="0242">001111</cbc:EndpointID>
+  </cac:SenderParty>
+  <cac:ReceiverParty>
+    <cbc:EndpointID schemeID="0242">000152</cbc:EndpointID>
+  </cac:ReceiverParty>
+  <cac:DocumentResponse>
+    <cac:Response>
+      <cbc:ResponseCode>AP</cbc:ResponseCode>
+      <cbc:Description>The corresponding document has been Accepted</cbc:Description>
+    </cac:Response>
+    <cac:DocumentReference>
+      <cbc:ID>423f82f4-bd34-4df9-ba23-dbab68b4da13</cbc:ID>
+    </cac:DocumentReference>
+  </cac:DocumentResponse>
+</ApplicationResponse>

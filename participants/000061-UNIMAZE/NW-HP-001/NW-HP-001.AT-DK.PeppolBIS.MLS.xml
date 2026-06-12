@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ApplicationResponse xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:oasis:names:specification:ubl:schema:xsd:ApplicationResponse-2">
+  <cbc:CustomizationID>urn:peppol:edec:mls:1.0</cbc:CustomizationID>
+  <cbc:ProfileID>urn:peppol:edec:mls</cbc:ProfileID>
+  <cbc:ID>5e5bd265-ef54-486d-b5ec-106a43d89eb0</cbc:ID>
+  <cbc:IssueDate>2026-06-09</cbc:IssueDate>
+  <cbc:IssueTime>16:41:52Z</cbc:IssueTime>
+  <cac:SenderParty>
+    <cbc:EndpointID schemeID="0242">000061</cbc:EndpointID>
+    <cac:PartyLegalEntity>
+      <cbc:RegistrationName>Unimaze ehf</cbc:RegistrationName>
+    </cac:PartyLegalEntity>
+  </cac:SenderParty>
+  <cac:ReceiverParty>
+    <cbc:EndpointID schemeID="0242">000061</cbc:EndpointID>
+    <cac:PartyLegalEntity>
+      <cbc:RegistrationName>VIDA-DK</cbc:RegistrationName>
+    </cac:PartyLegalEntity>
+  </cac:ReceiverParty>
+  <cac:DocumentResponse>
+    <cac:Response>
+      <cbc:ResponseCode>AP</cbc:ResponseCode>
+      <cbc:Description>Document accepted</cbc:Description>
+    </cac:Response>
+    <cac:DocumentReference>
+      <cbc:ID>f96dd682-0328-45ae-8f0f-7105145f6132</cbc:ID>
+    </cac:DocumentReference>
+  </cac:DocumentResponse>
+</ApplicationResponse>

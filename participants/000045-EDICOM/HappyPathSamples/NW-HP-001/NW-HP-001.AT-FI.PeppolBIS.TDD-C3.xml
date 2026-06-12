@@ -21,14 +21,14 @@
     <pxs:DocumentScope>IC</pxs:DocumentScope>
     <pxs:ReporterRole>C3</pxs:ReporterRole>
     <pxs:TaxAuthority>
-        <cbc:ID>12345678</cbc:ID>
-        <cbc:Name>TaxAuthority</cbc:Name>
+        <cbc:ID>0242:001111-vidapilot.tax_fi</cbc:ID>
+        <cbc:Name>Finland Tax Authority</cbc:Name>
     </pxs:TaxAuthority>
     <pxs:ReportingParty>
         <cbc:EndpointID schemeID="9913">000045-vidapilot.FI123456789012</cbc:EndpointID>
     </pxs:ReportingParty>
     <pxs:ReceivingParty>
-        <cbc:EndpointID schemeID="0242">000045-vidapilot.FI123456789012</cbc:EndpointID>
+        <cbc:EndpointID schemeID="0242">001111-vidapilot.tax_fi</cbc:EndpointID>
     </pxs:ReceivingParty>
     <pxs:ReportersRepresentative>
         <cac:PartyIdentification>

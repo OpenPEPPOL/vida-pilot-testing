@@ -14,21 +14,21 @@
     xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" xmlns:xades141="http://uri.etsi.org/01903/v1.4.1#">
     <cbc:CustomizationID>urn:peppol:taxdata:vida-1</cbc:CustomizationID>
     <cbc:ProfileID>urn:peppol:taxreporting</cbc:ProfileID>
-    <cbc:UUID>9f17649a-a573-46cf-9b38-2bae703487b0</cbc:UUID>
-    <cbc:IssueDate>2026-06-03</cbc:IssueDate>
-    <cbc:IssueTime>14:42:10Z</cbc:IssueTime>
+    <cbc:UUID>5b9f2e58-9e68-40c9-afed-62cb63e93cf9</cbc:UUID>
+    <cbc:IssueDate>2026-06-11</cbc:IssueDate>
+    <cbc:IssueTime>14:29:53Z</cbc:IssueTime>
     <pxs:TaxDataTypeCode>S</pxs:TaxDataTypeCode>
     <pxs:DocumentScope>IC</pxs:DocumentScope>
-    <pxs:ReporterRole>C3</pxs:ReporterRole>
+    <pxs:ReporterRole>C2</pxs:ReporterRole>
     <pxs:TaxAuthority>
-        <cbc:ID>0242:001111-vidapilot.tax_fi</cbc:ID>
-        <cbc:Name>Tax Authority</cbc:Name>
+        <cbc:ID>0242:001067-vidapilot.tax_at</cbc:ID>
+        <cbc:Name>Austrian Tax Agency</cbc:Name>
     </pxs:TaxAuthority>
     <pxs:ReportingParty>
-        <cbc:EndpointID schemeID="9913">000045-VIDAPILOT.FI123456789012</cbc:EndpointID>
+        <cbc:EndpointID schemeID="9913">000045-VIDAPILOT.AT123456789012</cbc:EndpointID>
     </pxs:ReportingParty>
     <pxs:ReceivingParty>
-        <cbc:EndpointID schemeID="0242">001111-vidapilot.tax_fi</cbc:EndpointID>
+        <cbc:EndpointID schemeID="0242">001067-vidapilot.tax_at</cbc:EndpointID>
     </pxs:ReceivingParty>
     <pxs:ReportersRepresentative>
         <cac:PartyIdentification>
@@ -44,7 +44,7 @@
             <cbc:CustomizationID>urn:cen.eu:en16931:2017#compliant#urn:fdc:peppol.eu:2017:poacc:billing:3.0</cbc:CustomizationID>
             <cbc:ProfileID>urn:fdc:peppol.eu:2017:poacc:billing:01:1.0</cbc:ProfileID>
             <cbc:ID>NW-HP-005 - AT-FI</cbc:ID>
-            <cbc:UUID>0f49af40-6a0f-5921-8265-9d69619072d8</cbc:UUID>
+            <cbc:UUID>dd41f74d-c119-5f42-9914-294a5c1615af</cbc:UUID>
             <cbc:IssueDate>2026-02-10</cbc:IssueDate>
             <pxs:DocumentTypeCode>380</pxs:DocumentTypeCode>
             <cbc:Note>FICTITIOUS INVOICE - DO NOT PAY - DO NOT USE IN TAX RETURNS!

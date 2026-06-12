@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ubl:ApplicationResponse
+    xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2"
+    xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2"
+    xmlns:ubl="urn:oasis:names:specification:ubl:schema:xsd:ApplicationResponse-2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <cbc:CustomizationID>urn:peppol:edec:mls:1.0</cbc:CustomizationID>
+    <cbc:ProfileID>urn:peppol:edec:mls</cbc:ProfileID>
+    <cbc:ID>fc7bdd08-bc98-4400-b297-9533b42ba1af</cbc:ID>
+    <cbc:IssueDate>2026-06-03</cbc:IssueDate>
+    <cbc:IssueTime>14:25:18Z</cbc:IssueTime>
+    <cac:SenderParty>
+        <cbc:EndpointID schemeID="0242">001067</cbc:EndpointID>
+    </cac:SenderParty>
+    <cac:ReceiverParty>
+        <cbc:EndpointID schemeID="0242">000045</cbc:EndpointID>
+    </cac:ReceiverParty>
+    <cac:DocumentResponse>
+        <cac:Response>
+            <cbc:ResponseCode>AP</cbc:ResponseCode>
+        </cac:Response>
+        <cac:DocumentReference>
+            <cbc:ID>2df46e8c-db0e-4e53-bf0e-c52f24091a13</cbc:ID>
+        </cac:DocumentReference>
+    </cac:DocumentResponse>
+</ubl:ApplicationResponse>

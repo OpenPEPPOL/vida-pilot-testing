@@ -14,21 +14,21 @@
     xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" xmlns:xades141="http://uri.etsi.org/01903/v1.4.1#">
     <cbc:CustomizationID>urn:peppol:taxdata:vida-1</cbc:CustomizationID>
     <cbc:ProfileID>urn:peppol:taxreporting</cbc:ProfileID>
-    <cbc:UUID>9f17649a-a573-46cf-9b38-2bae703487b0</cbc:UUID>
-    <cbc:IssueDate>2026-06-03</cbc:IssueDate>
-    <cbc:IssueTime>14:42:10Z</cbc:IssueTime>
+    <cbc:UUID>970e403b-65a2-4567-99c9-c9bab1c38f5c</cbc:UUID>
+    <cbc:IssueDate>2026-06-11</cbc:IssueDate>
+    <cbc:IssueTime>10:34:50Z</cbc:IssueTime>
     <pxs:TaxDataTypeCode>S</pxs:TaxDataTypeCode>
     <pxs:DocumentScope>IC</pxs:DocumentScope>
-    <pxs:ReporterRole>C3</pxs:ReporterRole>
+    <pxs:ReporterRole>C2</pxs:ReporterRole>
     <pxs:TaxAuthority>
-        <cbc:ID>0242:001111-vidapilot.tax_fi</cbc:ID>
-        <cbc:Name>Tax Authority</cbc:Name>
+        <cbc:ID>0242:001067-vidapilot.tax_at</cbc:ID>
+        <cbc:Name>Austrian Tax Agency</cbc:Name>
     </pxs:TaxAuthority>
     <pxs:ReportingParty>
-        <cbc:EndpointID schemeID="9913">000045-VIDAPILOT.FI123456789012</cbc:EndpointID>
+        <cbc:EndpointID schemeID="9913">000045-vidapilot.AT123456789012</cbc:EndpointID>
     </pxs:ReportingParty>
     <pxs:ReceivingParty>
-        <cbc:EndpointID schemeID="0242">001111-vidapilot.tax_fi</cbc:EndpointID>
+        <cbc:EndpointID schemeID="0242">001067-vidapilot.tax_at</cbc:EndpointID>
     </pxs:ReceivingParty>
     <pxs:ReportersRepresentative>
         <cac:PartyIdentification>
@@ -43,8 +43,8 @@
             xmlns:udt="urn:un:unece:uncefact:data:specification:UnqualifiedDataTypesSchemaModule:2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
             <cbc:CustomizationID>urn:cen.eu:en16931:2017#compliant#urn:fdc:peppol.eu:2017:poacc:billing:3.0</cbc:CustomizationID>
             <cbc:ProfileID>urn:fdc:peppol.eu:2017:poacc:billing:01:1.0</cbc:ProfileID>
-            <cbc:ID>NW-HP-005 - AT-FI</cbc:ID>
-            <cbc:UUID>0f49af40-6a0f-5921-8265-9d69619072d8</cbc:UUID>
+            <cbc:ID>NW-HP-001 - AT-FI</cbc:ID>
+            <cbc:UUID>73f313eb-b77c-53bd-838c-4ac7d758c7b3</cbc:UUID>
             <cbc:IssueDate>2026-02-10</cbc:IssueDate>
             <pxs:DocumentTypeCode>380</pxs:DocumentTypeCode>
             <cbc:Note>FICTITIOUS INVOICE - DO NOT PAY - DO NOT USE IN TAX RETURNS!
@@ -74,7 +74,7 @@ As such, the seller and buyer are located in two different EU member states.</cb
                         </cac:Country>
                     </cac:PostalAddress>
                     <cac:PartyTaxScheme>
-                        <cbc:CompanyID>FI999999999</cbc:CompanyID>
+                        <cbc:CompanyID>FI123456789012</cbc:CompanyID>
                         <cac:TaxScheme>
                             <cbc:ID>VAT</cbc:ID>
                         </cac:TaxScheme>

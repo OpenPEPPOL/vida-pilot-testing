@@ -1,9 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?>
-
+<?xml version='1.0' encoding='UTF-8'?>
 <Invoice xmlns="urn:oasis:names:specification:ubl:schema:xsd:Invoice-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2">
 	<cbc:CustomizationID>urn:cen.eu:en16931:2017#compliant#urn:fdc:peppol.eu:2017:poacc:billing:3.0</cbc:CustomizationID>
 	<cbc:ProfileID>urn:fdc:peppol.eu:2017:poacc:billing:01:1.0</cbc:ProfileID>
-	<cbc:ID>NW-HP-002-IC - FI-DK (ws-008)</cbc:ID>
+	<cbc:ID>NW-HP-001 - FI-DK (from 000076-010)</cbc:ID>
 	<cbc:IssueDate>2026-02-10</cbc:IssueDate>
 	<cbc:DueDate>2026-03-12</cbc:DueDate>
 	<cbc:InvoiceTypeCode>380</cbc:InvoiceTypeCode>
@@ -21,7 +20,7 @@ As such, the seller and buyer are located in two different EU member states.</cb
 	</cac:ContractDocumentReference>
 	<cac:AccountingSupplierParty>
 		<cac:Party>
-			<cbc:EndpointID schemeID="9913">001109-vidapilot.FI12345678</cbc:EndpointID>
+			<cbc:EndpointID schemeID="9913">000076-vidapilot.FI12345678</cbc:EndpointID>
 			<cac:PartyIdentification>
 				<cbc:ID>9876-3333333</cbc:ID>
 			</cac:PartyIdentification>
@@ -54,7 +53,7 @@ As such, the seller and buyer are located in two different EU member states.</cb
 	</cac:AccountingSupplierParty>
 	<cac:AccountingCustomerParty>
 		<cac:Party>
-			<cbc:EndpointID schemeID="9913">000076-vidapilot.DK12345674</cbc:EndpointID>
+			<cbc:EndpointID schemeID="9913">001110-vidapilot.DK12345674</cbc:EndpointID>
 			<cac:PartyName>
 				<cbc:Name>Køber DK</cbc:Name>
 			</cac:PartyName>
@@ -108,18 +107,18 @@ As such, the seller and buyer are located in two different EU member states.</cb
 		</cac:PayeeFinancialAccount>
 	</cac:PaymentMeans>
 	<cac:PaymentTerms>
-		<cbc:Note>Please remit your payment of 5.952,00 € before 12.03.2026.</cbc:Note>
+		<cbc:Note>Please remit your payment of 915,00 € before 12.03.2026.</cbc:Note>
 	</cac:PaymentTerms>
 	<cac:TaxTotal>
 		<cbc:TaxAmount currencyID="EUR">0</cbc:TaxAmount>
 		<cac:TaxSubtotal>
-			<cbc:TaxableAmount currencyID="EUR">5952</cbc:TaxableAmount>
+			<cbc:TaxableAmount currencyID="EUR">915</cbc:TaxableAmount>
 			<cbc:TaxAmount currencyID="EUR">0</cbc:TaxAmount>
 			<cac:TaxCategory>
 				<cbc:ID>K</cbc:ID>
 				<cbc:Percent>0</cbc:Percent>
 				<cbc:TaxExemptionReasonCode>VATEX-EU-IC</cbc:TaxExemptionReasonCode>
-				<cbc:TaxExemptionReason>Intra-community supply of services under reverse charge following Art. 196 of Directive 2006/112/EC</cbc:TaxExemptionReason>
+				<cbc:TaxExemptionReason>VAT exempt intra-community supply (Article 138 Directive 2006/112/EC)</cbc:TaxExemptionReason>
 				<cac:TaxScheme>
 					<cbc:ID>VAT</cbc:ID>
 				</cac:TaxScheme>
@@ -127,23 +126,23 @@ As such, the seller and buyer are located in two different EU member states.</cb
 		</cac:TaxSubtotal>
 	</cac:TaxTotal>
 	<cac:LegalMonetaryTotal>
-		<cbc:LineExtensionAmount currencyID="EUR">5952</cbc:LineExtensionAmount>
-		<cbc:TaxExclusiveAmount currencyID="EUR">5952</cbc:TaxExclusiveAmount>
-		<cbc:TaxInclusiveAmount currencyID="EUR">5952</cbc:TaxInclusiveAmount>
-		<cbc:PayableAmount currencyID="EUR">5952</cbc:PayableAmount>
+		<cbc:LineExtensionAmount currencyID="EUR">915</cbc:LineExtensionAmount>
+		<cbc:TaxExclusiveAmount currencyID="EUR">915</cbc:TaxExclusiveAmount>
+		<cbc:TaxInclusiveAmount currencyID="EUR">915</cbc:TaxInclusiveAmount>
+		<cbc:PayableAmount currencyID="EUR">915</cbc:PayableAmount>
 	</cac:LegalMonetaryTotal>
 	<cac:InvoiceLine>
 		<cbc:ID>1</cbc:ID>
-		<cbc:InvoicedQuantity unitCode="HUR">16</cbc:InvoicedQuantity>
-		<cbc:LineExtensionAmount currencyID="EUR">1984</cbc:LineExtensionAmount>
+		<cbc:InvoicedQuantity unitCode="H87">3</cbc:InvoicedQuantity>
+		<cbc:LineExtensionAmount currencyID="EUR">306</cbc:LineExtensionAmount>
 		<cac:Item>
-			<cbc:Description>This Super Service is invoiced with a 0% VAT rate and "K" tax code to indicate Intra-community delivery using the reverse charge.</cbc:Description>
-			<cbc:Name>Super Service (K-IC using reverse charge)</cbc:Name>
+			<cbc:Description>This Great Good is invoiced with a 0% VAT rate and "K" tax code to indicate use of the ICS tax exemption</cbc:Description>
+			<cbc:Name>Great Good (exempt of VAT for IC supply-Code K)</cbc:Name>
 			<cac:BuyersItemIdentification>
 				<cbc:ID>Buyer SKU not known</cbc:ID>
 			</cac:BuyersItemIdentification>
 			<cac:SellersItemIdentification>
-				<cbc:ID>SS-RC-100123</cbc:ID>
+				<cbc:ID>GG-100124</cbc:ID>
 			</cac:SellersItemIdentification>
 			<cac:ClassifiedTaxCategory>
 				<cbc:ID>K</cbc:ID>
@@ -154,21 +153,21 @@ As such, the seller and buyer are located in two different EU member states.</cb
 			</cac:ClassifiedTaxCategory>
 		</cac:Item>
 		<cac:Price>
-			<cbc:PriceAmount currencyID="EUR">124</cbc:PriceAmount>
+			<cbc:PriceAmount currencyID="EUR">102</cbc:PriceAmount>
 		</cac:Price>
 	</cac:InvoiceLine>
 	<cac:InvoiceLine>
 		<cbc:ID>2</cbc:ID>
-		<cbc:InvoicedQuantity unitCode="HUR">32</cbc:InvoicedQuantity>
-		<cbc:LineExtensionAmount currencyID="EUR">3968</cbc:LineExtensionAmount>
+		<cbc:InvoicedQuantity unitCode="H87">7</cbc:InvoicedQuantity>
+		<cbc:LineExtensionAmount currencyID="EUR">609</cbc:LineExtensionAmount>
 		<cac:Item>
-			<cbc:Description>More Super Service, also invoiced with a 0% VAT rate and "K" tax code.</cbc:Description>
-			<cbc:Name>More Super Service (K-IC using reverse charge)</cbc:Name>
+			<cbc:Description>Another Great Good, invoiced with a 0% VAT rate and "K" tax code to indicate use of the ICS tax exemption</cbc:Description>
+			<cbc:Name>Another Great Good (exempt of VAT for IC supply-Code K)</cbc:Name>
 			<cac:BuyersItemIdentification>
-				<cbc:ID>Buyer SKU also not known</cbc:ID>
+				<cbc:ID>Buyer SKU not known</cbc:ID>
 			</cac:BuyersItemIdentification>
 			<cac:SellersItemIdentification>
-				<cbc:ID>SS-RC-100321</cbc:ID>
+				<cbc:ID>GG-100993</cbc:ID>
 			</cac:SellersItemIdentification>
 			<cac:ClassifiedTaxCategory>
 				<cbc:ID>K</cbc:ID>
@@ -179,7 +178,7 @@ As such, the seller and buyer are located in two different EU member states.</cb
 			</cac:ClassifiedTaxCategory>
 		</cac:Item>
 		<cac:Price>
-			<cbc:PriceAmount currencyID="EUR">124</cbc:PriceAmount>
+			<cbc:PriceAmount currencyID="EUR">87</cbc:PriceAmount>
 		</cac:Price>
 	</cac:InvoiceLine>
 </Invoice>

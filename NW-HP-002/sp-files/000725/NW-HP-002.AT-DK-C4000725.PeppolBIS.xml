@@ -1,9 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?>
-
+<?xml version='1.0' encoding='UTF-8'?>
 <Invoice xmlns="urn:oasis:names:specification:ubl:schema:xsd:Invoice-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2">
 	<cbc:CustomizationID>urn:cen.eu:en16931:2017#compliant#urn:fdc:peppol.eu:2017:poacc:billing:3.0</cbc:CustomizationID>
 	<cbc:ProfileID>urn:fdc:peppol.eu:2017:poacc:billing:01:1.0</cbc:ProfileID>
-	<cbc:ID>NW-HP-002-IC - FI-DK (ws-008)</cbc:ID>
+	<cbc:ID>NW-HP-002 - AT-DK (to 000725-009)</cbc:ID>
 	<cbc:IssueDate>2026-02-10</cbc:IssueDate>
 	<cbc:DueDate>2026-03-12</cbc:DueDate>
 	<cbc:InvoiceTypeCode>380</cbc:InvoiceTypeCode>
@@ -21,40 +20,41 @@ As such, the seller and buyer are located in two different EU member states.</cb
 	</cac:ContractDocumentReference>
 	<cac:AccountingSupplierParty>
 		<cac:Party>
-			<cbc:EndpointID schemeID="9913">001109-vidapilot.FI12345678</cbc:EndpointID>
+			<cbc:EndpointID schemeID="9913">001109-vidapilot.ATU99887766</cbc:EndpointID>
 			<cac:PartyIdentification>
-				<cbc:ID>9876-3333333</cbc:ID>
+				<cbc:ID>9876-2222222</cbc:ID>
 			</cac:PartyIdentification>
 			<cac:PartyName>
-				<cbc:Name>Suomi Myynti</cbc:Name>
+				<cbc:Name>AT-Verkauf</cbc:Name>
 			</cac:PartyName>
 			<cac:PostalAddress>
-				<cbc:StreetName>Mannerheimintie 10</cbc:StreetName>
-				<cbc:CityName>Helsinki</cbc:CityName>
-				<cbc:PostalZone>00100</cbc:PostalZone>
+				<cbc:StreetName>Beispielgasse 1</cbc:StreetName>
+				<cbc:CityName>Wien</cbc:CityName>
+				<cbc:PostalZone>1010</cbc:PostalZone>
 				<cac:Country>
-					<cbc:IdentificationCode>FI</cbc:IdentificationCode>
+					<cbc:IdentificationCode>AT</cbc:IdentificationCode>
 				</cac:Country>
 			</cac:PostalAddress>
 			<cac:PartyTaxScheme>
-				<cbc:CompanyID>FI12345678</cbc:CompanyID>
+				<cbc:CompanyID>ATU99887766</cbc:CompanyID>
 				<cac:TaxScheme>
 					<cbc:ID>VAT</cbc:ID>
 				</cac:TaxScheme>
 			</cac:PartyTaxScheme>
 			<cac:PartyLegalEntity>
-				<cbc:RegistrationName>Suomi Myynti Oy</cbc:RegistrationName>
+				<cbc:RegistrationName>AT-Verkauf GmbH</cbc:RegistrationName>
+				<cbc:CompanyID>FN 123456 w</cbc:CompanyID>
 			</cac:PartyLegalEntity>
 			<cac:Contact>
-				<cbc:Name>Matti Virtanen</cbc:Name>
-				<cbc:Telephone>+358 9 555 1234</cbc:Telephone>
-				<cbc:ElectronicMail>matti.virtanen@suomi-myynti.fi</cbc:ElectronicMail>
+				<cbc:Name>Werner Mustermeier</cbc:Name>
+				<cbc:Telephone>+43 1 555 67 89</cbc:Telephone>
+				<cbc:ElectronicMail>werner.mustermeier@at-verkauf.at</cbc:ElectronicMail>
 			</cac:Contact>
 		</cac:Party>
 	</cac:AccountingSupplierParty>
 	<cac:AccountingCustomerParty>
 		<cac:Party>
-			<cbc:EndpointID schemeID="9913">000076-vidapilot.DK12345674</cbc:EndpointID>
+			<cbc:EndpointID schemeID="9913">000725-vidapilot.DK12345674</cbc:EndpointID>
 			<cac:PartyName>
 				<cbc:Name>Køber DK</cbc:Name>
 			</cac:PartyName>
@@ -84,27 +84,15 @@ As such, the seller and buyer are located in two different EU member states.</cb
 	</cac:AccountingCustomerParty>
 	<cac:Delivery>
 		<cbc:ActualDeliveryDate>2026-01-31</cbc:ActualDeliveryDate>
-		<cac:DeliveryLocation>
-			<cac:Address>
-				<cbc:StreetName>Strøget 47</cbc:StreetName>
-				<cbc:CityName>København</cbc:CityName>
-				<cbc:PostalZone>1100</cbc:PostalZone>
-				<cac:Country>
-					<cbc:IdentificationCode>DK</cbc:IdentificationCode>
-				</cac:Country>
-			</cac:Address>
-		</cac:DeliveryLocation>
-		<cac:DeliveryParty>
-			<cac:PartyName>
-				<cbc:Name>Køber Danmark ApS (Delivery to buyer main address - country BT-80 must be specified for ICS)</cbc:Name>
-			</cac:PartyName>
-		</cac:DeliveryParty>
 	</cac:Delivery>
 	<cac:PaymentMeans>
 		<cbc:PaymentMeansCode name="SEPA credit transfer">58</cbc:PaymentMeansCode>
 		<cac:PayeeFinancialAccount>
-			<cbc:ID>FI98 1428 3500 1711 41</cbc:ID>
-			<cbc:Name>Suomi Myynti Oy</cbc:Name>
+			<cbc:ID>AT55 2040 4000 4523 5017</cbc:ID>
+			<cbc:Name>AT-Verkauf GmbH</cbc:Name>
+			<cac:FinancialInstitutionBranch>
+				<cbc:ID>SBGSAT2SXXX</cbc:ID>
+			</cac:FinancialInstitutionBranch>
 		</cac:PayeeFinancialAccount>
 	</cac:PaymentMeans>
 	<cac:PaymentTerms>
@@ -116,10 +104,10 @@ As such, the seller and buyer are located in two different EU member states.</cb
 			<cbc:TaxableAmount currencyID="EUR">5952</cbc:TaxableAmount>
 			<cbc:TaxAmount currencyID="EUR">0</cbc:TaxAmount>
 			<cac:TaxCategory>
-				<cbc:ID>K</cbc:ID>
+				<cbc:ID>AE</cbc:ID>
 				<cbc:Percent>0</cbc:Percent>
-				<cbc:TaxExemptionReasonCode>VATEX-EU-IC</cbc:TaxExemptionReasonCode>
-				<cbc:TaxExemptionReason>Intra-community supply of services under reverse charge following Art. 196 of Directive 2006/112/EC</cbc:TaxExemptionReason>
+				<cbc:TaxExemptionReasonCode>VATEX-EU-AE</cbc:TaxExemptionReasonCode>
+				<cbc:TaxExemptionReason>Reverse charge – VAT to be accounted for by the recipient according to Article 196 of Directive 2006/112/EC</cbc:TaxExemptionReason>
 				<cac:TaxScheme>
 					<cbc:ID>VAT</cbc:ID>
 				</cac:TaxScheme>
@@ -137,8 +125,8 @@ As such, the seller and buyer are located in two different EU member states.</cb
 		<cbc:InvoicedQuantity unitCode="HUR">16</cbc:InvoicedQuantity>
 		<cbc:LineExtensionAmount currencyID="EUR">1984</cbc:LineExtensionAmount>
 		<cac:Item>
-			<cbc:Description>This Super Service is invoiced with a 0% VAT rate and "K" tax code to indicate Intra-community delivery using the reverse charge.</cbc:Description>
-			<cbc:Name>Super Service (K-IC using reverse charge)</cbc:Name>
+			<cbc:Description>This Super Service is invoiced with a 0% VAT rate and "AE" tax code to indicate using the reverse charge.</cbc:Description>
+			<cbc:Name>Super Service (AE using reverse charge)</cbc:Name>
 			<cac:BuyersItemIdentification>
 				<cbc:ID>Buyer SKU not known</cbc:ID>
 			</cac:BuyersItemIdentification>
@@ -146,7 +134,7 @@ As such, the seller and buyer are located in two different EU member states.</cb
 				<cbc:ID>SS-RC-100123</cbc:ID>
 			</cac:SellersItemIdentification>
 			<cac:ClassifiedTaxCategory>
-				<cbc:ID>K</cbc:ID>
+				<cbc:ID>AE</cbc:ID>
 				<cbc:Percent>0</cbc:Percent>
 				<cac:TaxScheme>
 					<cbc:ID>VAT</cbc:ID>
@@ -162,8 +150,8 @@ As such, the seller and buyer are located in two different EU member states.</cb
 		<cbc:InvoicedQuantity unitCode="HUR">32</cbc:InvoicedQuantity>
 		<cbc:LineExtensionAmount currencyID="EUR">3968</cbc:LineExtensionAmount>
 		<cac:Item>
-			<cbc:Description>More Super Service, also invoiced with a 0% VAT rate and "K" tax code.</cbc:Description>
-			<cbc:Name>More Super Service (K-IC using reverse charge)</cbc:Name>
+			<cbc:Description>More Super Service, also invoiced with a 0% VAT rate and "AE" tax code.</cbc:Description>
+			<cbc:Name>More Super Service (AE using reverse charge)</cbc:Name>
 			<cac:BuyersItemIdentification>
 				<cbc:ID>Buyer SKU also not known</cbc:ID>
 			</cac:BuyersItemIdentification>
@@ -171,7 +159,7 @@ As such, the seller and buyer are located in two different EU member states.</cb
 				<cbc:ID>SS-RC-100321</cbc:ID>
 			</cac:SellersItemIdentification>
 			<cac:ClassifiedTaxCategory>
-				<cbc:ID>K</cbc:ID>
+				<cbc:ID>AE</cbc:ID>
 				<cbc:Percent>0</cbc:Percent>
 				<cac:TaxScheme>
 					<cbc:ID>VAT</cbc:ID>

@@ -25,6 +25,9 @@ To begin, copy the template directory and rename using your `SP-ID`, a dash `-` 
 | OpenText               | 000222 | C2/C3 | Sandya Bheemaiah      |
 | Vigasoft               | 001135 | C2/C3 | Luc Vigato            |
 | UNIMAZE                | 000061 | C2/C3 | Markús Guðmundsson    |
+| Semansys               | 000817 | C2/C3 | Johan Mastenbroek     |
+| Tietoevry Norway AS    | 000051 | C2/C3 |      |
+| Arratech               | 000778 | C2/C3 |      |
 
 *... to be extended*
 

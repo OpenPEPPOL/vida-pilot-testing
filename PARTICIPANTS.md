@@ -39,6 +39,7 @@ To begin, copy the template directory and rename using your `SP-ID`, a dash `-` 
 | DK - Denmark           | 000152 | C5   |                       | 
 | FI - Finland           | 001111 | C5   |                       | 
 | NO - Norway            | 001111 | C5   |                       | 
+| BE - Belgium           | 001104 | C5   |                       | 
 *... to be extended*
 
 ### Peppol Playground

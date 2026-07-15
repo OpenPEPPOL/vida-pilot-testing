@@ -11,7 +11,7 @@ It is intended to be used by the Peppol ViDA Pilot participants for testing and 
   - PDF as a human-readable format for easy review.
 - **Invoices in Multiple combinations of jurisdictions**
   - The repository contains invoices in multiple combinations of jurisdictions, indicated in each filename
-    using the country code of the seller's and receiver's tax jurisdiction, separated by a `-` (minus) sign, e.g. `NL-SK`.
+    using the country code of the seller's and receiver's tax jurisdiction, separated by a `-` (minus) sign, e.g. `FI-AT`.
   - The focus is to cover participating tax jurisdictions in cross-border (and also some domestic) scenarios
 - **Description**: Each invoice test case comes with
   - detailed description of the intended test scenario including the specific aspects under test, and

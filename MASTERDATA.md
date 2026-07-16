@@ -1,9 +1,9 @@
 
 # Peppol ViDA Pilot Testing - Master Data
 
-## Company Master Data
+## Test Company Master Data
 
-Generated invoices use a set of fictitious buying and selling entities from all jurisdicitions in the ViDA Pilot project.
+Generated invoices use a set of test buying and selling entities from all jurisdicitions in the ViDA Pilot project.
 
 Each company master data record uses a full set of syntactically valid (but fictitious) field values.
 
@@ -14,7 +14,7 @@ The following table is an overview of current companies used:
 Role|VAT-ID|Business Name|Tax Jurisdiction|City|Participant ID (Peppol Playground)
 ----|------|-------------|----------------|----|--------------------
 Seller|NL123456789B01|Verkoper Voorbeeldbedrijf B.V.|NL|Den Haag|9913:001109-vidapilot.NL123456789B01
-Seller|SE556123456701|Sverige Seller Business AB|SE|Stockholm|9913:001109-vidapilot.SE5561234567
+Seller|SE556123456701|Sverige Seller Business AB|SE|Stockholm|9913:001109-vidapilot.SE556123456701
 Seller|BE0123456749|Belga Commerce BV/SRL|BE|Brussel|9913:001109-vidapilot.be0123456749
 Seller|ATU99887766|AT-Verkauf GmbH|AT|Wien|9913:001109-vidapilot.ATU99887766
 Seller|FI12345678|Suomi Myynti Oy|FI|Helsinki|9913:001109-vidapilot.FI12345678

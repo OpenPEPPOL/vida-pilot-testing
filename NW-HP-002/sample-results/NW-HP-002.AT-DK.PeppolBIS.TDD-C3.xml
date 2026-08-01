@@ -2,9 +2,9 @@
 <pxs:TaxData xmlns:pxs="urn:peppol:schema:vida-taxdata:1.0" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">
   <cbc:CustomizationID>urn:peppol:taxdata:vida-1</cbc:CustomizationID>
   <cbc:ProfileID>urn:peppol:taxreporting</cbc:ProfileID>
-  <cbc:UUID>bb8cc936-95a6-4451-b129-477a964d5ecf</cbc:UUID>
-  <cbc:IssueDate>2026-06-02</cbc:IssueDate>
-  <cbc:IssueTime>13:01:42.006+02:00</cbc:IssueTime>
+  <cbc:UUID>f1ae09dc-40dd-465e-bb50-05eddfac7dd4</cbc:UUID>
+  <cbc:IssueDate>2026-08-01</cbc:IssueDate>
+  <cbc:IssueTime>15:11:25.947+02:00</cbc:IssueTime>
   <pxs:TaxDataTypeCode>S</pxs:TaxDataTypeCode>
   <pxs:DocumentScope>IC</pxs:DocumentScope>
   <pxs:ReporterRole>C3</pxs:ReporterRole>
@@ -77,7 +77,7 @@ As such, the seller and buyer are located in two different EU member states.</cb
           <cbc:TaxableAmount currencyID="EUR">5952</cbc:TaxableAmount>
           <cbc:TaxAmount currencyID="EUR">0</cbc:TaxAmount>
           <cac:TaxCategory>
-            <cbc:ID>AE</cbc:ID>
+            <cbc:ID>K</cbc:ID>
             <cbc:Percent>0</cbc:Percent>
             <cac:TaxScheme>
               <cbc:ID>VAT</cbc:ID>
@@ -96,10 +96,10 @@ As such, the seller and buyer are located in two different EU member states.</cb
         <cbc:InvoicedQuantity unitCode="HUR">16</cbc:InvoicedQuantity>
         <cbc:LineExtensionAmount currencyID="EUR">1984</cbc:LineExtensionAmount>
         <cac:Item>
-          <cbc:Description>This Super Service is invoiced with a 0% VAT rate and "AE" tax code to indicate using the reverse charge.</cbc:Description>
-          <cbc:Name>Super Service (AE using reverse charge)</cbc:Name>
+          <cbc:Description>This Super Service is invoiced with a 0% VAT rate and "K" tax code to indicate Intra-community delivery using the reverse charge.</cbc:Description>
+          <cbc:Name>Super Service (K-IC using reverse charge)</cbc:Name>
           <cac:ClassifiedTaxCategory>
-            <cbc:ID>AE</cbc:ID>
+            <cbc:ID>K</cbc:ID>
             <cbc:Percent>0</cbc:Percent>
             <cac:TaxScheme>
               <cbc:ID>VAT</cbc:ID>
@@ -115,10 +115,10 @@ As such, the seller and buyer are located in two different EU member states.</cb
         <cbc:InvoicedQuantity unitCode="HUR">32</cbc:InvoicedQuantity>
         <cbc:LineExtensionAmount currencyID="EUR">3968</cbc:LineExtensionAmount>
         <cac:Item>
-          <cbc:Description>More Super Service, also invoiced with a 0% VAT rate and "AE" tax code.</cbc:Description>
-          <cbc:Name>More Super Service (AE using reverse charge)</cbc:Name>
+          <cbc:Description>More Super Service, also invoiced with a 0% VAT rate and "K" tax code.</cbc:Description>
+          <cbc:Name>More Super Service (K-IC using reverse charge)</cbc:Name>
           <cac:ClassifiedTaxCategory>
-            <cbc:ID>AE</cbc:ID>
+            <cbc:ID>K</cbc:ID>
             <cbc:Percent>0</cbc:Percent>
             <cac:TaxScheme>
               <cbc:ID>VAT</cbc:ID>

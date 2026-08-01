@@ -84,7 +84,20 @@ As such, the seller and buyer are located in two different EU member states.</xr
       </xr:BUYER_CONTACT>
    </xr:BUYER>
    <xr:DELIVERY_INFORMATION xr:id="BG-13" xr:src="/Invoice/cac:Delivery">
+      <xr:Deliver_to_party_name xr:id="BT-70"
+                                xr:src="/Invoice/cac:Delivery/cac:DeliveryParty/cac:PartyName/cbc:Name">Österr. Abnehmer GmbH (Delivery to buyer main address - country BT-80 must be specified for ICS)</xr:Deliver_to_party_name>
       <xr:Actual_delivery_date xr:id="BT-72" xr:src="/Invoice/cac:Delivery/cbc:ActualDeliveryDate">2026-01-31</xr:Actual_delivery_date>
+      <xr:DELIVER_TO_ADDRESS xr:id="BG-15"
+                             xr:src="/Invoice/cac:Delivery/cac:DeliveryLocation/cac:Address">
+         <xr:Deliver_to_address_line_1 xr:id="BT-75"
+                                       xr:src="/Invoice/cac:Delivery/cac:DeliveryLocation/cac:Address/cbc:StreetName">Mariahilfer Str. 88</xr:Deliver_to_address_line_1>
+         <xr:Deliver_to_city xr:id="BT-77"
+                             xr:src="/Invoice/cac:Delivery/cac:DeliveryLocation/cac:Address/cbc:CityName">Wien</xr:Deliver_to_city>
+         <xr:Deliver_to_post_code xr:id="BT-78"
+                                  xr:src="/Invoice/cac:Delivery/cac:DeliveryLocation/cac:Address/cbc:PostalZone">1070</xr:Deliver_to_post_code>
+         <xr:Deliver_to_country_code xr:id="BT-80"
+                                     xr:src="/Invoice/cac:Delivery/cac:DeliveryLocation/cac:Address/cac:Country/cbc:IdentificationCode">AT</xr:Deliver_to_country_code>
+      </xr:DELIVER_TO_ADDRESS>
    </xr:DELIVERY_INFORMATION>
    <xr:PAYMENT_INSTRUCTIONS xr:id="BG-16" xr:src="/Invoice">
       <xr:Payment_means_type_code xr:id="BT-81" xr:src="/Invoice/cac:PaymentMeans/cbc:PaymentMeansCode">58</xr:Payment_means_type_code>
@@ -115,13 +128,13 @@ As such, the seller and buyer are located in two different EU member states.</xr
       <xr:VAT_category_tax_amount xr:id="BT-117"
                                   xr:src="/Invoice/cac:TaxTotal/cac:TaxSubtotal/cbc:TaxAmount">0</xr:VAT_category_tax_amount>
       <xr:VAT_category_code xr:id="BT-118"
-                            xr:src="/Invoice/cac:TaxTotal/cac:TaxSubtotal/cac:TaxCategory/cbc:ID">AE</xr:VAT_category_code>
+                            xr:src="/Invoice/cac:TaxTotal/cac:TaxSubtotal/cac:TaxCategory/cbc:ID">K</xr:VAT_category_code>
       <xr:VAT_category_rate xr:id="BT-119"
                             xr:src="/Invoice/cac:TaxTotal/cac:TaxSubtotal/cac:TaxCategory/cbc:Percent">0</xr:VAT_category_rate>
       <xr:VAT_exemption_reason_text xr:id="BT-120"
-                                    xr:src="/Invoice/cac:TaxTotal/cac:TaxSubtotal/cac:TaxCategory/cbc:TaxExemptionReason">Reverse charge – VAT to be accounted for by the recipient according to Article 196 of Directive 2006/112/EC</xr:VAT_exemption_reason_text>
+                                    xr:src="/Invoice/cac:TaxTotal/cac:TaxSubtotal/cac:TaxCategory/cbc:TaxExemptionReason">Intra-community supply of services under reverse charge following Art. 196 of Directive 2006/112/EC</xr:VAT_exemption_reason_text>
       <xr:VAT_exemption_reason_code xr:id="BT-121"
-                                    xr:src="/Invoice/cac:TaxTotal/cac:TaxSubtotal/cac:TaxCategory/cbc:TaxExemptionReasonCode">VATEX-EU-AE</xr:VAT_exemption_reason_code>
+                                    xr:src="/Invoice/cac:TaxTotal/cac:TaxSubtotal/cac:TaxCategory/cbc:TaxExemptionReasonCode">VATEX-EU-IC</xr:VAT_exemption_reason_code>
    </xr:VAT_BREAKDOWN>
    <xr:INVOICE_LINE xr:id="BG-25" xr:src="/Invoice/cac:InvoiceLine[1]">
       <xr:Invoice_line_identifier xr:id="BT-126" xr:src="/Invoice/cac:InvoiceLine[1]/cbc:ID">1</xr:Invoice_line_identifier>
@@ -138,14 +151,14 @@ As such, the seller and buyer are located in two different EU member states.</xr
       <xr:LINE_VAT_INFORMATION xr:id="BG-30"
                                xr:src="/Invoice/cac:InvoiceLine[1]/cac:Item/cac:ClassifiedTaxCategory">
          <xr:Invoiced_item_VAT_category_code xr:id="BT-151"
-                                             xr:src="/Invoice/cac:InvoiceLine[1]/cac:Item/cac:ClassifiedTaxCategory/cbc:ID">AE</xr:Invoiced_item_VAT_category_code>
+                                             xr:src="/Invoice/cac:InvoiceLine[1]/cac:Item/cac:ClassifiedTaxCategory/cbc:ID">K</xr:Invoiced_item_VAT_category_code>
          <xr:Invoiced_item_VAT_rate xr:id="BT-152"
                                     xr:src="/Invoice/cac:InvoiceLine[1]/cac:Item/cac:ClassifiedTaxCategory/cbc:Percent">0</xr:Invoiced_item_VAT_rate>
       </xr:LINE_VAT_INFORMATION>
       <xr:ITEM_INFORMATION xr:id="BG-31" xr:src="/Invoice/cac:InvoiceLine[1]/cac:Item">
-         <xr:Item_name xr:id="BT-153" xr:src="/Invoice/cac:InvoiceLine[1]/cac:Item/cbc:Name">Super Service (AE using reverse charge)</xr:Item_name>
+         <xr:Item_name xr:id="BT-153" xr:src="/Invoice/cac:InvoiceLine[1]/cac:Item/cbc:Name">Super Service (K-IC using reverse charge)</xr:Item_name>
          <xr:Item_description xr:id="BT-154"
-                              xr:src="/Invoice/cac:InvoiceLine[1]/cac:Item/cbc:Description">This Super Service is invoiced with a 0% VAT rate and "AE" tax code to indicate using the reverse charge.</xr:Item_description>
+                              xr:src="/Invoice/cac:InvoiceLine[1]/cac:Item/cbc:Description">This Super Service is invoiced with a 0% VAT rate and "K" tax code to indicate Intra-community delivery using the reverse charge.</xr:Item_description>
          <xr:Item_Sellers_identifier xr:id="BT-155"
                                      xr:src="/Invoice/cac:InvoiceLine[1]/cac:Item/cac:SellersItemIdentification/cbc:ID">SS-RC-100123</xr:Item_Sellers_identifier>
          <xr:Item_Buyers_identifier xr:id="BT-156"
@@ -167,14 +180,14 @@ As such, the seller and buyer are located in two different EU member states.</xr
       <xr:LINE_VAT_INFORMATION xr:id="BG-30"
                                xr:src="/Invoice/cac:InvoiceLine[2]/cac:Item/cac:ClassifiedTaxCategory">
          <xr:Invoiced_item_VAT_category_code xr:id="BT-151"
-                                             xr:src="/Invoice/cac:InvoiceLine[2]/cac:Item/cac:ClassifiedTaxCategory/cbc:ID">AE</xr:Invoiced_item_VAT_category_code>
+                                             xr:src="/Invoice/cac:InvoiceLine[2]/cac:Item/cac:ClassifiedTaxCategory/cbc:ID">K</xr:Invoiced_item_VAT_category_code>
          <xr:Invoiced_item_VAT_rate xr:id="BT-152"
                                     xr:src="/Invoice/cac:InvoiceLine[2]/cac:Item/cac:ClassifiedTaxCategory/cbc:Percent">0</xr:Invoiced_item_VAT_rate>
       </xr:LINE_VAT_INFORMATION>
       <xr:ITEM_INFORMATION xr:id="BG-31" xr:src="/Invoice/cac:InvoiceLine[2]/cac:Item">
-         <xr:Item_name xr:id="BT-153" xr:src="/Invoice/cac:InvoiceLine[2]/cac:Item/cbc:Name">More Super Service (AE using reverse charge)</xr:Item_name>
+         <xr:Item_name xr:id="BT-153" xr:src="/Invoice/cac:InvoiceLine[2]/cac:Item/cbc:Name">More Super Service (K-IC using reverse charge)</xr:Item_name>
          <xr:Item_description xr:id="BT-154"
-                              xr:src="/Invoice/cac:InvoiceLine[2]/cac:Item/cbc:Description">More Super Service, also invoiced with a 0% VAT rate and "AE" tax code.</xr:Item_description>
+                              xr:src="/Invoice/cac:InvoiceLine[2]/cac:Item/cbc:Description">More Super Service, also invoiced with a 0% VAT rate and "K" tax code.</xr:Item_description>
          <xr:Item_Sellers_identifier xr:id="BT-155"
                                      xr:src="/Invoice/cac:InvoiceLine[2]/cac:Item/cac:SellersItemIdentification/cbc:ID">SS-RC-100321</xr:Item_Sellers_identifier>
          <xr:Item_Buyers_identifier xr:id="BT-156"

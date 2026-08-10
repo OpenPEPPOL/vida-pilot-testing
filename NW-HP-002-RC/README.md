@@ -1,6 +1,6 @@
 # NW-HP-002
 
-File `NW-HP-002.AA-BB.PeppolBIS.xml` implements a testing scenario for a **Reverse Charge** transaction of services, where the VAT rate indicated is `0%` because the tax responsibility is shifted to the buyer.
+File `NW-HP-002-RC.AA-BB.PeppolBIS.xml` implements a testing scenario for a **Reverse Charge** transaction of services, where the VAT rate indicated is `0%` because the tax responsibility is shifted to the buyer.
 
 `AA-BB` in the filename indicates the two tax jurisdictions of the seller and buyer, respectively.
 
@@ -15,8 +15,8 @@ The document uses the Peppol BIS Billing 3.0 profile.
 ## Details of the test scenario:
 
 ### The Participants
-*   **Seller (Accounting Supplier Party):** are available from all participating countries and indicated by the first country code in the filename (`AA`).
-*   **Buyer (Accounting Customer Party):** are available from all participating countries and indicated by the first country code in the filename (`BB`).
+*   **Sellers (Accounting Supplier Party):** are available from all participating countries and indicated by the first country code in the filename (`AA`).
+*   **Buyers (Accounting Customer Party):** are available from all participating countries and indicated by the first country code in the filename (`BB`).
 *   **Context:** The parties are registered in different EU member states, and the invoice covers services where the reverse charge mechanism applies.
 
 ### VAT Character of Line Items
@@ -25,18 +25,18 @@ The invoice contains two line items, both characterized by a **0% VAT rate** usi
 *   **Line Item 2:** 32 units of "More Super Service" at 124 EUR each (Total: 3968 EUR).
 
 **Key VAT Details:**
-*   **Tax Category ID:** `K` (indicates the intra-community delivery of services using the reverse charge mechanism).
-*   **Tax Exemption Reason:** `VATEX-EU-IC` (indicates that in this ICS the reverse charge applies).
+*   **Tax Category ID:** `AE` (indicates the reverse charge category).
+*   **Tax Exemption Reason:** `VATEX-EU-AE` (indicates that reverse charge applies).
 *   **Total Tax Amount:** The total tax amount for the entire invoice is `0` EUR, as the supply is subject to reverse charge.
 
 ## Choreography of Transaction
 
 ### Outbound / sell-side handling:
 * C1 sends invoice data to C2 (not in scope of this test scenario).
-* C2 generates the source invoice based on the received data (file `NW-HP-002.AA-BB.PeppolBIS.xml`).
-* C2 validates the generated source invoice against applicable schematrons (files `supporting-files/NW-HP-002.AA-BB.PeppolBIS-validation.xml`)
-* C2 generates the supply-side TDD (file `sample-results/NW-HP-002.AA-BB.PeppolBIS.TDD-C2.xml`)
-* C2 validates the generated supply-side TDD against applicable schematrons (files `supporting-files/NW-HP-002.AA-BB.PeppolBIS.TDD-C2.validation.xml`)
+* C2 generates the source invoice based on the received data (file `NW-HP-002-RC.AA-BB.PeppolBIS.xml`).
+* C2 validates the generated source invoice against applicable schematrons (files `supporting-files/NW-HP-002-RC.AA-BB.PeppolBIS-validation.xml`)
+* C2 generates the supply-side TDD (file `sample-results/NW-HP-002-RC.AA-BB.PeppolBIS.TDD-C2.xml`)
+* C2 validates the generated supply-side TDD against applicable schematrons (files `supporting-files/NW-HP-002-RC.AA-BB.PeppolBIS.TDD-C2.validation.xml`)
 
 ### Transmission process (1/2):
 
@@ -45,10 +45,10 @@ The invoice contains two line items, both characterized by a **0% VAT rate** usi
 
 ### Inbound / buy-side handling of invoice
 
-* C3 receives inbound invoice from C2 (file `NW-HP-002.AA-BB.PeppolBIS.xml`).
-* C3 validates the received invoice against applicable schematrons (files `supporting-files/NW-HP-002.AA-BB.PeppolBIS-validation.xml`)
-* C3 generates the buy-side TDD (file `sample-results/NW-HP-002.AA-BB.PeppolBIS.TDD-C3.xml`)
-* C3 validates the generated buy-side TDD against applicable schematrons (files `supporting-files/NW-HP-002.AA-BB.PeppolBIS.TDD-C3.validation.xml`)
+* C3 receives inbound invoice from C2 (file `NW-HP-002-RC.AA-BB.PeppolBIS.xml`).
+* C3 validates the received invoice against applicable schematrons (files `supporting-files/NW-HP-002-RC.AA-BB.PeppolBIS-validation.xml`)
+* C3 generates the buy-side TDD (file `sample-results/NW-HP-002-RC.AA-BB.PeppolBIS.TDD-C3.xml`)
+* C3 validates the generated buy-side TDD against applicable schematrons (files `supporting-files/NW-HP-002-RC.AA-BB.PeppolBIS.TDD-C3.validation.xml`)
 
 ### Transmission process (2/2):
 
@@ -58,17 +58,17 @@ The invoice contains two line items, both characterized by a **0% VAT rate** usi
 Inbound TDD handling is same at C5A from C2 and at C5B from C3.
 
 * C5 receives inbound TDD from C2/C3, files
-  * `sample-results/NW-HP-002.AA-BB.PeppolBIS.TDD-C2.xml` resp.
-  * `sample-results/NW-HP-002.AA-BB.PeppolBIS.TDD-C3.xml`.
+  * `sample-results/NW-HP-002-RC.AA-BB.PeppolBIS.TDD-C2.xml` resp.
+  * `sample-results/NW-HP-002-RC.AA-BB.PeppolBIS.TDD-C3.xml`.
 * C5 validates the received TDD against applicable schematrons, files
-  * `supporting-files/NW-HP-002.AA-BB.PeppolBIS.TDD-C2.validation.xml` and
-  * `supporting-files/NW-HP-002.AA-BB.PeppolBIS.TDD-C3.validation.xml`.
+  * `supporting-files/NW-HP-002-RC.AA-BB.PeppolBIS.TDD-C2.validation.xml` and
+  * `supporting-files/NW-HP-002-RC.AA-BB.PeppolBIS.TDD-C3.validation.xml`.
 
 ### Message-level status
 
-* C3 sends positive MLS to C2 (file `sample-results/NW-HP-002.AA-BB.PeppolBIS.MLS-C3.xml`)
-* C5A sends positive MLS to C2 (file `sample-results/NW-HP-002.AA-BB.PeppolBIS.MLS-C5A.xml`)
-* C5B sends positive MLS to C3 (file `sample-results/NW-HP-002.AA-BB.PeppolBIS.MLS-C5B.xml`)
+* C3 sends positive MLS to C2 (file `sample-results/NW-HP-002-RC.AA-BB.PeppolBIS.MLS-C3.xml`)
+* C5A sends positive MLS to C2 (file `sample-results/NW-HP-002-RC.AA-BB.PeppolBIS.MLS-C5A.xml`)
+* C5B sends positive MLS to C3 (file `sample-results/NW-HP-002-RC.AA-BB.PeppolBIS.MLS-C5B.xml`)
 
 ### Make results available to C1/C4/C6 (out of scope of Testing Scenario)
 

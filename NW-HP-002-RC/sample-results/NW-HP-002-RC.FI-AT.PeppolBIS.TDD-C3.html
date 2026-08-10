@@ -10,7 +10,8 @@
                     th { background-color: #f2f2f2; }
                     .amount { text-align: right; font-family: 'Courier New', monospace; }
                     .total-row { font-weight: bold; background-color: #fdfdfe; }
-                    .btid { display: inline; font-family: monospace; color: grey; background-color: #f2f2f2; padding:5px; white-space: nowrap}
+                    .btid { display: inline; font-family: monospace; color: grey; background-color: #e0e0e0; margin-right:5px; padding:5px; white-space: nowrap}
+                    .text-right { float: right; }
                 </style>
 </head>
 <body>
@@ -20,29 +21,29 @@
 <tr><th colspan="2">Tax Report</th></tr>
 <tr>
 <th style="width:30%">
-<div class="btid">TDT-004</div>/<div class="btid">TDT-005</div>
 <div>Issued at</div>
+<div class="btid">TDT-004</div>/<div class="btid">TDT-005</div>
 </th>
 <td>2026-07-31 at 18:23:15.893+02:00</td>
 </tr>
 <tr>
 <th>
-<div class="btid">TDT-012</div>
+<div class="btid text-right">TDT-012</div>
 <div>Reporter Role</div>
 </th>
 <td>C3</td>
 </tr>
 <tr>
 <th>
-<div class="btid">TDT-007</div>
 <div>Tax Data Type Code</div>
+<div class="btid text-right">TDT-007</div>
 </th>
 <td>S</td>
 </tr>
 <tr>
 <th>
-<div class="btid">TDT-006</div>
 <div>Document Scope</div>
+<div class="btid text-right">TDT-006</div>
 </th>
 <td>IC</td>
 </tr>
@@ -51,8 +52,8 @@
 <tr><th colspan="2">
 <div class="btid">TDG-02</div> Invoice</th></tr>
 <tr>
-<th style="width:30%">
-<div class="btid">TDT-017</div> Invoice UUID</th>
+<th style="width:30%">Invoice UUID <div class="btid text-right">TDT-017</div>
+</th>
 <td>c83bbfc9-b124-508d-9900-6823f5b707ea</td>
 </tr>
 <tr>
@@ -63,13 +64,13 @@
 </tr>
 <tr>
 <th>
-<div class="btid">BG-04</div> Seller</th>
+<div class="btid text-right">BG-04</div> Seller</th>
 <td>
 <div class="btid">BT-040</div>FI<br><div class="btid">BT-031</div>FI12345678</td>
 </tr>
 <tr>
 <th>
-<div class="btid">BG-07</div> Buyer</th>
+<div class="btid text-right">BG-07</div> Buyer</th>
 <td>
 <div class="btid">BT-055</div>AT<br><div class="btid">BT-048</div>ATU12345679</td>
 </tr>
@@ -79,7 +80,7 @@
 <table>
 <tr>
 <th style="width:40%">
-<div class="btid">TDG-05</div> Reporting Participant ID</th>
+<div class="btid text-right">TDG-05</div> Reporting Participant ID</th>
 <td>
 <div class="btid">TDT-013</div>
 <code>9913:001110-vidapilot.atu12345679</code>
@@ -87,7 +88,7 @@
 </tr>
 <tr>
 <th>
-<div class="btid">TDG-06</div> Receiving Tax Authority</th>
+<div class="btid text-right">TDG-06</div> Receiving Tax Authority</th>
 <td>
 <div>
 <div class="btid">TDT-010</div>AT - <div class="btid">TDT-011</div>Finanzamt &#214;sterreich</div>
@@ -98,7 +99,7 @@
 </tr>
 <tr>
 <th>
-<div class="btid">TDG-07</div> Submitting Service Provider</th>
+<div class="btid text-right">TDG-07</div> Submitting Service Provider</th>
 <td>
 <div class="btid">TDT-015</div> 
                             (<code>0242</code>)
@@ -108,10 +109,14 @@
 <div class="section-title">VAT Breakdown and Monetary Totals</div>
 <table>
 <thead><tr>
-<th>Category</th>
-<th>Tax Rate (%)</th>
-<th>Taxable Amount</th>
-<th>Tax Amount</th>
+<th>Category       <div class="btid text-right">BT-118</div>
+</th>
+<th>Tax Rate (%)   <div class="btid text-right">BT-119</div>
+</th>
+<th>Taxable Amount <div class="btid text-right">BT-116</div>
+</th>
+<th>Tax Amount     <div class="btid text-right">BT-117</div>
+</th>
 </tr></thead>
 <tbody><tr>
 <td>AE</td>
@@ -123,16 +128,24 @@
 </table>
 <table>
 <tr class="total-row">
-<th style="width:30%">Total Taxable Amount</th>
+<th style="width:50%">Total Taxable Amount <div class="btid text-right">BT-109</div>
+</th>
 <td class="amount">5,952.00 EUR</td>
 </tr>
 <tr class="total-row">
-<th>Payable Amount</th>
+<th>Total Amount including VAT <div class="btid text-right">BT-112</div>
+</th>
 <td class="amount">5,952.00 EUR</td>
 </tr>
 <tr class="total-row" style="font-size: 1.2em">
-<th>Total VAT Amount</th>
+<th>Total Tax Amount <div class="btid text-right">BT-110</div>
+</th>
 <td class="amount">0.00 EUR</td>
+</tr>
+<tr class="total-row">
+<th>Payable Amount <div class="btid text-right">BT-115</div>
+</th>
+<td class="amount">5,952.00 EUR</td>
 </tr>
 </table>
 <div class="section-title">Invoice Line Item details</div>

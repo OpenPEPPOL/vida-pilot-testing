@@ -31,6 +31,7 @@ To begin, copy the template directory and rename using your `SP-ID`, a dash `-` 
 | Fynamics Techno Solutions | 000679 | C2/C3 | Satish Rajagopalan |
 | Markant | 001075 | C2/C3 | Alja Ladinek |
 | ecosio | 000092 | C2/C3 | Andrea Costa |
+| fiskaltrust | 000929 | C2/C3 | Stefan Kert |
 
 
 *... to be extended*

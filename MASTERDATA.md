@@ -20,11 +20,13 @@ Seller|ATU99887766|AT-Verkauf GmbH|AT|Wien|9913:001109-vidapilot.ATU99887766
 Seller|FI12345678|Suomi Myynti Oy|FI|Helsinki|9913:001109-vidapilot.FI12345678
 Seller|NO123456785MVA|Norge Salg AS|NO|Oslo|9913:001109-vidapilot.NO123456785MVA
 Seller|DK87654321|Danmark Salg A/S|DK|København V|9913:001109-vidapilot.DK87654321
+Seller|IE9876543T|Irish Sales & Distribution Ltd|IE|Dublin 2|9913:001109-vidapilot.IE9876543T
 Buyer|BE0765432146|Belga Aankoper / Belga Acheteur BV/SRL|BE|Bruxelles|9913:001110-vidapilot.BE0765432146
 Buyer|FI12345671|Ostaja Finland Oy|FI|Helsinki|9913:001110-vidapilot.FI12345671
 Buyer|NO234567896MVA|Kjøper Norge AS|NO|Oslo|9913:001110-vidapilot.NO234567896MVA
 Buyer|ATU12345679|Österr. Abnehmer GmbH|AT|Wien|9913:001110-vidapilot.ATU12345679
 Buyer|DK12345674|Køber Danmark ApS|DK|København|9913:001110-vidapilot.DK12345674
+Buyer|IE1234567FA|Dublin Purchasing Ltd|IE|Dublin 2|9913:001110-vidapilot.IE1234567FA
 Buyer|SK2021234567|Slovenský Príklad s.r.o.|SK|Bratislava|9913:001110-vidapilot.SK2021234567
 
 ### Scope of fields and records

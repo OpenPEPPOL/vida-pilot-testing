@@ -1,4 +1,4 @@
-<!DOCTYPE HTML><html lang="de">
+<!DOCTYPE HTML><html lang="en">
    <head>
       <meta charset="UTF-8">
       <title>XRechnung</title>
@@ -1277,25 +1277,25 @@ function downloadData(element_id, mimetype, filename) {
          <form>
             <div class="menue" role="navigation">
                <div role="tablist" class="innen">
-                  <div role="none"><button role="tab" aria-controls="uebersicht" tabindex="0" aria-selected="true" type="button" class="tab btnAktiv" id="menueUebersicht" onclick="show(this);"><span>Übersicht</span></button></div>
+                  <div role="none"><button role="tab" aria-controls="uebersicht" tabindex="0" aria-selected="true" type="button" class="tab btnAktiv" id="menueUebersicht" onclick="show(this);"><span>Overview</span></button></div>
                   <div role="none"><button role="tab" aria-controls="details" tabindex="0" aria-selected="false" type="button" class="tab" id="menueDetails" onclick="show(this);"><span>Details</span></button></div>
-                  <div role="none"><button role="tab" aria-controls="zusaetze" tabindex="0" aria-selected="false" type="button" class="tab" id="menueZusaetze" onclick="show(this)"><span>Zusätze</span></button></div>
-                  <div role="none"><button role="tab" aria-controls="anlagen" tabindex="0" aria-selected="false" type="button" class="tab" id="menueAnlagen" onclick="show(this)"><span>Anlagen</span></button></div>
-                  <div role="none"><button role="tab" aria-controls="laufzettel" tabindex="0" aria-selected="false" type="button" class="tab" id="menueLaufzettel" onclick="show(this)"><span>Laufzettel</span></button></div>
+                  <div role="none"><button role="tab" aria-controls="zusaetze" tabindex="0" aria-selected="false" type="button" class="tab" id="menueZusaetze" onclick="show(this)"><span>Supplements</span></button></div>
+                  <div role="none"><button role="tab" aria-controls="anlagen" tabindex="0" aria-selected="false" type="button" class="tab" id="menueAnlagen" onclick="show(this)"><span>Attachments</span></button></div>
+                  <div role="none"><button role="tab" aria-controls="laufzettel" tabindex="0" aria-selected="false" type="button" class="tab" id="menueLaufzettel" onclick="show(this)"><span>Routing slip</span></button></div>
                </div>
             </div>
          </form>
          <div class="inhalt">
             <div class="innen">
                <div id="uebersicht" class="divShow" role="tabpanel" aria-labelledby="menueUebersicht" tabindex="0"><noscript>
-                     <div class="noscript">Inhalte auf dieser Seite sind ohne JavaScript nur eingeschränkt darstellbar.</div></noscript><div class="haftungausschluss">Wir übernehmen keine Haftung für die Richtigkeit der Daten.</div>
+                     <div class="noscript">The display of content on this page is limited without JavaScript.</div></noscript><div class="haftungausschluss">We assume no liability for the accuracy of the data.</div>
                   <div class="boxtabelle boxtabelleZweispaltig">
                      <div class="boxzeile">
                         <div id="uebersichtKaeufer" class="box boxZweispaltig">
-                           <div data-title="BG-7" class="BG-7 boxtitel" role="heading" aria-level="2">Informationen zum Käufer</div>
+                           <div data-title="BG-7" class="BG-7 boxtitel" role="heading" aria-level="2">Information about the buyer</div>
                            <div class="boxtabelle boxinhalt borderSpacing" role="list">
                               <div class="boxzeile" role="listitem">
-                                 <div class="boxdaten legende">Käuferreferenz:
+                                 <div class="boxdaten legende">Buyer reference:
                                     </div>
                                  <div data-title="BT-10" class="BT-10 boxdaten wert">your buyer reference</div>
                               </div>
@@ -1305,62 +1305,62 @@ function downloadData(element_id, mimetype, filename) {
                                  <div data-title="BT-44" class="BT-44 boxdaten wert">Belga Aankoper / Belga Acheteur BV/SRL</div>
                               </div>
                               <div class="boxzeile" role="listitem">
-                                 <div class="boxdaten legende">Adresszeile 1:
+                                 <div class="boxdaten legende">Address line 1:
                                     </div>
                                  <div data-title="BT-50" class="BT-50 boxdaten wert">Avenue Louise / Louizalaan 105</div>
                               </div>
                               <div class="boxzeile" role="listitem">
-                                 <div class="boxdaten legende">Adresszeile 2:
+                                 <div class="boxdaten legende">Address line 2:
                                     </div>
                                  <div data-title="BT-51" class="BT-51 boxdaten wert"></div>
                               </div>
                               <div class="boxzeile" role="listitem">
-                                 <div class="boxdaten legende">Adresszeile 3:
+                                 <div class="boxdaten legende">Address line 3:
                                     </div>
                                  <div data-title="BT-163" class="BT-163 boxdaten wert"></div>
                               </div>
                               <div class="boxzeile" role="listitem">
-                                 <div class="boxdaten legende">PLZ:
+                                 <div class="boxdaten legende">ZIP:
                                     </div>
                                  <div data-title="BT-53" class="BT-53 boxdaten wert">1050</div>
                               </div>
                               <div class="boxzeile" role="listitem">
-                                 <div class="boxdaten legende">Ort:
+                                 <div class="boxdaten legende">Location:
                                     </div>
                                  <div data-title="BT-52" class="BT-52 boxdaten wert">Bruxelles</div>
                               </div>
                               <div class="boxzeile" role="listitem">
-                                 <div class="boxdaten legende">Bundesland:
+                                 <div class="boxdaten legende">State:
                                     </div>
                                  <div data-title="BT-54" class="BT-54 boxdaten wert"></div>
                               </div>
                               <div class="boxzeile" role="listitem">
-                                 <div class="boxdaten legende">Ländercode:
+                                 <div class="boxdaten legende">Country code:
                                     </div>
                                  <div data-title="BT-55" class="BT-55 boxdaten wert">BE</div>
                               </div>
                               <div class="boxzeile" role="listitem">
-                                 <div class="boxdaten legende">Kennung:
+                                 <div class="boxdaten legende">Identifier:
                                     </div>
                                  <div data-title="BT-46" class="BT-46 boxdaten wert"></div>
                               </div>
                               <div class="boxzeile" role="listitem">
-                                 <div class="boxdaten legende">Schema der Kennung:
+                                 <div class="boxdaten legende">Scheme identifier:
                                     </div>
                                  <div data-title="BT-46-scheme-id" class="BT-46-scheme-id boxdaten wert"></div>
                               </div>
                               <div class="boxzeile" role="listitem">
-                                 <div class="boxdaten legende">Kontaktstelle :
+                                 <div class="boxdaten legende">Contact point:
                                     </div>
                                  <div data-title="BT-56" class="BT-56 boxdaten wert">Pierre Dupont</div>
                               </div>
                               <div class="boxzeile" role="listitem">
-                                 <div class="boxdaten legende">Telefon:
+                                 <div class="boxdaten legende">Contact point phone:
                                     </div>
                                  <div data-title="BT-57" class="BT-57 boxdaten wert">+32 2 444 56 78</div>
                               </div>
                               <div class="boxzeile" role="listitem">
-                                 <div class="boxdaten legende">E-Mail-Adresse:
+                                 <div class="boxdaten legende">Contact point email:
                                     </div>
                                  <div data-title="BT-58" class="BT-58 boxdaten wert">pierre.dupont@belga-acheteur.be</div>
                               </div>
@@ -1368,74 +1368,74 @@ function downloadData(element_id, mimetype, filename) {
                         </div>
                         <div class="boxabstand"></div>
                         <div id="uebersichtVerkaeufer" class="box boxZweispaltig">
-                           <div data-title="BG-4" class="BG-4 boxtitel" role="heading" aria-level="2">Informationen zum Verkäufer</div>
+                           <div data-title="BG-4" class="BG-4 boxtitel" role="heading" aria-level="2">Information about the seller</div>
                            <div class="boxtabelle boxinhalt borderSpacing" role="list">
                               <div class="boxzeile">
                                  <div class="boxdaten legende"></div>
                                  <div class="boxdaten wert" style="background-color: white;"></div>
                               </div>
                               <div class="boxzeile" role="listitem">
-                                 <div class="boxdaten legende">Firmenname:
+                                 <div class="boxdaten legende">Company name:
                                     </div>
                                  <div data-title="BT-27" class="BT-27 boxdaten wert">Norge Salg AS</div>
                               </div>
                               <div class="boxzeile" role="listitem">
-                                 <div class="boxdaten legende">Adresszeile 1:
+                                 <div class="boxdaten legende">Address line 1:
                                     </div>
                                  <div data-title="BT-35" class="BT-35 boxdaten wert">Karl Johans gate 15</div>
                               </div>
                               <div class="boxzeile" role="listitem">
-                                 <div class="boxdaten legende">Adresszeile 2:
+                                 <div class="boxdaten legende">Address line 2:
                                     </div>
                                  <div data-title="BT-36" class="BT-36 boxdaten wert"></div>
                               </div>
                               <div class="boxzeile" role="listitem">
-                                 <div class="boxdaten legende">Adresszeile 3:
+                                 <div class="boxdaten legende">Address line 3:
                                     </div>
                                  <div data-title="BT-162" class="BT-162 boxdaten wert"></div>
                               </div>
                               <div class="boxzeile" role="listitem">
-                                 <div class="boxdaten legende">PLZ:
+                                 <div class="boxdaten legende">ZIP:
                                     </div>
                                  <div data-title="BT-38" class="BT-38 boxdaten wert">0154</div>
                               </div>
                               <div class="boxzeile" role="listitem">
-                                 <div class="boxdaten legende">Ort:
+                                 <div class="boxdaten legende">Location:
                                     </div>
                                  <div data-title="BT-37" class="BT-37 boxdaten wert">Oslo</div>
                               </div>
                               <div class="boxzeile" role="listitem">
-                                 <div class="boxdaten legende">Bundesland:
+                                 <div class="boxdaten legende">State:
                                     </div>
                                  <div data-title="BT-39" class="BT-39 boxdaten wert"></div>
                               </div>
                               <div class="boxzeile" role="listitem">
-                                 <div class="boxdaten legende">Ländercode:
+                                 <div class="boxdaten legende">Country code:
                                     </div>
                                  <div data-title="BT-40" class="BT-40 boxdaten wert">NO</div>
                               </div>
                               <div class="boxzeile" role="listitem">
-                                 <div class="boxdaten legende">Kennung:
+                                 <div class="boxdaten legende">Identifier:
                                     </div>
                                  <div data-title="BT-29" class="BT-29 boxdaten wert">9876-444444</div>
                               </div>
                               <div class="boxzeile" role="listitem">
-                                 <div class="boxdaten legende">Schema der Kennung:
+                                 <div class="boxdaten legende">Scheme identifier:
                                     </div>
                                  <div data-title="BT-29-scheme-id" class="BT-29-scheme-id boxdaten wert"></div>
                               </div>
                               <div class="boxzeile" role="listitem">
-                                 <div class="boxdaten legende">Name:
+                                 <div class="boxdaten legende">Contact point:
                                     </div>
                                  <div data-title="BT-41" class="BT-41 boxdaten wert">Lars Hansen</div>
                               </div>
                               <div class="boxzeile" role="listitem">
-                                 <div class="boxdaten legende">Telefon:
+                                 <div class="boxdaten legende">Contact point phone:
                                     </div>
                                  <div data-title="BT-42" class="BT-42 boxdaten wert">+358 9 555 1234</div>
                               </div>
                               <div class="boxzeile" role="listitem">
-                                 <div class="boxdaten legende">E-Mail-Adresse:
+                                 <div class="boxdaten legende">Contact point email:
                                     </div>
                                  <div data-title="BT-43" class="BT-43 boxdaten wert">lars.hansen@norge-salg.no</div>
                               </div>
@@ -1446,49 +1446,49 @@ function downloadData(element_id, mimetype, filename) {
                   <div class="boxtabelle boxabstandtop boxtabelleZweispaltig">
                      <div class="boxzeile">
                         <div id="uebersichtRechnungsinfo" class="box box1v2">
-                           <div class="boxtitel" role="heading" aria-level="2">Rechnungsdaten</div>
+                           <div class="boxtitel" role="heading" aria-level="2">Invoice data</div>
                            <div class="boxtabelle boxinhalt">
                               <div class="boxcell boxZweispaltig">
                                  <div class="boxtabelle borderSpacing" role="list">
                                     <div class="boxzeile" role="listitem">
-                                       <div class="boxdaten legende">Rechnungsnummer:
+                                       <div class="boxdaten legende">Invoice number:
                                           </div>
                                        <div data-title="BT-1" class="BT-1 boxdaten wert">NW-HP-002 - NO-BE</div>
                                     </div>
                                     <div class="boxzeile" role="listitem">
-                                       <div class="boxdaten legende">Rechnungsdatum:
+                                       <div class="boxdaten legende">Invoice date:
                                           </div>
-                                       <div data-title="BT-2" class="BT-2 boxdaten wert">10.2.2026</div>
+                                       <div data-title="BT-2" class="BT-2 boxdaten wert">2026-02-10</div>
                                     </div>
                                     <div class="boxzeile" role="listitem">
-                                       <div class="boxdaten legende">Rechnungsart:
+                                       <div class="boxdaten legende">Invoice type:
                                           </div>
                                        <div data-title="BT-3" class="BT-3 boxdaten wert">380</div>
                                     </div>
                                     <div class="boxzeile" role="listitem">
-                                       <div class="boxdaten legende">Währung:
+                                       <div class="boxdaten legende">Currency:
                                           </div>
                                        <div data-title="BT-5" class="BT-5 boxdaten wert">NOK</div>
                                     </div>
                                     <div class="boxzeile" role="listitem">
-                                       <div class="boxdaten legende">Abrechnungsdatum der Umsatzsteuer:
+                                       <div class="boxdaten legende">Value added tax point date:
                                           </div>
                                        <div data-title="BT-7" class="BT-7 boxdaten wert"></div>
                                     </div>
                                     <div class="boxzeile" role="listitem">
-                                       <div class="boxdaten legende">Code des Umsatzsteuer-Abrechnungsdatums:
+                                       <div class="boxdaten legende">Value added tax point date code:
                                           </div>
                                        <div data-title="BT-8" class="BT-8 boxdaten wert"></div>
                                     </div>
-                                    <div role="listitem"><strong>Abrechnungszeitraum:
+                                    <div role="listitem"><strong>Billing period:
                                           </strong><div class="boxtabelle borderSpacing" role="list">
                                           <div class="boxzeile" role="listitem">
-                                             <div class="boxdaten legende">Von:
+                                             <div class="boxdaten legende">From:
                                                 </div>
                                              <div data-title="BT-73" class="BT-73 boxdaten wert"></div>
                                           </div>
                                           <div class="boxzeile" role="listitem">
-                                             <div class="boxdaten legende">Bis:
+                                             <div class="boxdaten legende">To:
                                                 </div>
                                              <div data-title="BT-74" class="BT-74 boxdaten wert"></div>
                                           </div>
@@ -1500,22 +1500,22 @@ function downloadData(element_id, mimetype, filename) {
                               <div class="boxcell boxZweispaltig">
                                  <div class="boxtabelle borderSpacing" role="list">
                                     <div class="boxzeile" role="listitem">
-                                       <div class="boxdaten legende">Projektnummer:
+                                       <div class="boxdaten legende">Project reference:
                                           </div>
                                        <div data-title="BT-11" class="BT-11 boxdaten wert"></div>
                                     </div>
                                     <div class="boxzeile" role="listitem">
-                                       <div class="boxdaten legende">Vertragsnummer:
+                                       <div class="boxdaten legende">Contract reference:
                                           </div>
                                        <div data-title="BT-12" class="BT-12 boxdaten wert">Contract ABC</div>
                                     </div>
                                     <div class="boxzeile" role="listitem">
-                                       <div class="boxdaten legende">Bestellnummer:
+                                       <div class="boxdaten legende">Purchase order reference:
                                           </div>
                                        <div data-title="BT-13" class="BT-13 boxdaten wert">PO-54321</div>
                                     </div>
                                     <div class="boxzeile" role="listitem">
-                                       <div class="boxdaten legende">Auftragsnummer:
+                                       <div class="boxdaten legende">Sales order reference:
                                           </div>
                                        <div data-title="BT-14" class="BT-14 boxdaten wert">Order #456789</div>
                                     </div>
@@ -1529,62 +1529,62 @@ function downloadData(element_id, mimetype, filename) {
                   <div class="boxtabelle boxabstandtop boxtabelleZweispaltig">
                      <div class="boxzeile">
                         <div id="uebersichtRechnungsuebersicht" class="box">
-                           <div data-title="BG-22" class="BG-22 boxtitel" role="heading" aria-level="2">Gesamtbeträge der Rechnung</div>
+                           <div data-title="BG-22" class="BG-22 boxtitel" role="heading" aria-level="2">Invoice totals</div>
                            <div class="boxtabelle boxinhalt" role="table">
                               <div class="rechnungsZeile" role="row">
-                                 <div class="boxdaten rechnungSp1" role="rowheader">Summe aller Positionen</div>
-                                 <div class="boxdaten rechnungSp2 color2" role="cell">netto</div>
-                                 <div data-title="BT-106" class="BT-106 boxdaten rechnungSp3" role="cell">5.952,00</div>
+                                 <div class="boxdaten rechnungSp1" role="rowheader">Total invoice line net amount</div>
+                                 <div class="boxdaten rechnungSp2 color2" role="cell">net</div>
+                                 <div data-title="BT-106" class="BT-106 boxdaten rechnungSp3" role="cell">5,952.00</div>
                               </div>
                               <div class="rechnungsZeile" role="row">
-                                 <div class="boxdaten rechnungSp1" role="rowheader">Summe Nachlässe</div>
-                                 <div class="boxdaten rechnungSp2 color2" role="cell">netto</div>
+                                 <div class="boxdaten rechnungSp1" role="rowheader">Total allowances</div>
+                                 <div class="boxdaten rechnungSp2 color2" role="cell">net</div>
                                  <div data-title="BT-107" class="BT-107 boxdaten rechnungSp3" role="cell"></div>
                               </div>
                               <div class="rechnungsZeile" role="row">
-                                 <div class="boxdaten rechnungSp1 paddingBottom line1Bottom" role="rowheader">Summe Zuschläge</div>
-                                 <div class="boxdaten rechnungSp2 paddingBottom line1Bottom color2" role="cell">netto</div>
+                                 <div class="boxdaten rechnungSp1 paddingBottom line1Bottom" role="rowheader">Total charges</div>
+                                 <div class="boxdaten rechnungSp2 paddingBottom line1Bottom color2" role="cell">net</div>
                                  <div data-title="BT-108" class="BT-108 boxdaten rechnungSp3 paddingBottom line1Bottom" role="cell"></div>
                               </div>
                               <div class="rechnungsZeile" role="row">
-                                 <div class="boxdaten rechnungSp1 paddingTop" role="rowheader">Gesamtsumme</div>
-                                 <div class="boxdaten rechnungSp2 paddingTop color2" role="cell">netto</div>
-                                 <div data-title="BT-109" class="BT-109 boxdaten rechnungSp3 paddingTop" role="cell">5.952,00</div>
+                                 <div class="boxdaten rechnungSp1 paddingTop" role="rowheader">Total amount</div>
+                                 <div class="boxdaten rechnungSp2 paddingTop color2" role="cell">net</div>
+                                 <div data-title="BT-109" class="BT-109 boxdaten rechnungSp3 paddingTop" role="cell">5,952.00</div>
                               </div>
                               <div class="rechnungsZeile" role="row">
-                                 <div class="boxdaten rechnungSp1" role="rowheader">Summe Umsatzsteuer</div>
+                                 <div class="boxdaten rechnungSp1" role="rowheader">Total VAT</div>
                                  <div class="boxdaten rechnungSp2 color2" role="cell"></div>
-                                 <div data-title="BT-110" class="BT-110 boxdaten rechnungSp3" role="cell">0,00</div>
+                                 <div data-title="BT-110" class="BT-110 boxdaten rechnungSp3" role="cell">0.00</div>
                               </div>
                               <div class="rechnungsZeile" role="row">
-                                 <div class="boxdaten rechnungSp1 paddingBottom line1Bottom" role="rowheader">Summe Umsatzsteuer in Abrechnungswährung</div>
+                                 <div class="boxdaten rechnungSp1 paddingBottom line1Bottom" role="rowheader">Total VAT in accounting currency</div>
                                  <div class="boxdaten rechnungSp2 paddingBottom line1Bottom color2" role="cell"></div>
                                  <div data-title="BT-111" class="BT-111 boxdaten rechnungSp3 paddingBottom line1Bottom" role="cell"></div>
                               </div>
                               <div class="rechnungsZeile" role="row">
-                                 <div class="boxdaten rechnungSp1 paddingTop" role="rowheader">Gesamtsumme</div>
-                                 <div class="boxdaten rechnungSp2 paddingTop color2" role="cell">brutto</div>
-                                 <div data-title="BT-112" class="BT-112 boxdaten rechnungSp3 paddingTop" role="cell">5.952,00</div>
+                                 <div class="boxdaten rechnungSp1 paddingTop" role="rowheader">Total</div>
+                                 <div class="boxdaten rechnungSp2 paddingTop color2" role="cell">gross</div>
+                                 <div data-title="BT-112" class="BT-112 boxdaten rechnungSp3 paddingTop" role="cell">5,952.00</div>
                               </div>
                               <div class="rechnungsZeile" role="row">
-                                 <div class="boxdaten rechnungSp1" role="rowheader">Gezahlter Betrag</div>
-                                 <div class="boxdaten rechnungSp2 color2" role="cell">brutto</div>
+                                 <div class="boxdaten rechnungSp1" role="rowheader">Already paid</div>
+                                 <div class="boxdaten rechnungSp2 color2" role="cell">gross</div>
                                  <div data-title="BT-113" class="BT-113 boxdaten rechnungSp3" role="cell"></div>
                               </div>
                               <div class="rechnungsZeile" role="row">
-                                 <div class="boxdaten rechnungSp1 paddingBottom line1Bottom" role="rowheader">Rundungsbetrag</div>
-                                 <div class="boxdaten rechnungSp2 paddingBottom line1Bottom color2" role="cell">brutto</div>
+                                 <div class="boxdaten rechnungSp1 paddingBottom line1Bottom" role="rowheader">Rounding amount</div>
+                                 <div class="boxdaten rechnungSp2 paddingBottom line1Bottom color2" role="cell">gross</div>
                                  <div data-title="BT-114" class="BT-114 boxdaten rechnungSp3 paddingBottom line1Bottom" role="cell"></div>
                               </div>
                               <div class="rechnungsZeile" role="row">
-                                 <div class="boxdaten rechnungSp1 paddingTop paddingBottom line2Bottom" role="rowheader">Summe Fremdforderungen</div>
+                                 <div class="boxdaten rechnungSp1 paddingTop paddingBottom line2Bottom" role="rowheader">Third party payment total</div>
                                  <div class="boxdaten rechnungSp2 paddingTop paddingBottom line2Bottom" role="cell"></div>
-                                 <div class="boxdaten rechnungSp3 paddingTop paddingBottom line2Bottom" role="cell">0,00</div>
+                                 <div class="boxdaten rechnungSp3 paddingTop paddingBottom line2Bottom" role="cell">0.00</div>
                               </div>
                               <div class="rechnungsZeile" role="row">
-                                 <div class="boxdaten rechnungSp1 paddingTop bold" role="rowheader">Fälliger Betrag</div>
-                                 <div class="boxdaten rechnungSp2 paddingTop color2" role="cell">brutto</div>
-                                 <div data-title="BT-115" class="BT-115 boxdaten rechnungSp3 paddingTop bold" role="cell">5.952,00</div>
+                                 <div class="boxdaten rechnungSp1 paddingTop bold" role="rowheader">Amount due</div>
+                                 <div class="boxdaten rechnungSp2 paddingTop color2" role="cell">gross</div>
+                                 <div data-title="BT-115" class="BT-115 boxdaten rechnungSp3 paddingTop bold" role="cell">5,952.00</div>
                               </div>
                            </div>
                         </div>
@@ -1593,36 +1593,36 @@ function downloadData(element_id, mimetype, filename) {
                   <div class="boxtabelle boxabstandtop boxtabelleZweispaltig">
                      <div class="boxzeile">
                         <div class="uebersichtUmsatzsteuer box">
-                           <div data-title="BG-23" class="BG-23 boxtitel" role="heading" aria-level="2">Aufschlüsselung der Umsatzsteuer auf Ebene der Rechnung</div>
+                           <div data-title="BG-23" class="BG-23 boxtitel" role="heading" aria-level="2">Sales tax breakdown at invoice level</div>
                            <div class="boxtabelle boxinhalt" role="table">
                               <div class="rechnungsZeile" role="row">
-                                 <div class="boxdaten rechnungSp1 bold" role="rowheader">Umsatzsteuerkategorie:
+                                 <div class="boxdaten rechnungSp1 bold" role="rowheader">VAT category:
                                     <span class="BT-118" data-title="BT-118">K</span></div>
                                  <div class="boxdaten rechnungSp2" role="cell"></div>
                                  <div class="boxdaten rechnungSp3" role="cell"></div>
                               </div>
                               <div class="rechnungsZeile" role="row">
-                                 <div class="boxdaten rechnungSp1" role="rowheader">Gesamtsumme</div>
-                                 <div class="boxdaten rechnungSp2 color2" role="cell">netto</div>
-                                 <div data-title="BT-116" class="BT-116 boxdaten rechnungSp3" role="cell">5.952,00</div>
+                                 <div class="boxdaten rechnungSp1" role="rowheader">Total</div>
+                                 <div class="boxdaten rechnungSp2 color2" role="cell">net</div>
+                                 <div data-title="BT-116" class="BT-116 boxdaten rechnungSp3" role="cell">5,952.00</div>
                               </div>
                               <div class="rechnungsZeile" role="row">
-                                 <div class="boxdaten rechnungSp1 line1Bottom" role="rowheader">Umsatzsteuersatz</div>
+                                 <div class="boxdaten rechnungSp1 line1Bottom" role="rowheader">VAT rate</div>
                                  <div class="boxdaten rechnungSp2 color2 line1Bottom" role="cell"></div>
                                  <div data-title="BT-119" class="BT-119 boxdaten rechnungSp3 line1Bottom" role="cell">0 %
                                     </div>
                               </div>
                               <div class="rechnungsZeile" role="row">
-                                 <div class="boxdaten rechnungSp1" role="rowheader">Umsatzsteuerbetrag</div>
+                                 <div class="boxdaten rechnungSp1" role="rowheader">VAT amount</div>
                                  <div class="boxdaten rechnungSp2 color2" role="cell"></div>
-                                 <div data-title="BT-117" class="BT-117 boxdaten rechnungSp3 bold" role="cell">0,00</div>
+                                 <div data-title="BT-117" class="BT-117 boxdaten rechnungSp3 bold" role="cell">0.00</div>
                               </div>
                            </div>
                            <div class="grund" role="list">
-                              <div role="listitem">Befreiungsgrund:
+                              <div role="listitem">Exemption reason:
                                  <span data-title="BT-120" class="BT-120 bold">Intra-community supply of services under reverse charge following Art. 196 of Directive
                                     2006/112/EC</span></div>
-                              <div role="listitem">Kennung für den Befreiungsgrund:
+                              <div role="listitem">Exemption reason code:
                                  <span data-title="BT-121" class="BT-121 bold">VATEX-EU-IC</span></div>
                            </div>
                         </div>
@@ -1633,45 +1633,45 @@ function downloadData(element_id, mimetype, filename) {
                   <div class="boxtabelle boxabstandtop boxtabelleZweispaltig first">
                      <div class="boxzeile">
                         <div id="uebersichtZahlungsinformationen" class="box subBox">
-                           <div data-title="" class="boxtitel" role="heading" aria-level="2">Zahlungsdaten</div>
+                           <div data-title="" class="boxtitel" role="heading" aria-level="2">Payment data</div>
                            <div class="boxtabelle boxinhalt borderSpacing" role="list">
                               <div class="boxzeile" role="listitem">
-                                 <div class="boxdaten legende">Skonto; weitere Zahlungsbedingungen:
+                                 <div class="boxdaten legende">Payment terms:
                                     </div>
                                  <div data-title="BT-20" class="BT-20 boxdaten wert">Please remit your payment of 5.952,00 kr before 12.03.2026.</div>
                               </div>
                               <div class="boxzeile" role="listitem">
-                                 <div class="boxdaten legende">Fälligkeitsdatum:
+                                 <div class="boxdaten legende">Due date:
                                     </div>
-                                 <div data-title="BT-9" class="BT-9 boxdaten wert">12.3.2026</div>
+                                 <div data-title="BT-9" class="BT-9 boxdaten wert">2026-03-12</div>
                               </div>
                               <div class="boxzeile" role="listitem">
-                                 <div class="boxdaten legende">Code für das Zahlungsmittel:
+                                 <div class="boxdaten legende">Payment means type code:
                                     </div>
                                  <div data-title="BT-81" class="BT-81 boxdaten wert">58</div>
                               </div>
                               <div class="boxzeile" role="listitem">
-                                 <div class="boxdaten legende">Zahlungsmittel:
+                                 <div class="boxdaten legende">Payment means:
                                     </div>
                                  <div data-title="BT-82" class="BT-82 boxdaten wert">SEPA credit transfer</div>
                               </div>
                               <div class="boxzeile" role="listitem">
-                                 <div class="boxdaten legende">Verwendungszweck:
+                                 <div class="boxdaten legende">Remittance information:
                                     </div>
                                  <div data-title="BT-83" class="BT-83 boxdaten wert"></div>
                               </div>
                            </div>
                         </div>
                         <div id="uebersichtCard" class="box subBox">
-                           <div data-title="BG-18" class="BG-18 boxtitel boxtitelSub" role="heading" aria-level="3">Karteninformation</div>
+                           <div data-title="BG-18" class="BG-18 boxtitel boxtitelSub" role="heading" aria-level="3">Card information</div>
                            <div class="boxtabelle boxinhalt borderSpacing" role="list">
                               <div class="boxzeile" role="listitem">
-                                 <div class="boxdaten legende">Kartennummer:
+                                 <div class="boxdaten legende">Card number:
                                     </div>
                                  <div data-title="BT-87" class="BT-87 boxdaten wert"></div>
                               </div>
                               <div class="boxzeile" role="listitem">
-                                 <div class="boxdaten legende">Karteninhaber:
+                                 <div class="boxdaten legende">Card holder:
                                     </div>
                                  <div data-title="BT-88" class="BT-88 boxdaten wert"></div>
                               </div>
@@ -1682,35 +1682,35 @@ function downloadData(element_id, mimetype, filename) {
                   <div class="boxtabelle">
                      <div class="boxzeile">
                         <div id="uebersichtLastschrift" class="box subBox">
-                           <div data-title="BG-19" class="BG-19 boxtitel boxtitelSub" role="heading" aria-level="3">Lastschrift</div>
+                           <div data-title="BG-19" class="BG-19 boxtitel boxtitelSub" role="heading" aria-level="3">Direct debit</div>
                            <div class="boxtabelle boxinhalt borderSpacing" role="list">
                               <div class="boxzeile" role="listitem">
-                                 <div class="boxdaten legende">Mandatsreferenznr.:
+                                 <div class="boxdaten legende">Mandate reference no.:
                                     </div>
                                  <div data-title="BT-89" class="BT-89 boxdaten wert"></div>
                               </div>
                               <div class="boxzeile" role="listitem">
-                                 <div class="boxdaten legende">IBAN:
+                                 <div class="boxdaten legende">Debited account identifier:
                                     </div>
                                  <div data-title="BT-91" class="BT-91 boxdaten wert"></div>
                               </div>
                               <div class="boxzeile" role="listitem">
-                                 <div class="boxdaten legende">Gläubiger-ID:
+                                 <div class="boxdaten legende">Creditor ID:
                                     </div>
                                  <div data-title="BT-90" class="BT-90 boxdaten wert"></div>
                               </div>
                            </div>
                         </div>
                         <div id="uebersichtUeberweisung" class="box subBox">
-                           <div data-title="BG-17" class="BG-17 boxtitel boxtitelSub" role="heading" aria-level="3">Überweisung</div>
+                           <div data-title="BG-17" class="BG-17 boxtitel boxtitelSub" role="heading" aria-level="3">Transfer</div>
                            <div class="boxtabelle boxinhalt borderSpacing" role="list">
                               <div class="boxzeile" role="listitem">
-                                 <div class="boxdaten legende">Kontoinhaber:
+                                 <div class="boxdaten legende">Account holder:
                                     </div>
                                  <div data-title="BT-85" class="BT-85 boxdaten wert">Norge Salg AS</div>
                               </div>
                               <div class="boxzeile" role="listitem">
-                                 <div class="boxdaten legende">IBAN:
+                                 <div class="boxdaten legende">Account identifier:
                                     </div>
                                  <div data-title="BT-84" class="BT-84 boxdaten wert">NO50 1503 2080 119</div>
                               </div>
@@ -1726,15 +1726,15 @@ function downloadData(element_id, mimetype, filename) {
                   <div class="boxtabelle boxabstandtop">
                      <div class="boxzeile">
                         <div class="uebersichtBemerkungen box">
-                           <div data-title="BG-1" class="BG-1 boxtitel" role="heading" aria-level="2">Bemerkungen zur Rechnung</div>
+                           <div data-title="BG-1" class="BG-1 boxtitel" role="heading" aria-level="2">Notes on the invoice</div>
                            <div class="boxtabelle boxinhalt borderSpacing" role="list">
                               <div class="boxzeile" role="listitem">
-                                 <div class="boxdaten legende">Betreff:
+                                 <div class="boxdaten legende">Subject code:
                                     </div>
                                  <div data-title="BT-21" class="BT-21 boxdaten wert"></div>
                               </div>
                               <div class="boxzeile" role="listitem">
-                                 <div class="boxdaten legende">Bemerkung:
+                                 <div class="boxdaten legende">Note:
                                     </div>
                                  <div data-title="BT-22" class="BT-22 boxdaten wert">FICTITIOUS INVOICE - DO NOT PAY - DO NOT USE IN TAX RETURNS!
                                     This is a generic sample invoice to cover a "regular" invoicing use case in ViDA.
@@ -1746,46 +1746,46 @@ function downloadData(element_id, mimetype, filename) {
                   </div>
                </div>
                <div id="details" class="divHide" role="tabpanel" aria-labelledby="menueDetails" tabindex="0">
-                  <div class="haftungausschluss">Wir übernehmen keine Haftung für die Richtigkeit der Daten.</div>
+                  <div class="haftungausschluss">We assume no liability for the accuracy of the data.</div>
                   <div class="boxtabelle boxabstandtop boxtabelleZweispaltig first">
                      <div class="boxzeile">
                         <div class="box subBox">
-                           <div data-title="BT-126" class="BT-126 boxtitel" role="heading" aria-level="2">Position: 1</div>
+                           <div data-title="BT-126" class="BT-126 boxtitel" role="heading" aria-level="2">Identifier: 1</div>
                            <div class="boxtabelle boxinhalt borderSpacing" role="list">
                               <div class="boxzeile" role="listitem">
-                                 <div class="boxdaten legende">Freitext:
+                                 <div class="boxdaten legende">Free text:
                                     </div>
                                  <div data-title="BT-127" class="BT-127 boxdaten wert"></div>
                               </div>
                               <div class="boxzeile" role="listitem">
-                                 <div class="boxdaten legende">Objektkennung:
+                                 <div class="boxdaten legende">Object identifier:
                                     </div>
                                  <div data-title="BT-128" class="BT-128 boxdaten wert"></div>
                               </div>
                               <div class="boxzeile" role="listitem">
-                                 <div class="boxdaten legende">Schema der Objektkennung:
+                                 <div class="boxdaten legende">Object identifier scheme:
                                     </div>
                                  <div data-title="BT-128-scheme-id" class="BT-128-scheme-id boxdaten wert"></div>
                               </div>
                               <div class="boxzeile" role="listitem">
-                                 <div class="boxdaten legende">Nummer der Auftragsposition:
+                                 <div class="boxdaten legende">Order item number:
                                     </div>
                                  <div data-title="BT-132" class="BT-132 boxdaten wert"></div>
                               </div>
                               <div class="boxzeile" role="listitem">
-                                 <div class="boxdaten legende">Kontierungshinweis:
+                                 <div class="boxdaten legende">Buyer accounting reference:
                                     </div>
                                  <div data-title="BT-133" class="BT-133 boxdaten wert"></div>
                               </div>
-                              <div role="listitem"><strong class="BG-26" data-title="BG-26">Abrechnungszeitraum:
+                              <div role="listitem"><strong class="BG-26" data-title="BG-26">Billing period:
                                     </strong><div class="boxtabelle borderSpacing" role="list">
                                     <div class="boxzeile" role="listitem">
-                                       <div class="boxdaten legende">Von:
+                                       <div class="boxdaten legende">From:
                                           </div>
                                        <div data-title="BT-134" class="BT-134 boxdaten wert"></div>
                                     </div>
                                     <div class="boxzeile" role="listitem">
-                                       <div class="boxdaten legende">Bis:
+                                       <div class="boxdaten legende">To:
                                           </div>
                                        <div data-title="BT-135" class="BT-135 boxdaten wert"></div>
                                     </div>
@@ -1794,55 +1794,55 @@ function downloadData(element_id, mimetype, filename) {
                            </div>
                         </div>
                         <div class="box subBox">
-                           <div data-title="BG-29" class="BG-29 boxtitel boxtitelSub" role="heading" aria-level="3">Preiseinzelheiten</div>
+                           <div data-title="BG-29" class="BG-29 boxtitel boxtitelSub" role="heading" aria-level="3">Price details</div>
                            <div class="boxtabelle boxinhalt" role="table">
                               <div class="rechnungsZeile" role="row">
-                                 <div class="boxdaten detailSp1 color2" role="rowheader">Menge</div>
-                                 <div data-title="BT-129" class="BT-129 boxdaten detailSp2" role="cell">16,00</div>
+                                 <div class="boxdaten detailSp1 color2" role="rowheader">Quantity</div>
+                                 <div data-title="BT-129" class="BT-129 boxdaten detailSp2" role="cell">16.00</div>
                               </div>
                               <div class="rechnungsZeile" role="row">
-                                 <div class="boxdaten detailSp1 color2" role="rowheader">Einheit</div>
+                                 <div class="boxdaten detailSp1 color2" role="rowheader">Unit</div>
                                  <div data-title="BT-130" class="BT-130 boxdaten detailSp2" role="cell">HUR</div>
                               </div>
                               <div class="rechnungsZeile" role="row">
-                                 <div class="boxdaten detailSp1 line1Bottom color2" role="rowheader">Preis pro Einheit (netto)</div>
-                                 <div data-title="BT-146" class="BT-146 boxdaten detailSp2 line1Bottom" role="cell">124,00</div>
+                                 <div class="boxdaten detailSp1 line1Bottom color2" role="rowheader">Price per unit (net)</div>
+                                 <div data-title="BT-146" class="BT-146 boxdaten detailSp2 line1Bottom" role="cell">124.00</div>
                               </div>
                               <div class="rechnungsZeile" role="row">
-                                 <div class="boxdaten detailSp1 color2" role="rowheader">Gesamtpreis (netto)</div>
-                                 <div data-title="BT-131" class="BT-131 boxdaten detailSp2 bold" role="cell">1.984,00</div>
+                                 <div class="boxdaten detailSp1 color2" role="rowheader">Total price (net)</div>
+                                 <div data-title="BT-131" class="BT-131 boxdaten detailSp2 bold" role="cell">1,984.00</div>
                               </div>
                            </div>
                            <div class="boxtabelle boxinhalt noPaddingTop borderSpacing" role="list">
                               <div class="boxzeile" role="listitem">
-                                 <div class="boxdaten legende">Rabatt (netto):
+                                 <div class="boxdaten legende">Discount (net):
                                     </div>
                                  <div data-title="BT-147" class="BT-147 boxdaten wert"></div>
                               </div>
                               <div class="boxzeile" role="listitem">
-                                 <div class="boxdaten legende">Listenpreis (netto):
+                                 <div class="boxdaten legende">List price (net):
                                     </div>
                                  <div data-title="BT-148" class="BT-148 boxdaten wert"></div>
                               </div>
                               <div class="boxzeile" role="listitem">
-                                 <div class="boxdaten legende">Basismenge zum Artikelpreis:
+                                 <div class="boxdaten legende">Item price base quantity:
                                     </div>
                                  <div data-title="BT-149" class="BT-149 boxdaten wert"></div>
                               </div>
                               <div class="boxzeile" role="listitem">
-                                 <div class="boxdaten legende">Code der Maßeinheit:
+                                 <div class="boxdaten legende">Unit code:
                                     </div>
                                  <div data-title="BT-150" class="BT-150 boxdaten wert"></div>
                               </div>
                               <div class="boxzeile" role="listitem">
-                                 <div class="boxdaten legende">Umsatzsteuer:
+                                 <div class="boxdaten legende">VAT category:
                                     </div>
                                  <div data-title="BT-151" class="BT-151 boxdaten wert">K</div>
                               </div>
                               <div class="boxzeile" role="listitem">
-                                 <div class="boxdaten legende">Umsatzsteuersatz:
+                                 <div class="boxdaten legende">VAT rate:
                                     </div>
-                                 <div data-title="BT-152" class="BT-152 boxdaten wert">0,00 %
+                                 <div data-title="BT-152" class="BT-152 boxdaten wert">0.00 %
                                     </div>
                               </div>
                            </div>
@@ -1852,43 +1852,43 @@ function downloadData(element_id, mimetype, filename) {
                   <div class="boxtabelle">
                      <div class="boxzeile">
                         <div class="box subBox">
-                           <div data-title="BG-27" class="BG-27 boxtitel boxtitelSub" role="heading" aria-level="3">Nachlässe auf Ebene der Rechnungsposition</div>
+                           <div data-title="BG-27" class="BG-27 boxtitel boxtitelSub" role="heading" aria-level="3">Allowances on invoice item level</div>
                         </div>
                         <div class="box subBox">
-                           <div data-title="BG-28" class="BG-28 boxtitel boxtitelSub" role="heading" aria-level="3">Zuschläge auf Ebene der Rechnungsposition</div>
+                           <div data-title="BG-28" class="BG-28 boxtitel boxtitelSub" role="heading" aria-level="3">Charges at invoice item level</div>
                         </div>
                      </div>
                   </div>
                   <div class="boxtabelle">
                      <div class="boxzeile">
                         <div class="box subBox">
-                           <div data-title="BG-31" class="BG-31 boxtitel boxtitelSub" role="heading" aria-level="3">Artikelinformationen</div>
+                           <div data-title="BG-31" class="BG-31 boxtitel boxtitelSub" role="heading" aria-level="3">Item information</div>
                            <div class="boxtabelle boxinhalt ">
                               <div class="boxzeile">
                                  <div class="boxcell boxZweispaltig">
                                     <div class="boxtabelle borderSpacing" role="list">
                                        <div class="boxzeile" role="listitem">
-                                          <div class="boxdaten legende">Bezeichnung:
+                                          <div class="boxdaten legende">Name:
                                              </div>
                                           <div data-title="BT-153" class="BT-153 boxdaten wert bold">Super Service (K-IC using reverse charge)</div>
                                        </div>
                                        <div class="boxzeile" role="listitem">
-                                          <div class="boxdaten legende">Beschreibung:
+                                          <div class="boxdaten legende">Description:
                                              </div>
                                           <div data-title="BT-154" class="BT-154 boxdaten wert">This Super Service is invoiced with a 0% VAT rate and "K" tax code to indicate Intra-community
                                              delivery using the reverse charge.</div>
                                        </div>
                                        <div class="boxzeile" role="listitem">
-                                          <div class="boxdaten legende">Artikelnummer:
+                                          <div class="boxdaten legende">Item identifier:
                                              </div>
                                           <div data-title="BT-155" class="BT-155 boxdaten wert">SS-RC-100123</div>
                                        </div>
                                        <div class="boxzeile" role="listitem">
-                                          <div class="boxdaten legende">Artikelkennung des Käufers:
+                                          <div class="boxdaten legende">Buyer's item identifier:
                                              </div>
                                           <div data-title="BT-156" class="BT-156 boxdaten wert">Buyer SKU not known</div>
                                        </div>
-                                       <div class="boxtabelle borderSpacing" role="listitem"><strong class="BG-32" data-title="BG-32">Eigenschaften des Artikels:
+                                       <div class="boxtabelle borderSpacing" role="listitem"><strong class="BG-32" data-title="BG-32">Properties of the item:
                                              </strong></div>
                                     </div>
                                  </div>
@@ -1896,17 +1896,17 @@ function downloadData(element_id, mimetype, filename) {
                                  <div class="boxcell boxZweispaltig">
                                     <div class="boxtabelle borderSpacing" role="list">
                                        <div class="boxzeile">
-                                          <div class="boxdaten legende">Artikelkennung:
+                                          <div class="boxdaten legende">Item standard identifier:
                                              </div>
                                           <div data-title="BT-157" class="BT-157 boxdaten wert"></div>
                                        </div>
                                        <div class="boxzeile" role="listitem">
-                                          <div class="boxdaten legende">Schema der Artikelkennung:
+                                          <div class="boxdaten legende">Item standard identifier scheme:
                                              </div>
                                           <div data-title="BT-157-scheme-id" class="BT-157-scheme-id boxdaten wert"></div>
                                        </div>
                                        <div class="boxzeile" role="listitem">
-                                          <div class="boxdaten legende">Code des Herkunftslandes:
+                                          <div class="boxdaten legende">Country of origin:
                                              </div>
                                           <div data-title="BT-159" class="BT-159 boxdaten wert"></div>
                                        </div>
@@ -1920,42 +1920,42 @@ function downloadData(element_id, mimetype, filename) {
                   <div class="boxtabelle boxabstandtop boxtabelleZweispaltig first">
                      <div class="boxzeile">
                         <div class="box subBox">
-                           <div data-title="BT-126" class="BT-126 boxtitel" role="heading" aria-level="2">Position: 2</div>
+                           <div data-title="BT-126" class="BT-126 boxtitel" role="heading" aria-level="2">Identifier: 2</div>
                            <div class="boxtabelle boxinhalt borderSpacing" role="list">
                               <div class="boxzeile" role="listitem">
-                                 <div class="boxdaten legende">Freitext:
+                                 <div class="boxdaten legende">Free text:
                                     </div>
                                  <div data-title="BT-127" class="BT-127 boxdaten wert"></div>
                               </div>
                               <div class="boxzeile" role="listitem">
-                                 <div class="boxdaten legende">Objektkennung:
+                                 <div class="boxdaten legende">Object identifier:
                                     </div>
                                  <div data-title="BT-128" class="BT-128 boxdaten wert"></div>
                               </div>
                               <div class="boxzeile" role="listitem">
-                                 <div class="boxdaten legende">Schema der Objektkennung:
+                                 <div class="boxdaten legende">Object identifier scheme:
                                     </div>
                                  <div data-title="BT-128-scheme-id" class="BT-128-scheme-id boxdaten wert"></div>
                               </div>
                               <div class="boxzeile" role="listitem">
-                                 <div class="boxdaten legende">Nummer der Auftragsposition:
+                                 <div class="boxdaten legende">Order item number:
                                     </div>
                                  <div data-title="BT-132" class="BT-132 boxdaten wert"></div>
                               </div>
                               <div class="boxzeile" role="listitem">
-                                 <div class="boxdaten legende">Kontierungshinweis:
+                                 <div class="boxdaten legende">Buyer accounting reference:
                                     </div>
                                  <div data-title="BT-133" class="BT-133 boxdaten wert"></div>
                               </div>
-                              <div role="listitem"><strong class="BG-26" data-title="BG-26">Abrechnungszeitraum:
+                              <div role="listitem"><strong class="BG-26" data-title="BG-26">Billing period:
                                     </strong><div class="boxtabelle borderSpacing" role="list">
                                     <div class="boxzeile" role="listitem">
-                                       <div class="boxdaten legende">Von:
+                                       <div class="boxdaten legende">From:
                                           </div>
                                        <div data-title="BT-134" class="BT-134 boxdaten wert"></div>
                                     </div>
                                     <div class="boxzeile" role="listitem">
-                                       <div class="boxdaten legende">Bis:
+                                       <div class="boxdaten legende">To:
                                           </div>
                                        <div data-title="BT-135" class="BT-135 boxdaten wert"></div>
                                     </div>
@@ -1964,55 +1964,55 @@ function downloadData(element_id, mimetype, filename) {
                            </div>
                         </div>
                         <div class="box subBox">
-                           <div data-title="BG-29" class="BG-29 boxtitel boxtitelSub" role="heading" aria-level="3">Preiseinzelheiten</div>
+                           <div data-title="BG-29" class="BG-29 boxtitel boxtitelSub" role="heading" aria-level="3">Price details</div>
                            <div class="boxtabelle boxinhalt" role="table">
                               <div class="rechnungsZeile" role="row">
-                                 <div class="boxdaten detailSp1 color2" role="rowheader">Menge</div>
-                                 <div data-title="BT-129" class="BT-129 boxdaten detailSp2" role="cell">32,00</div>
+                                 <div class="boxdaten detailSp1 color2" role="rowheader">Quantity</div>
+                                 <div data-title="BT-129" class="BT-129 boxdaten detailSp2" role="cell">32.00</div>
                               </div>
                               <div class="rechnungsZeile" role="row">
-                                 <div class="boxdaten detailSp1 color2" role="rowheader">Einheit</div>
+                                 <div class="boxdaten detailSp1 color2" role="rowheader">Unit</div>
                                  <div data-title="BT-130" class="BT-130 boxdaten detailSp2" role="cell">HUR</div>
                               </div>
                               <div class="rechnungsZeile" role="row">
-                                 <div class="boxdaten detailSp1 line1Bottom color2" role="rowheader">Preis pro Einheit (netto)</div>
-                                 <div data-title="BT-146" class="BT-146 boxdaten detailSp2 line1Bottom" role="cell">124,00</div>
+                                 <div class="boxdaten detailSp1 line1Bottom color2" role="rowheader">Price per unit (net)</div>
+                                 <div data-title="BT-146" class="BT-146 boxdaten detailSp2 line1Bottom" role="cell">124.00</div>
                               </div>
                               <div class="rechnungsZeile" role="row">
-                                 <div class="boxdaten detailSp1 color2" role="rowheader">Gesamtpreis (netto)</div>
-                                 <div data-title="BT-131" class="BT-131 boxdaten detailSp2 bold" role="cell">3.968,00</div>
+                                 <div class="boxdaten detailSp1 color2" role="rowheader">Total price (net)</div>
+                                 <div data-title="BT-131" class="BT-131 boxdaten detailSp2 bold" role="cell">3,968.00</div>
                               </div>
                            </div>
                            <div class="boxtabelle boxinhalt noPaddingTop borderSpacing" role="list">
                               <div class="boxzeile" role="listitem">
-                                 <div class="boxdaten legende">Rabatt (netto):
+                                 <div class="boxdaten legende">Discount (net):
                                     </div>
                                  <div data-title="BT-147" class="BT-147 boxdaten wert"></div>
                               </div>
                               <div class="boxzeile" role="listitem">
-                                 <div class="boxdaten legende">Listenpreis (netto):
+                                 <div class="boxdaten legende">List price (net):
                                     </div>
                                  <div data-title="BT-148" class="BT-148 boxdaten wert"></div>
                               </div>
                               <div class="boxzeile" role="listitem">
-                                 <div class="boxdaten legende">Basismenge zum Artikelpreis:
+                                 <div class="boxdaten legende">Item price base quantity:
                                     </div>
                                  <div data-title="BT-149" class="BT-149 boxdaten wert"></div>
                               </div>
                               <div class="boxzeile" role="listitem">
-                                 <div class="boxdaten legende">Code der Maßeinheit:
+                                 <div class="boxdaten legende">Unit code:
                                     </div>
                                  <div data-title="BT-150" class="BT-150 boxdaten wert"></div>
                               </div>
                               <div class="boxzeile" role="listitem">
-                                 <div class="boxdaten legende">Umsatzsteuer:
+                                 <div class="boxdaten legende">VAT category:
                                     </div>
                                  <div data-title="BT-151" class="BT-151 boxdaten wert">K</div>
                               </div>
                               <div class="boxzeile" role="listitem">
-                                 <div class="boxdaten legende">Umsatzsteuersatz:
+                                 <div class="boxdaten legende">VAT rate:
                                     </div>
-                                 <div data-title="BT-152" class="BT-152 boxdaten wert">0,00 %
+                                 <div data-title="BT-152" class="BT-152 boxdaten wert">0.00 %
                                     </div>
                               </div>
                            </div>
@@ -2022,42 +2022,42 @@ function downloadData(element_id, mimetype, filename) {
                   <div class="boxtabelle">
                      <div class="boxzeile">
                         <div class="box subBox">
-                           <div data-title="BG-27" class="BG-27 boxtitel boxtitelSub" role="heading" aria-level="3">Nachlässe auf Ebene der Rechnungsposition</div>
+                           <div data-title="BG-27" class="BG-27 boxtitel boxtitelSub" role="heading" aria-level="3">Allowances on invoice item level</div>
                         </div>
                         <div class="box subBox">
-                           <div data-title="BG-28" class="BG-28 boxtitel boxtitelSub" role="heading" aria-level="3">Zuschläge auf Ebene der Rechnungsposition</div>
+                           <div data-title="BG-28" class="BG-28 boxtitel boxtitelSub" role="heading" aria-level="3">Charges at invoice item level</div>
                         </div>
                      </div>
                   </div>
                   <div class="boxtabelle">
                      <div class="boxzeile">
                         <div class="box subBox">
-                           <div data-title="BG-31" class="BG-31 boxtitel boxtitelSub" role="heading" aria-level="3">Artikelinformationen</div>
+                           <div data-title="BG-31" class="BG-31 boxtitel boxtitelSub" role="heading" aria-level="3">Item information</div>
                            <div class="boxtabelle boxinhalt ">
                               <div class="boxzeile">
                                  <div class="boxcell boxZweispaltig">
                                     <div class="boxtabelle borderSpacing" role="list">
                                        <div class="boxzeile" role="listitem">
-                                          <div class="boxdaten legende">Bezeichnung:
+                                          <div class="boxdaten legende">Name:
                                              </div>
                                           <div data-title="BT-153" class="BT-153 boxdaten wert bold">More Super Service (K-IC using reverse charge)</div>
                                        </div>
                                        <div class="boxzeile" role="listitem">
-                                          <div class="boxdaten legende">Beschreibung:
+                                          <div class="boxdaten legende">Description:
                                              </div>
                                           <div data-title="BT-154" class="BT-154 boxdaten wert">More Super Service, also invoiced with a 0% VAT rate and "K" tax code.</div>
                                        </div>
                                        <div class="boxzeile" role="listitem">
-                                          <div class="boxdaten legende">Artikelnummer:
+                                          <div class="boxdaten legende">Item identifier:
                                              </div>
                                           <div data-title="BT-155" class="BT-155 boxdaten wert">SS-RC-100321</div>
                                        </div>
                                        <div class="boxzeile" role="listitem">
-                                          <div class="boxdaten legende">Artikelkennung des Käufers:
+                                          <div class="boxdaten legende">Buyer's item identifier:
                                              </div>
                                           <div data-title="BT-156" class="BT-156 boxdaten wert">Buyer SKU also not known</div>
                                        </div>
-                                       <div class="boxtabelle borderSpacing" role="listitem"><strong class="BG-32" data-title="BG-32">Eigenschaften des Artikels:
+                                       <div class="boxtabelle borderSpacing" role="listitem"><strong class="BG-32" data-title="BG-32">Properties of the item:
                                              </strong></div>
                                     </div>
                                  </div>
@@ -2065,17 +2065,17 @@ function downloadData(element_id, mimetype, filename) {
                                  <div class="boxcell boxZweispaltig">
                                     <div class="boxtabelle borderSpacing" role="list">
                                        <div class="boxzeile">
-                                          <div class="boxdaten legende">Artikelkennung:
+                                          <div class="boxdaten legende">Item standard identifier:
                                              </div>
                                           <div data-title="BT-157" class="BT-157 boxdaten wert"></div>
                                        </div>
                                        <div class="boxzeile" role="listitem">
-                                          <div class="boxdaten legende">Schema der Artikelkennung:
+                                          <div class="boxdaten legende">Item standard identifier scheme:
                                              </div>
                                           <div data-title="BT-157-scheme-id" class="BT-157-scheme-id boxdaten wert"></div>
                                        </div>
                                        <div class="boxzeile" role="listitem">
-                                          <div class="boxdaten legende">Code des Herkunftslandes:
+                                          <div class="boxdaten legende">Country of origin:
                                              </div>
                                           <div data-title="BT-159" class="BT-159 boxdaten wert"></div>
                                        </div>
@@ -2088,59 +2088,60 @@ function downloadData(element_id, mimetype, filename) {
                   </div>
                </div>
                <div id="zusaetze" class="divHide" role="tabpanel" aria-labelledby="menueZusaetze" tabindex="0">
-                  <div class="haftungausschluss">Wir übernehmen keine Haftung für die Richtigkeit der Daten.</div>
+                  <div class="haftungausschluss">We assume no liability for the accuracy of the data.</div>
                   <div class="boxtabelle boxtabelleZweispaltig">
                      <div class="boxzeile">
                         <div id="zusaetzeVerkaeufer" class="box boxZweispaltig">
-                           <div data-title="BG-4" class="BG-4 boxtitel" role="heading" aria-level="2">Informationen zum Verkäufer</div>
+                           <div data-title="BG-4" class="BG-4 boxtitel" role="heading" aria-level="2">Information about the seller</div>
                            <div class="boxtabelle boxinhalt borderSpacing" role="list">
                               <div class="boxzeile" role="listitem">
-                                 <div class="boxdaten legende">Abweichender Handelsname:
+                                 <div class="boxdaten legende">Different trading name:
                                     </div>
                                  <div data-title="BT-28" class="BT-28 boxdaten wert">Norge Salg</div>
                               </div>
                               <div class="boxzeile" role="listitem">
-                                 <div class="boxdaten legende">Bundesland:
+                                 <div class="boxdaten legende">State:
                                     </div>
                                  <div data-title="BT-39" class="BT-39 boxdaten wert"></div>
                               </div>
                               <div class="boxzeile" role="listitem">
-                                 <div class="boxdaten legende">Elektronische Adresse:
+                                 <div class="boxdaten legende">Electronic address:
                                     </div>
                                  <div data-title="BT-34" class="BT-34 boxdaten wert">001109-vidapilot.NO123456785MVA</div>
                               </div>
                               <div class="boxzeile" role="listitem">
-                                 <div class="boxdaten legende">Schema der elektronischen Adresse:
+                                 <div class="boxdaten legende">Electronic address
+                                    scheme:
                                     </div>
                                  <div data-title="BT-34-scheme-id" class="BT-34-scheme-id boxdaten wert">9913</div>
                               </div>
                               <div class="boxzeile" role="listitem">
-                                 <div class="boxdaten legende">Register-/Registriernummer:
+                                 <div class="boxdaten legende">Legal registration identifier:
                                     </div>
                                  <div data-title="BT-30" class="BT-30 boxdaten wert"></div>
                               </div>
                               <div class="boxzeile" role="listitem">
-                                 <div class="boxdaten legende">Schema der Registernummer:
+                                 <div class="boxdaten legende">Legal registration identifier scheme:
                                     </div>
                                  <div data-title="BT-30-scheme-id" class="BT-30-scheme-id boxdaten wert"></div>
                               </div>
                               <div class="boxzeile" role="listitem">
-                                 <div class="boxdaten legende">Umsatzsteuer-ID:
+                                 <div class="boxdaten legende">VAT ID:
                                     </div>
                                  <div data-title="BT-31" class="BT-31 boxdaten wert">NO123456785MVA</div>
                               </div>
                               <div class="boxzeile" role="listitem">
-                                 <div class="boxdaten legende">Steuernummer:
+                                 <div class="boxdaten legende">Tax number:
                                     </div>
                                  <div data-title="BT-32" class="BT-32 boxdaten wert">Foretaksregisteret</div>
                               </div>
                               <div class="boxzeile" role="listitem">
-                                 <div class="boxdaten legende">Weitere rechtliche Informationen:
+                                 <div class="boxdaten legende">Further legal information:
                                     </div>
                                  <div data-title="BT-33" class="BT-33 boxdaten wert"></div>
                               </div>
                               <div class="boxzeile" role="listitem">
-                                 <div class="boxdaten legende">Code der Umsatzsteuerwährung:
+                                 <div class="boxdaten legende">VAT accounting currency:
                                     </div>
                                  <div data-title="BT-6" class="BT-6 boxdaten wert"></div>
                               </div>
@@ -2152,45 +2153,45 @@ function downloadData(element_id, mimetype, filename) {
                   <div class="boxtabelle boxabstandtop boxtabelleZweispaltig">
                      <div class="boxzeile">
                         <div id="zusaetzeKaeufer" class="box boxZweispaltig">
-                           <div data-title="BG-7" class="BG-7 boxtitel" role="heading" aria-level="2">Informationen zum Käufer</div>
+                           <div data-title="BG-7" class="BG-7 boxtitel" role="heading" aria-level="2">Information about the buyer</div>
                            <div class="boxtabelle boxinhalt borderSpacing" role="list">
                               <div class="boxzeile" role="listitem">
-                                 <div class="boxdaten legende">Abweichender Handelsname:
+                                 <div class="boxdaten legende">Different trading name:
                                     </div>
                                  <div data-title="BT-45" class="BT-45 boxdaten wert">Belga Aankoper / Belga Acheteur</div>
                               </div>
                               <div class="boxzeile" role="listitem">
-                                 <div class="boxdaten legende">Bundesland:
+                                 <div class="boxdaten legende">State:
                                     </div>
                                  <div data-title="BT-54" class="BT-54 boxdaten wert"></div>
                               </div>
                               <div class="boxzeile" role="listitem">
-                                 <div class="boxdaten legende">Elektronische Adresse:
+                                 <div class="boxdaten legende">Electronic address:
                                     </div>
                                  <div data-title="BT-49" class="BT-49 boxdaten wert">001110-vidapilot.BE0765432146</div>
                               </div>
                               <div class="boxzeile" role="listitem">
-                                 <div class="boxdaten legende">Schema der elektronischen Adresse:
+                                 <div class="boxdaten legende">Electronic address scheme:
                                     </div>
                                  <div data-title="BT-49-scheme-id" class="BT-49-scheme-id boxdaten wert">9913</div>
                               </div>
                               <div class="boxzeile" role="listitem">
-                                 <div class="boxdaten legende">Register-/Registriernummer:
+                                 <div class="boxdaten legende">Legal registration identifier:
                                     </div>
                                  <div data-title="BT-47" class="BT-47 boxdaten wert">0765432146</div>
                               </div>
                               <div class="boxzeile" role="listitem">
-                                 <div class="boxdaten legende">Schema der Register-/Registriernummer:
+                                 <div class="boxdaten legende">Legal registration identifier scheme:
                                     </div>
                                  <div data-title="BT-47-scheme-id" class="BT-47-scheme-id boxdaten wert">0208</div>
                               </div>
                               <div class="boxzeile" role="listitem">
-                                 <div class="boxdaten legende">Umsatzsteuer-ID:
+                                 <div class="boxdaten legende">VAT ID:
                                     </div>
                                  <div data-title="BT-48" class="BT-48 boxdaten wert">BE0765432146</div>
                               </div>
                               <div class="boxzeile" role="listitem">
-                                 <div class="boxdaten legende">Kontierungsinformation:
+                                 <div class="boxdaten legende">Buyer accounting reference:
                                     </div>
                                  <div data-title="BT-19" class="BT-19 boxdaten wert"></div>
                               </div>
@@ -2198,61 +2199,61 @@ function downloadData(element_id, mimetype, filename) {
                         </div>
                         <div class="boxabstand"></div>
                         <div id="zusaetzeLieferung" class="box boxZweispaltig">
-                           <div data-title="BG-13" class="BG-13 boxtitel" role="heading" aria-level="2">Lieferinformationen</div>
+                           <div data-title="BG-13" class="BG-13 boxtitel" role="heading" aria-level="2">Delivery information</div>
                            <div class="boxtabelle boxinhalt borderSpacing" role="list">
                               <div class="boxzeile" role="listitem">
-                                 <div class="boxdaten legende">Kennung des Lieferorts:
+                                 <div class="boxdaten legende">Delivery location identifier:
                                     </div>
                                  <div data-title="BT-71" class="BT-71 boxdaten wert"></div>
                               </div>
                               <div class="boxzeile" role="listitem">
-                                 <div class="boxdaten legende">Schema der Kennung:
+                                 <div class="boxdaten legende">Identification scheme:
                                     </div>
                                  <div data-title="BT-71-scheme-id" class="BT-71-scheme-id boxdaten wert"></div>
                               </div>
                               <div class="boxzeile" role="listitem">
-                                 <div class="boxdaten legende">Lieferdatum:
+                                 <div class="boxdaten legende">Delivery date:
                                     </div>
-                                 <div data-title="BT-72" class="BT-72 boxdaten wert">31.1.2026</div>
+                                 <div data-title="BT-72" class="BT-72 boxdaten wert">2026-01-31</div>
                               </div>
                               <div class="boxzeile" role="listitem">
-                                 <div class="boxdaten legende">Name des Empfängers:
+                                 <div class="boxdaten legende">Name of the recipient:
                                     </div>
                                  <div data-title="BT-70" class="BT-70 boxdaten wert">Belga Aankoper / Belga Acheteur BV/SRL (Delivery to buyer main address - country BT-80
                                     must be specified for ICS)</div>
                               </div>
                               <div class="boxzeile" role="listitem">
-                                 <div class="boxdaten legende">Adresszeile 1:
+                                 <div class="boxdaten legende">Address line 1:
                                     </div>
                                  <div data-title="BT-75" class="BT-75 boxdaten wert">Avenue Louise / Louizalaan 105</div>
                               </div>
                               <div class="boxzeile" role="listitem">
-                                 <div class="boxdaten legende">Adresszeile 2:
+                                 <div class="boxdaten legende">Address line 2:
                                     </div>
                                  <div data-title="BT-76" class="BT-76 boxdaten wert"></div>
                               </div>
                               <div class="boxzeile" role="listitem">
-                                 <div class="boxdaten legende">Adresszeile 3:
+                                 <div class="boxdaten legende">Address line 3:
                                     </div>
                                  <div data-title="BT-165" class="BT-165 boxdaten wert"></div>
                               </div>
                               <div class="boxzeile" role="listitem">
-                                 <div class="boxdaten legende">PLZ:
+                                 <div class="boxdaten legende">ZIP:
                                     </div>
                                  <div data-title="BT-78" class="BT-78 boxdaten wert">1050</div>
                               </div>
                               <div class="boxzeile" role="listitem">
-                                 <div class="boxdaten legende">Ort:
+                                 <div class="boxdaten legende">Location:
                                     </div>
                                  <div data-title="BT-77" class="BT-77 boxdaten wert">Bruxelles</div>
                               </div>
                               <div class="boxzeile" role="listitem">
-                                 <div class="boxdaten legende">Bundesland:
+                                 <div class="boxdaten legende">State:
                                     </div>
                                  <div data-title="BT-79" class="BT-79 boxdaten wert"></div>
                               </div>
                               <div class="boxzeile" role="listitem">
-                                 <div class="boxdaten legende">Ländercode:
+                                 <div class="boxdaten legende">Country code:
                                     </div>
                                  <div data-title="BT-80" class="BT-80 boxdaten wert">BE</div>
                               </div>
@@ -2263,40 +2264,40 @@ function downloadData(element_id, mimetype, filename) {
                   <div class="boxtabelle boxabstandtop boxtabelleZweispaltig">
                      <div class="boxzeile">
                         <div id="zusaetzeVertrag" class="box boxZweispaltig">
-                           <div class="boxtitel" role="heading" aria-level="2">Informationen zum Vertrag</div>
+                           <div class="boxtitel" role="heading" aria-level="2">Information about the contract</div>
                            <div class="boxtabelle boxinhalt borderSpacing" role="list">
                               <div class="boxzeile" role="listitem">
-                                 <div class="boxdaten legende">Vergabenummer:
+                                 <div class="boxdaten legende">Award reference:
                                     </div>
                                  <div data-title="BT-17" class="BT-17 boxdaten wert"></div>
                               </div>
                               <div class="boxzeile" role="listitem">
-                                 <div class="boxdaten legende">Kennung der Empfangsbestätigung:
+                                 <div class="boxdaten legende">Receiving advice reference:
                                     </div>
                                  <div data-title="BT-15" class="BT-15 boxdaten wert"></div>
                               </div>
                               <div class="boxzeile" role="listitem">
-                                 <div class="boxdaten legende">Kennung der Versandanzeige:
+                                 <div class="boxdaten legende">Despatch advice reference:
                                     </div>
                                  <div data-title="BT-16" class="BT-16 boxdaten wert"></div>
                               </div>
                               <div class="boxzeile" role="listitem">
-                                 <div class="boxdaten legende">Prozesskennung:
+                                 <div class="boxdaten legende">Process identifier:
                                     </div>
                                  <div data-title="BT-23" class="BT-23 boxdaten wert">urn:fdc:peppol.eu:2017:poacc:billing:01:1.0</div>
                               </div>
                               <div class="boxzeile" role="listitem">
-                                 <div class="boxdaten legende">Spezifikationskennung:
+                                 <div class="boxdaten legende">Specification identifier:
                                     </div>
                                  <div data-title="BT-24" class="BT-24 boxdaten wert">urn:cen.eu:en16931:2017#compliant#urn:fdc:peppol.eu:2017:poacc:billing:3.0</div>
                               </div>
                               <div class="boxzeile" role="listitem">
-                                 <div class="boxdaten legende">Objektkennung:
+                                 <div class="boxdaten legende">Object identifier:
                                     </div>
                                  <div data-title="BT-18" class="BT-18 boxdaten wert"></div>
                               </div>
                               <div class="boxzeile" role="listitem">
-                                 <div class="boxdaten legende">Schema der Objektkennung:
+                                 <div class="boxdaten legende">Object identifier scheme:
                                     </div>
                                  <div data-title="BT-18-scheme-id" class="BT-18-scheme-id boxdaten wert"></div>
                               </div>
@@ -2307,11 +2308,11 @@ function downloadData(element_id, mimetype, filename) {
                   </div>
                </div>
                <div id="anlagen" class="divHide" role="tabpanel" aria-labelledby="menueAnlagen" tabindex="0">
-                  <div class="haftungausschluss">Wir übernehmen keine Haftung für die Richtigkeit der Daten.</div>
+                  <div class="haftungausschluss">We assume no liability for the accuracy of the data.</div>
                   <div class="boxtabelle boxabstandtop">
                      <div class="boxzeile">
                         <div id="anlagenListe" class="box">
-                           <div data-title="BG-24" class="BG-24 boxtitel" role="heading" aria-level="2">Rechnungsbegründende Unterlagen</div>
+                           <div data-title="BG-24" class="BG-24 boxtitel" role="heading" aria-level="2">Documents justifying the invoice</div>
                         </div>
                      </div>
                   </div>
@@ -2320,7 +2321,7 @@ function downloadData(element_id, mimetype, filename) {
                   <div class="boxtabelle boxabstandtop">
                      <div class="boxzeile">
                         <div id="laufzettelHistorie" class="box">
-                           <div class="boxtitel" role="heading" aria-level="2">Bearbeitungshistorie</div>
+                           <div class="boxtitel" role="heading" aria-level="2">Processing history</div>
                         </div>
                      </div>
                   </div>

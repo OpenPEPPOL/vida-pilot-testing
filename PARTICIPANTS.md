@@ -1,40 +1,34 @@
 
-# Peppol ViDA Pilot Testing - PARTICIPANTS
+# Peppol ViDA Pilot Testing - PARTICIPANTS and conformant Service Providers
 
-The Peppol ViDA Pilot relies on participating service providers to contribute test data packages to the project.
-
-Each participant adds its own contact information as well as a "SP test data package home directory" to the `/participants` directory of this repository.
-
-Please use the naming convention and template as proposed in the `004321-ParticpatingSPName` directory.  
-To begin, copy the template directory and rename using your `Main ID`, a dash `-` and your company name.
+The Peppol ViDA Pilot relies on participating service providers to contribute test data packages to the project.  
+As a preprequisite, service providers must pass Conformance testing in the Peppol Testbed.  
+Active participation in the Pilot activities may vary from sprint to sprint.
 
 
-
-## Participants
-
-### Service Providers
+## Conformant Service Providers
 
 | Service Provider Name  | Main ID | Role  | Contact Name          | 
 |------------------------|--------|-------|-----------------------|
 | Billit                 | 000076 | C2/C3 | Dirk Willekens        | 
 | Pagero/Thomson Reuters | 000088 | C2/C3 | Kristina Groot-Jensen | 
 | mySupply               | 000152 | C2/C3 | Jesper Larsen         | 
-| STORMWARE              | 000834 | C2/C3 | Richard Rod           |
 | EDICOM CAPITAL         | 000045 | C2/C3 | Sergio Dasi Vivo      |
 | QITS                   | 000725 | C2/C3 | Felix Düchting        |
 | OpenText               | 000222 | C2/C3 | Sandya Bheemaiah      |
-| Vigasoft               | 001135 | C2/C3 | Luc Vigato            |
 | UNIMAZE                | 000061 | C2/C3 | Markús Guðmundsson    |
-| Semansys               | 000817 | C2/C3 | Johan Mastenbroek     |
 | Tietoevry Norway AS    | 000051 | C2/C3 | Rakhi Agrawal         |
 | Arratech               | 000778 | C2/C3 | Ola Andersson         |
-| Fynamics Techno Solutions | 000679 | C2/C3 | Satish Rajagopalan |
 | Markant | 001075 | C2/C3 | Alja Ladinek |
 | ecosio | 000092 | C2/C3 | Andrea Costa |
+| RTC Technology | 000578 | C2/C3 | Doga Demirtas |
+| Vigasoft               | 001135 | C2/C3 | Luc Vigato            |
+| Semansys               | 000817 | C2/C3 | Johan Mastenbroek     |
+| STORMWARE              | 000834 | C2/C3 | Richard Rod           |
+| Fynamics Techno Solutions | 000679 | C2/C3 | Satish Rajagopalan |
 | fiskaltrust | 000929 | C2/C3 | Stefan Kert |
-*... to be extended*
 
-### Tax Administrations
+## Tax Administrations
 
 | Tax Administration     | Main ID   | Role | Contact Name          | 
 |------------------------|--------|------|-----------------------|
@@ -44,9 +38,8 @@ To begin, copy the template directory and rename using your `Main ID`, a dash `-
 | NO - Norway            | 001111 | C5   |                       | 
 | BE - Belgium           | 001104 | C5   |                       | 
 | IE - Ireland           | 000971 | C5   |                       | 
-*... to be extended*
 
-### Peppol Playground
+## Peppol Playground
 
 As "generic/virtual" participants, the Peppol Playground uses these participants:
 

@@ -90,7 +90,7 @@ As such, the seller and buyer are located in two different EU member states.</ra
 				<ram:ID>777-112233</ram:ID>
 				<ram:Name>Belga Commerce BV/SRL</ram:Name>
 				<ram:SpecifiedLegalOrganization>
-					<ram:ID>0123456749</ram:ID>
+					<ram:ID schemeID="0208">0123456749</ram:ID>
 					<ram:TradingBusinessName>Belga Commerce</ram:TradingBusinessName>
 				</ram:SpecifiedLegalOrganization>
 				<ram:DefinedTradeContact>
@@ -118,6 +118,7 @@ As such, the seller and buyer are located in two different EU member states.</ra
 			<ram:BuyerTradeParty>
 				<ram:Name>Ostaja Finland Oy</ram:Name>
 				<ram:SpecifiedLegalOrganization>
+					<ram:ID schemeID="0216">003712345671buyer</ram:ID>
 					<ram:TradingBusinessName>Ostaja Finland</ram:TradingBusinessName>
 				</ram:SpecifiedLegalOrganization>
 				<ram:DefinedTradeContact>

@@ -60,6 +60,9 @@ As such, the seller and buyer are located in two different EU member states.</xr
                      xr:src="/Invoice/cac:AccountingCustomerParty/cac:Party/cac:PartyLegalEntity/cbc:RegistrationName">Ostaja Finland Oy</xr:Buyer_name>
       <xr:Buyer_trading_name xr:id="BT-45"
                              xr:src="/Invoice/cac:AccountingCustomerParty/cac:Party/cac:PartyName/cbc:Name">Ostaja Finland</xr:Buyer_trading_name>
+      <xr:Buyer_legal_registration_identifier xr:id="BT-47"
+                                              xr:src="/Invoice/cac:AccountingCustomerParty/cac:Party/cac:PartyLegalEntity/cbc:CompanyID"
+                                              scheme_identifier="0216">003712345671buyer</xr:Buyer_legal_registration_identifier>
       <xr:Buyer_VAT_identifier xr:id="BT-48"
                                xr:src="/Invoice/cac:AccountingCustomerParty/cac:Party/cac:PartyTaxScheme/cbc:CompanyID">FI12345671</xr:Buyer_VAT_identifier>
       <xr:Buyer_electronic_address xr:id="BT-49"

@@ -19,6 +19,9 @@ As such, the seller and buyer are located in two different EU member states.</cb
 	<cac:ContractDocumentReference>
 		<cbc:ID>Contract ABC</cbc:ID>
 	</cac:ContractDocumentReference>
+	<cac:ProjectReference>
+		<cbc:ID>Project #12345</cbc:ID>
+	</cac:ProjectReference>
 	<cac:AccountingSupplierParty>
 		<cac:Party>
 			<cbc:EndpointID schemeID="9913">001109-vidapilot.ATU99887766</cbc:EndpointID>
@@ -75,6 +78,7 @@ As such, the seller and buyer are located in two different EU member states.</cb
 			</cac:PartyTaxScheme>
 			<cac:PartyLegalEntity>
 				<cbc:RegistrationName>Ostaja Finland Oy</cbc:RegistrationName>
+				<cbc:CompanyID schemeID="0216">003712345671buyer</cbc:CompanyID>
 			</cac:PartyLegalEntity>
 			<cac:Contact>
 				<cbc:Name>Mikko Virtanen</cbc:Name>

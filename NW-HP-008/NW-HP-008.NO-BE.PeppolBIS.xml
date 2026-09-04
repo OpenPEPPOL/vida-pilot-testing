@@ -17,6 +17,9 @@ As such, the seller and buyer are located in two different EU member states.</cb
   <cac:ContractDocumentReference>
     <cbc:ID>Contract ABC</cbc:ID>
   </cac:ContractDocumentReference>
+  <cac:AdditionalDocumentReference>
+    <cbc:ID>Project #12345</cbc:ID>
+  </cac:AdditionalDocumentReference>
   <cac:AccountingSupplierParty>
     <cac:Party>
       <cbc:EndpointID schemeID="9913">001109-vidapilot.NO123456785MVA</cbc:EndpointID>
@@ -78,7 +81,7 @@ As such, the seller and buyer are located in two different EU member states.</cb
       </cac:PartyTaxScheme>
       <cac:PartyLegalEntity>
         <cbc:RegistrationName>Belga Aankoper / Belga Acheteur BV/SRL</cbc:RegistrationName>
-        <cbc:CompanyID>0765432146</cbc:CompanyID>
+        <cbc:CompanyID schemeID="0208">0765432146</cbc:CompanyID>
       </cac:PartyLegalEntity>
       <cac:Contact>
         <cbc:Name>Pierre Dupont</cbc:Name>

@@ -120,6 +120,7 @@ As such, the seller and buyer are located in two different EU member states.</ra
 			<ram:BuyerTradeParty>
 				<ram:Name>Ostaja Finland Oy</ram:Name>
 				<ram:SpecifiedLegalOrganization>
+					<ram:ID schemeID="0216">003712345671buyer</ram:ID>
 					<ram:TradingBusinessName>Ostaja Finland</ram:TradingBusinessName>
 				</ram:SpecifiedLegalOrganization>
 				<ram:DefinedTradeContact>

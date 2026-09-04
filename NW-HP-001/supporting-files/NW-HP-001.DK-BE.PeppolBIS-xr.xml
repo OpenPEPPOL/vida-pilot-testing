@@ -6,10 +6,11 @@
    <xr:Invoice_currency_code xr:id="BT-5" xr:src="/Invoice/cbc:DocumentCurrencyCode">DKK</xr:Invoice_currency_code>
    <xr:Payment_due_date xr:id="BT-9" xr:src="/Invoice/cbc:DueDate">2026-03-12</xr:Payment_due_date>
    <xr:Buyer_reference xr:id="BT-10" xr:src="/Invoice/cbc:BuyerReference">your buyer reference</xr:Buyer_reference>
+   <xr:Project_reference xr:id="BT-11" xr:src="/Invoice/cac:ProjectReference/cbc:ID">Project #12345</xr:Project_reference>
    <xr:Contract_reference xr:id="BT-12" xr:src="/Invoice/cac:ContractDocumentReference/cbc:ID">Contract ABC</xr:Contract_reference>
    <xr:Purchase_order_reference xr:id="BT-13" xr:src="/Invoice/cac:OrderReference/cbc:ID">PO-54321</xr:Purchase_order_reference>
    <xr:Sales_order_reference xr:id="BT-14" xr:src="/Invoice/cac:OrderReference/cbc:SalesOrderID">Order #456789</xr:Sales_order_reference>
-   <xr:Payment_terms xr:id="BT-20" xr:src="/Invoice/cac:PaymentTerms/cbc:Note">Please remit your payment of 1.149,00 kr. before 12.03.2026.</xr:Payment_terms>
+   <xr:Payment_terms xr:id="BT-20" xr:src="/Invoice/cac:PaymentTerms/cbc:Note">Please remit your payment of 9.299,00 kr. before 12.03.2026.</xr:Payment_terms>
    <xr:INVOICE_NOTE xr:id="BG-1" xr:src="/Invoice">
       <xr:Invoice_note xr:id="BT-22" xr:src="/Invoice/cbc:Note">FICTITIOUS INVOICE - DO NOT PAY - DO NOT USE IN TAX RETURNS!
 This is a generic sample invoice to cover a "regular" invoicing use case in ViDA.
@@ -119,18 +120,18 @@ As such, the seller and buyer are located in two different EU member states.</xr
    </xr:PAYMENT_INSTRUCTIONS>
    <xr:DOCUMENT_TOTALS xr:id="BG-22" xr:src="/Invoice/cac:LegalMonetaryTotal">
       <xr:Sum_of_Invoice_line_net_amount xr:id="BT-106"
-                                         xr:src="/Invoice/cac:LegalMonetaryTotal/cbc:LineExtensionAmount">1149</xr:Sum_of_Invoice_line_net_amount>
+                                         xr:src="/Invoice/cac:LegalMonetaryTotal/cbc:LineExtensionAmount">9299</xr:Sum_of_Invoice_line_net_amount>
       <xr:Invoice_total_amount_without_VAT xr:id="BT-109"
-                                           xr:src="/Invoice/cac:LegalMonetaryTotal/cbc:TaxExclusiveAmount">1149</xr:Invoice_total_amount_without_VAT>
+                                           xr:src="/Invoice/cac:LegalMonetaryTotal/cbc:TaxExclusiveAmount">9299</xr:Invoice_total_amount_without_VAT>
       <xr:Invoice_total_VAT_amount xr:id="BT-110" xr:src="/Invoice/cac:TaxTotal/cbc:TaxAmount">0</xr:Invoice_total_VAT_amount>
       <xr:Invoice_total_amount_with_VAT xr:id="BT-112"
-                                        xr:src="/Invoice/cac:LegalMonetaryTotal/cbc:TaxInclusiveAmount">1149</xr:Invoice_total_amount_with_VAT>
+                                        xr:src="/Invoice/cac:LegalMonetaryTotal/cbc:TaxInclusiveAmount">9299</xr:Invoice_total_amount_with_VAT>
       <xr:Amount_due_for_payment xr:id="BT-115"
-                                 xr:src="/Invoice/cac:LegalMonetaryTotal/cbc:PayableAmount">1149</xr:Amount_due_for_payment>
+                                 xr:src="/Invoice/cac:LegalMonetaryTotal/cbc:PayableAmount">9299</xr:Amount_due_for_payment>
    </xr:DOCUMENT_TOTALS>
    <xr:VAT_BREAKDOWN xr:id="BG-23" xr:src="/Invoice/cac:TaxTotal/cac:TaxSubtotal">
       <xr:VAT_category_taxable_amount xr:id="BT-116"
-                                      xr:src="/Invoice/cac:TaxTotal/cac:TaxSubtotal/cbc:TaxableAmount">1149</xr:VAT_category_taxable_amount>
+                                      xr:src="/Invoice/cac:TaxTotal/cac:TaxSubtotal/cbc:TaxableAmount">9299</xr:VAT_category_taxable_amount>
       <xr:VAT_category_tax_amount xr:id="BT-117"
                                   xr:src="/Invoice/cac:TaxTotal/cac:TaxSubtotal/cbc:TaxAmount">0</xr:VAT_category_tax_amount>
       <xr:VAT_category_code xr:id="BT-118"
@@ -149,10 +150,10 @@ As such, the seller and buyer are located in two different EU member states.</xr
       <xr:Invoiced_quantity_unit_of_measure_code xr:id="BT-130"
                                                  xr:src="/Invoice/cac:InvoiceLine[1]/cbc:InvoicedQuantity/@unitCode">H87</xr:Invoiced_quantity_unit_of_measure_code>
       <xr:Invoice_line_net_amount xr:id="BT-131"
-                                  xr:src="/Invoice/cac:InvoiceLine[1]/cbc:LineExtensionAmount">714</xr:Invoice_line_net_amount>
+                                  xr:src="/Invoice/cac:InvoiceLine[1]/cbc:LineExtensionAmount">5264</xr:Invoice_line_net_amount>
       <xr:PRICE_DETAILS xr:id="BG-29" xr:src="/Invoice/cac:InvoiceLine[1]/cac:Price">
          <xr:Item_net_price xr:id="BT-146"
-                            xr:src="/Invoice/cac:InvoiceLine[1]/cac:Price/cbc:PriceAmount">102</xr:Item_net_price>
+                            xr:src="/Invoice/cac:InvoiceLine[1]/cac:Price/cbc:PriceAmount">752</xr:Item_net_price>
       </xr:PRICE_DETAILS>
       <xr:LINE_VAT_INFORMATION xr:id="BG-30"
                                xr:src="/Invoice/cac:InvoiceLine[1]/cac:Item/cac:ClassifiedTaxCategory">
@@ -178,10 +179,10 @@ As such, the seller and buyer are located in two different EU member states.</xr
       <xr:Invoiced_quantity_unit_of_measure_code xr:id="BT-130"
                                                  xr:src="/Invoice/cac:InvoiceLine[2]/cbc:InvoicedQuantity/@unitCode">H87</xr:Invoiced_quantity_unit_of_measure_code>
       <xr:Invoice_line_net_amount xr:id="BT-131"
-                                  xr:src="/Invoice/cac:InvoiceLine[2]/cbc:LineExtensionAmount">435</xr:Invoice_line_net_amount>
+                                  xr:src="/Invoice/cac:InvoiceLine[2]/cbc:LineExtensionAmount">4035</xr:Invoice_line_net_amount>
       <xr:PRICE_DETAILS xr:id="BG-29" xr:src="/Invoice/cac:InvoiceLine[2]/cac:Price">
          <xr:Item_net_price xr:id="BT-146"
-                            xr:src="/Invoice/cac:InvoiceLine[2]/cac:Price/cbc:PriceAmount">87</xr:Item_net_price>
+                            xr:src="/Invoice/cac:InvoiceLine[2]/cac:Price/cbc:PriceAmount">807</xr:Item_net_price>
       </xr:PRICE_DETAILS>
       <xr:LINE_VAT_INFORMATION xr:id="BG-30"
                                xr:src="/Invoice/cac:InvoiceLine[2]/cac:Item/cac:ClassifiedTaxCategory">

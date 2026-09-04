@@ -19,6 +19,9 @@ As such, the seller and buyer are located in two different EU member states.</cb
 	<cac:ContractDocumentReference>
 		<cbc:ID>Contract ABC</cbc:ID>
 	</cac:ContractDocumentReference>
+	<cac:ProjectReference>
+		<cbc:ID>Project #12345</cbc:ID>
+	</cac:ProjectReference>
 	<cac:AccountingSupplierParty>
 		<cac:Party>
 			<cbc:EndpointID schemeID="9913">001109-vidapilot.ATU99887766</cbc:EndpointID>
@@ -85,6 +88,21 @@ As such, the seller and buyer are located in two different EU member states.</cb
 	</cac:AccountingCustomerParty>
 	<cac:Delivery>
 		<cbc:ActualDeliveryDate>2026-01-31</cbc:ActualDeliveryDate>
+		<cac:DeliveryLocation>
+			<cac:Address>
+				<cbc:StreetName>Strøget 47</cbc:StreetName>
+				<cbc:CityName>København</cbc:CityName>
+				<cbc:PostalZone>1100</cbc:PostalZone>
+				<cac:Country>
+					<cbc:IdentificationCode>DK</cbc:IdentificationCode>
+				</cac:Country>
+			</cac:Address>
+		</cac:DeliveryLocation>
+		<cac:DeliveryParty>
+			<cac:PartyName>
+				<cbc:Name>Køber Danmark ApS (Delivery to buyer main address - country BT-80 must be specified for ICS)</cbc:Name>
+			</cac:PartyName>
+		</cac:DeliveryParty>
 	</cac:Delivery>
 	<cac:PaymentMeans>
 		<cbc:PaymentMeansCode name="SEPA credit transfer">58</cbc:PaymentMeansCode>
@@ -105,10 +123,10 @@ As such, the seller and buyer are located in two different EU member states.</cb
 			<cbc:TaxableAmount currencyID="EUR">5952</cbc:TaxableAmount>
 			<cbc:TaxAmount currencyID="EUR">0</cbc:TaxAmount>
 			<cac:TaxCategory>
-				<cbc:ID>AE</cbc:ID>
+				<cbc:ID>K</cbc:ID>
 				<cbc:Percent>0</cbc:Percent>
-				<cbc:TaxExemptionReasonCode>VATEX-EU-AE</cbc:TaxExemptionReasonCode>
-				<cbc:TaxExemptionReason>Reverse charge – VAT to be accounted for by the recipient according to Article 196 of Directive 2006/112/EC</cbc:TaxExemptionReason>
+				<cbc:TaxExemptionReasonCode>VATEX-EU-IC</cbc:TaxExemptionReasonCode>
+				<cbc:TaxExemptionReason>Intra-community supply of services under reverse charge following Art. 196 of Directive 2006/112/EC</cbc:TaxExemptionReason>
 				<cac:TaxScheme>
 					<cbc:ID>VAT</cbc:ID>
 				</cac:TaxScheme>
@@ -126,8 +144,8 @@ As such, the seller and buyer are located in two different EU member states.</cb
 		<cbc:InvoicedQuantity unitCode="HUR">16</cbc:InvoicedQuantity>
 		<cbc:LineExtensionAmount currencyID="EUR">1984</cbc:LineExtensionAmount>
 		<cac:Item>
-			<cbc:Description>This Super Service is invoiced with a 0% VAT rate and "AE" tax code to indicate using the reverse charge.</cbc:Description>
-			<cbc:Name>Super Service (AE using reverse charge)</cbc:Name>
+			<cbc:Description>This Super Service is invoiced with a 0% VAT rate and "K" tax code to indicate Intra-community delivery using the reverse charge.</cbc:Description>
+			<cbc:Name>Super Service (K-IC using reverse charge)</cbc:Name>
 			<cac:BuyersItemIdentification>
 				<cbc:ID>Buyer SKU not known</cbc:ID>
 			</cac:BuyersItemIdentification>
@@ -135,7 +153,7 @@ As such, the seller and buyer are located in two different EU member states.</cb
 				<cbc:ID>SS-RC-100123</cbc:ID>
 			</cac:SellersItemIdentification>
 			<cac:ClassifiedTaxCategory>
-				<cbc:ID>AE</cbc:ID>
+				<cbc:ID>K</cbc:ID>
 				<cbc:Percent>0</cbc:Percent>
 				<cac:TaxScheme>
 					<cbc:ID>VAT</cbc:ID>
@@ -151,8 +169,8 @@ As such, the seller and buyer are located in two different EU member states.</cb
 		<cbc:InvoicedQuantity unitCode="HUR">32</cbc:InvoicedQuantity>
 		<cbc:LineExtensionAmount currencyID="EUR">3968</cbc:LineExtensionAmount>
 		<cac:Item>
-			<cbc:Description>More Super Service, also invoiced with a 0% VAT rate and "AE" tax code.</cbc:Description>
-			<cbc:Name>More Super Service (AE using reverse charge)</cbc:Name>
+			<cbc:Description>More Super Service, also invoiced with a 0% VAT rate and "K" tax code.</cbc:Description>
+			<cbc:Name>More Super Service (K-IC using reverse charge)</cbc:Name>
 			<cac:BuyersItemIdentification>
 				<cbc:ID>Buyer SKU also not known</cbc:ID>
 			</cac:BuyersItemIdentification>
@@ -160,7 +178,7 @@ As such, the seller and buyer are located in two different EU member states.</cb
 				<cbc:ID>SS-RC-100321</cbc:ID>
 			</cac:SellersItemIdentification>
 			<cac:ClassifiedTaxCategory>
-				<cbc:ID>AE</cbc:ID>
+				<cbc:ID>K</cbc:ID>
 				<cbc:Percent>0</cbc:Percent>
 				<cac:TaxScheme>
 					<cbc:ID>VAT</cbc:ID>

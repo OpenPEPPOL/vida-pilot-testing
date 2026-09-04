@@ -97,6 +97,7 @@ As such, the seller and buyer are located in two different EU member states.</cb
 			</cac:PartyTaxScheme>
 			<cac:PartyLegalEntity>
 				<cbc:RegistrationName>Ostaja Finland Oy</cbc:RegistrationName>
+				<cbc:CompanyID schemeID="0216">003712345671buyer</cbc:CompanyID>
 			</cac:PartyLegalEntity>
 			<cac:Contact>
 				<cbc:Name>Mikko Virtanen</cbc:Name>

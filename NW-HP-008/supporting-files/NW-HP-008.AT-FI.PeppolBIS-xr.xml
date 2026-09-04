@@ -66,6 +66,9 @@ As such, the seller and buyer are located in two different EU member states.</xr
                      xr:src="/CreditNote/cac:AccountingCustomerParty/cac:Party/cac:PartyLegalEntity/cbc:RegistrationName">Ostaja Finland Oy</xr:Buyer_name>
       <xr:Buyer_trading_name xr:id="BT-45"
                              xr:src="/CreditNote/cac:AccountingCustomerParty/cac:Party/cac:PartyName/cbc:Name">Ostaja Finland</xr:Buyer_trading_name>
+      <xr:Buyer_legal_registration_identifier xr:id="BT-47"
+                                              xr:src="/CreditNote/cac:AccountingCustomerParty/cac:Party/cac:PartyLegalEntity/cbc:CompanyID"
+                                              scheme_identifier="0216">003712345671buyer</xr:Buyer_legal_registration_identifier>
       <xr:Buyer_VAT_identifier xr:id="BT-48"
                                xr:src="/CreditNote/cac:AccountingCustomerParty/cac:Party/cac:PartyTaxScheme/cbc:CompanyID">FI12345671</xr:Buyer_VAT_identifier>
       <xr:Buyer_electronic_address xr:id="BT-49"
@@ -148,6 +151,10 @@ As such, the seller and buyer are located in two different EU member states.</xr
       <xr:VAT_exemption_reason_code xr:id="BT-121"
                                     xr:src="/CreditNote/cac:TaxTotal/cac:TaxSubtotal/cac:TaxCategory/cbc:TaxExemptionReasonCode">VATEX-EU-IC</xr:VAT_exemption_reason_code>
    </xr:VAT_BREAKDOWN>
+   <xr:ADDITIONAL_SUPPORTING_DOCUMENTS xr:id="BG-24" xr:src="/CreditNote/cac:AdditionalDocumentReference">
+      <xr:Supporting_document_reference xr:id="BT-122"
+                                        xr:src="/CreditNote/cac:AdditionalDocumentReference/cbc:ID">Project #12345</xr:Supporting_document_reference>
+   </xr:ADDITIONAL_SUPPORTING_DOCUMENTS>
    <xr:INVOICE_LINE xr:id="BG-25" xr:src="/CreditNote/cac:CreditNoteLine[1]">
       <xr:Invoice_line_identifier xr:id="BT-126" xr:src="/CreditNote/cac:CreditNoteLine[1]/cbc:ID">1</xr:Invoice_line_identifier>
       <xr:Invoiced_quantity xr:id="BT-129"

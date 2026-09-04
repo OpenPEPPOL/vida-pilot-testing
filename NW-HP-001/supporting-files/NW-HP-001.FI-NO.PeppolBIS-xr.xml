@@ -6,6 +6,7 @@
    <xr:Invoice_currency_code xr:id="BT-5" xr:src="/Invoice/cbc:DocumentCurrencyCode">EUR</xr:Invoice_currency_code>
    <xr:Payment_due_date xr:id="BT-9" xr:src="/Invoice/cbc:DueDate">2026-03-12</xr:Payment_due_date>
    <xr:Buyer_reference xr:id="BT-10" xr:src="/Invoice/cbc:BuyerReference">your buyer reference</xr:Buyer_reference>
+   <xr:Project_reference xr:id="BT-11" xr:src="/Invoice/cac:ProjectReference/cbc:ID">Project #12345</xr:Project_reference>
    <xr:Contract_reference xr:id="BT-12" xr:src="/Invoice/cac:ContractDocumentReference/cbc:ID">Contract ABC</xr:Contract_reference>
    <xr:Purchase_order_reference xr:id="BT-13" xr:src="/Invoice/cac:OrderReference/cbc:ID">PO-54321</xr:Purchase_order_reference>
    <xr:Sales_order_reference xr:id="BT-14" xr:src="/Invoice/cac:OrderReference/cbc:SalesOrderID">Order #456789</xr:Sales_order_reference>

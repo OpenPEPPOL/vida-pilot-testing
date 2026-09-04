@@ -29,8 +29,8 @@ As such, the seller and buyer are located in two different EU member states.</ra
 			<ram:SpecifiedTradeProduct>
 				<ram:SellerAssignedID>SS-RC-100123</ram:SellerAssignedID>
 				<ram:BuyerAssignedID>Buyer SKU not known</ram:BuyerAssignedID>
-				<ram:Name>Super Service (AE using reverse charge)</ram:Name>
-				<ram:Description>This Super Service is invoiced with a 0% VAT rate and "AE" tax code to indicate using the reverse charge.</ram:Description>
+				<ram:Name>Super Service (K-IC using reverse charge)</ram:Name>
+				<ram:Description>This Super Service is invoiced with a 0% VAT rate and "K" tax code to indicate Intra-community delivery using the reverse charge.</ram:Description>
 			</ram:SpecifiedTradeProduct>
 			<ram:SpecifiedLineTradeAgreement>
 				<ram:NetPriceProductTradePrice>
@@ -44,8 +44,8 @@ As such, the seller and buyer are located in two different EU member states.</ra
 			<ram:SpecifiedLineTradeSettlement>
 				<ram:ApplicableTradeTax>
 					<ram:TypeCode>VAT</ram:TypeCode>
-					<ram:ExemptionReason>Reverse charge – VAT to be accounted for by the recipient according to Article 196 of Directive 2006/112/EC</ram:ExemptionReason>
-					<ram:CategoryCode>AE</ram:CategoryCode>
+					<ram:ExemptionReason>Intra-community supply of services under reverse charge following Art. 196 of Directive 2006/112/EC</ram:ExemptionReason>
+					<ram:CategoryCode>K</ram:CategoryCode>
 					<ram:RateApplicablePercent>0</ram:RateApplicablePercent>
 				</ram:ApplicableTradeTax>
 				<ram:SpecifiedTradeSettlementLineMonetarySummation>
@@ -60,8 +60,8 @@ As such, the seller and buyer are located in two different EU member states.</ra
 			<ram:SpecifiedTradeProduct>
 				<ram:SellerAssignedID>SS-RC-100321</ram:SellerAssignedID>
 				<ram:BuyerAssignedID>Buyer SKU also not known</ram:BuyerAssignedID>
-				<ram:Name>More Super Service (AE using reverse charge)</ram:Name>
-				<ram:Description>More Super Service, also invoiced with a 0% VAT rate and "AE" tax code.</ram:Description>
+				<ram:Name>More Super Service (K-IC using reverse charge)</ram:Name>
+				<ram:Description>More Super Service, also invoiced with a 0% VAT rate and "K" tax code.</ram:Description>
 			</ram:SpecifiedTradeProduct>
 			<ram:SpecifiedLineTradeAgreement>
 				<ram:NetPriceProductTradePrice>
@@ -75,8 +75,8 @@ As such, the seller and buyer are located in two different EU member states.</ra
 			<ram:SpecifiedLineTradeSettlement>
 				<ram:ApplicableTradeTax>
 					<ram:TypeCode>VAT</ram:TypeCode>
-					<ram:ExemptionReason>Reverse charge – VAT to be accounted for by the recipient according to Article 196 of Directive 2006/112/EC</ram:ExemptionReason>
-					<ram:CategoryCode>AE</ram:CategoryCode>
+					<ram:ExemptionReason>Intra-community supply of services under reverse charge following Art. 196 of Directive 2006/112/EC</ram:ExemptionReason>
+					<ram:CategoryCode>K</ram:CategoryCode>
 					<ram:RateApplicablePercent>0</ram:RateApplicablePercent>
 				</ram:ApplicableTradeTax>
 				<ram:SpecifiedTradeSettlementLineMonetarySummation>
@@ -157,6 +157,15 @@ As such, the seller and buyer are located in two different EU member states.</ra
 			</ram:SpecifiedProcuringProject>
 		</ram:ApplicableHeaderTradeAgreement>
 		<ram:ApplicableHeaderTradeDelivery>
+			<ram:ShipToTradeParty>
+				<ram:Name>Køber Danmark ApS (Delivery to buyer main address - country BT-80 must be specified for ICS)</ram:Name>
+				<ram:PostalTradeAddress>
+					<ram:PostcodeCode>1100</ram:PostcodeCode>
+					<ram:LineOne>Strøget 47</ram:LineOne>
+					<ram:CityName>København</ram:CityName>
+					<ram:CountryID>DK</ram:CountryID>
+				</ram:PostalTradeAddress>
+			</ram:ShipToTradeParty>
 			<ram:ActualDeliverySupplyChainEvent>
 				<ram:OccurrenceDateTime>
 					<udt:DateTimeString format="102">20260131</udt:DateTimeString>
@@ -179,10 +188,10 @@ As such, the seller and buyer are located in two different EU member states.</ra
 			<ram:ApplicableTradeTax>
 				<ram:CalculatedAmount>0.00</ram:CalculatedAmount>
 				<ram:TypeCode>VAT</ram:TypeCode>
-				<ram:ExemptionReason>Reverse charge – VAT to be accounted for by the recipient according to Article 196 of Directive 2006/112/EC</ram:ExemptionReason>
+				<ram:ExemptionReason>Intra-community supply of services under reverse charge following Art. 196 of Directive 2006/112/EC</ram:ExemptionReason>
 				<ram:BasisAmount>5952.00</ram:BasisAmount>
-				<ram:CategoryCode>AE</ram:CategoryCode>
-				<ram:ExemptionReasonCode>VATEX-EU-AE</ram:ExemptionReasonCode>
+				<ram:CategoryCode>K</ram:CategoryCode>
+				<ram:ExemptionReasonCode>VATEX-EU-IC</ram:ExemptionReasonCode>
 				<ram:RateApplicablePercent>0</ram:RateApplicablePercent>
 			</ram:ApplicableTradeTax>
 			<ram:SpecifiedTradePaymentTerms>

@@ -19,6 +19,9 @@ As such, the seller and buyer are located in two different EU member states.</cb
 	<cac:ContractDocumentReference>
 		<cbc:ID>Contract ABC</cbc:ID>
 	</cac:ContractDocumentReference>
+	<cac:ProjectReference>
+		<cbc:ID>Project #12345</cbc:ID>
+	</cac:ProjectReference>
 	<cac:AccountingSupplierParty>
 		<cac:Party>
 			<cbc:EndpointID schemeID="9913">001109-vidapilot.NO123456785MVA</cbc:EndpointID>
@@ -114,12 +117,12 @@ As such, the seller and buyer are located in two different EU member states.</cb
 		</cac:PayeeFinancialAccount>
 	</cac:PaymentMeans>
 	<cac:PaymentTerms>
-		<cbc:Note>Please remit your payment of 5.952,00 kr before 12.03.2026.</cbc:Note>
+		<cbc:Note>Please remit your payment of 58.176,00 kr before 12.03.2026.</cbc:Note>
 	</cac:PaymentTerms>
 	<cac:TaxTotal>
 		<cbc:TaxAmount currencyID="NOK">0</cbc:TaxAmount>
 		<cac:TaxSubtotal>
-			<cbc:TaxableAmount currencyID="NOK">5952</cbc:TaxableAmount>
+			<cbc:TaxableAmount currencyID="NOK">58176</cbc:TaxableAmount>
 			<cbc:TaxAmount currencyID="NOK">0</cbc:TaxAmount>
 			<cac:TaxCategory>
 				<cbc:ID>K</cbc:ID>
@@ -133,15 +136,15 @@ As such, the seller and buyer are located in two different EU member states.</cb
 		</cac:TaxSubtotal>
 	</cac:TaxTotal>
 	<cac:LegalMonetaryTotal>
-		<cbc:LineExtensionAmount currencyID="NOK">5952</cbc:LineExtensionAmount>
-		<cbc:TaxExclusiveAmount currencyID="NOK">5952</cbc:TaxExclusiveAmount>
-		<cbc:TaxInclusiveAmount currencyID="NOK">5952</cbc:TaxInclusiveAmount>
-		<cbc:PayableAmount currencyID="NOK">5952</cbc:PayableAmount>
+		<cbc:LineExtensionAmount currencyID="NOK">58176</cbc:LineExtensionAmount>
+		<cbc:TaxExclusiveAmount currencyID="NOK">58176</cbc:TaxExclusiveAmount>
+		<cbc:TaxInclusiveAmount currencyID="NOK">58176</cbc:TaxInclusiveAmount>
+		<cbc:PayableAmount currencyID="NOK">58176</cbc:PayableAmount>
 	</cac:LegalMonetaryTotal>
 	<cac:InvoiceLine>
 		<cbc:ID>1</cbc:ID>
 		<cbc:InvoicedQuantity unitCode="HUR">16</cbc:InvoicedQuantity>
-		<cbc:LineExtensionAmount currencyID="NOK">1984</cbc:LineExtensionAmount>
+		<cbc:LineExtensionAmount currencyID="NOK">19424</cbc:LineExtensionAmount>
 		<cac:Item>
 			<cbc:Description>This Super Service is invoiced with a 0% VAT rate and "K" tax code to indicate Intra-community delivery using the reverse charge.</cbc:Description>
 			<cbc:Name>Super Service (K-IC using reverse charge)</cbc:Name>
@@ -160,13 +163,13 @@ As such, the seller and buyer are located in two different EU member states.</cb
 			</cac:ClassifiedTaxCategory>
 		</cac:Item>
 		<cac:Price>
-			<cbc:PriceAmount currencyID="NOK">124</cbc:PriceAmount>
+			<cbc:PriceAmount currencyID="NOK">1214</cbc:PriceAmount>
 		</cac:Price>
 	</cac:InvoiceLine>
 	<cac:InvoiceLine>
 		<cbc:ID>2</cbc:ID>
 		<cbc:InvoicedQuantity unitCode="HUR">32</cbc:InvoicedQuantity>
-		<cbc:LineExtensionAmount currencyID="NOK">3968</cbc:LineExtensionAmount>
+		<cbc:LineExtensionAmount currencyID="NOK">38752</cbc:LineExtensionAmount>
 		<cac:Item>
 			<cbc:Description>More Super Service, also invoiced with a 0% VAT rate and "K" tax code.</cbc:Description>
 			<cbc:Name>More Super Service (K-IC using reverse charge)</cbc:Name>
@@ -185,7 +188,7 @@ As such, the seller and buyer are located in two different EU member states.</cb
 			</cac:ClassifiedTaxCategory>
 		</cac:Item>
 		<cac:Price>
-			<cbc:PriceAmount currencyID="NOK">124</cbc:PriceAmount>
+			<cbc:PriceAmount currencyID="NOK">1211</cbc:PriceAmount>
 		</cac:Price>
 	</cac:InvoiceLine>
 </Invoice>

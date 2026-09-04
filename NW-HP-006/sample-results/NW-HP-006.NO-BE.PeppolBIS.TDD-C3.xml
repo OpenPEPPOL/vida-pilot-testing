@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<pxs:TaxData xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:pxs="urn:peppol:schema:vida-taxdata:1.0" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">
+<pxs:TaxData xmlns:pxs="urn:peppol:schema:vida-taxdata:1.0" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">
   <cbc:CustomizationID>urn:peppol:taxdata:vida-1</cbc:CustomizationID>
   <cbc:ProfileID>urn:peppol:taxreporting</cbc:ProfileID>
-  <cbc:UUID>c25e1f7c-1b4a-420a-a955-82a90fc172a2</cbc:UUID>
-  <cbc:IssueDate>2026-08-26</cbc:IssueDate>
-  <cbc:IssueTime>17:21:17.295+02:00</cbc:IssueTime>
+  <cbc:UUID>3694c394-cd36-4326-a8d7-ea879ace81e2</cbc:UUID>
+  <cbc:IssueDate>2026-09-04</cbc:IssueDate>
+  <cbc:IssueTime>23:50:34.569+02:00</cbc:IssueTime>
   <pxs:TaxDataTypeCode>S</pxs:TaxDataTypeCode>
   <pxs:DocumentScope>IC</pxs:DocumentScope>
   <pxs:ReporterRole>C3</pxs:ReporterRole>

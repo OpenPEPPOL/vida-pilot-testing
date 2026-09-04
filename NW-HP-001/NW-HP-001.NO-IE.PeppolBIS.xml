@@ -120,12 +120,12 @@ As such, the seller and buyer are located in two different EU member states.</cb
 		</cac:PayeeFinancialAccount>
 	</cac:PaymentMeans>
 	<cac:PaymentTerms>
-		<cbc:Note>Please remit your payment of 1.803,00 kr before 12.03.2026.</cbc:Note>
+		<cbc:Note>Please remit your payment of 18.022,00 kr before 12.03.2026.</cbc:Note>
 	</cac:PaymentTerms>
 	<cac:TaxTotal>
 		<cbc:TaxAmount currencyID="NOK">0</cbc:TaxAmount>
 		<cac:TaxSubtotal>
-			<cbc:TaxableAmount currencyID="NOK">1803</cbc:TaxableAmount>
+			<cbc:TaxableAmount currencyID="NOK">18022</cbc:TaxableAmount>
 			<cbc:TaxAmount currencyID="NOK">0</cbc:TaxAmount>
 			<cac:TaxCategory>
 				<cbc:ID>G</cbc:ID>
@@ -139,15 +139,15 @@ As such, the seller and buyer are located in two different EU member states.</cb
 		</cac:TaxSubtotal>
 	</cac:TaxTotal>
 	<cac:LegalMonetaryTotal>
-		<cbc:LineExtensionAmount currencyID="NOK">1803</cbc:LineExtensionAmount>
-		<cbc:TaxExclusiveAmount currencyID="NOK">1803</cbc:TaxExclusiveAmount>
-		<cbc:TaxInclusiveAmount currencyID="NOK">1803</cbc:TaxInclusiveAmount>
-		<cbc:PayableAmount currencyID="NOK">1803</cbc:PayableAmount>
+		<cbc:LineExtensionAmount currencyID="NOK">18022</cbc:LineExtensionAmount>
+		<cbc:TaxExclusiveAmount currencyID="NOK">18022</cbc:TaxExclusiveAmount>
+		<cbc:TaxInclusiveAmount currencyID="NOK">18022</cbc:TaxInclusiveAmount>
+		<cbc:PayableAmount currencyID="NOK">18022</cbc:PayableAmount>
 	</cac:LegalMonetaryTotal>
 	<cac:InvoiceLine>
 		<cbc:ID>1</cbc:ID>
 		<cbc:InvoicedQuantity unitCode="H87">10</cbc:InvoicedQuantity>
-		<cbc:LineExtensionAmount currencyID="NOK">1020</cbc:LineExtensionAmount>
+		<cbc:LineExtensionAmount currencyID="NOK">10120</cbc:LineExtensionAmount>
 		<cac:Item>
 			<cbc:Description>This Great Good is invoiced with a 0% VAT rate and "G" tax code to indicate use of "import from third country"</cbc:Description>
 			<cbc:Name>Great Good (import from third country-Code G)</cbc:Name>
@@ -166,13 +166,13 @@ As such, the seller and buyer are located in two different EU member states.</cb
 			</cac:ClassifiedTaxCategory>
 		</cac:Item>
 		<cac:Price>
-			<cbc:PriceAmount currencyID="NOK">102</cbc:PriceAmount>
+			<cbc:PriceAmount currencyID="NOK">1012</cbc:PriceAmount>
 		</cac:Price>
 	</cac:InvoiceLine>
 	<cac:InvoiceLine>
 		<cbc:ID>2</cbc:ID>
 		<cbc:InvoicedQuantity unitCode="H87">9</cbc:InvoicedQuantity>
-		<cbc:LineExtensionAmount currencyID="NOK">783</cbc:LineExtensionAmount>
+		<cbc:LineExtensionAmount currencyID="NOK">7902</cbc:LineExtensionAmount>
 		<cac:Item>
 			<cbc:Description>Another Great Good is invoiced with a 0% VAT rate and "G" tax code to indicate use of "import from third country"</cbc:Description>
 			<cbc:Name>Another Great Good (import from third country-Code G)</cbc:Name>
@@ -191,7 +191,7 @@ As such, the seller and buyer are located in two different EU member states.</cb
 			</cac:ClassifiedTaxCategory>
 		</cac:Item>
 		<cac:Price>
-			<cbc:PriceAmount currencyID="NOK">87</cbc:PriceAmount>
+			<cbc:PriceAmount currencyID="NOK">878</cbc:PriceAmount>
 		</cac:Price>
 	</cac:InvoiceLine>
 </Invoice>

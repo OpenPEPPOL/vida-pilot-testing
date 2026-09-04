@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<pxs:TaxData xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:pxs="urn:peppol:schema:vida-taxdata:1.0" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">
+<pxs:TaxData xmlns:pxs="urn:peppol:schema:vida-taxdata:1.0" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">
   <cbc:CustomizationID>urn:peppol:taxdata:vida-1</cbc:CustomizationID>
   <cbc:ProfileID>urn:peppol:taxreporting</cbc:ProfileID>
-  <cbc:UUID>cd6ffd07-cdf9-4556-a3a0-09bfc6096e10</cbc:UUID>
-  <cbc:IssueDate>2026-06-02</cbc:IssueDate>
-  <cbc:IssueTime>13:01:27.215+02:00</cbc:IssueTime>
+  <cbc:UUID>2fc3492f-13bf-4d80-9c7d-f24bbdc769fb</cbc:UUID>
+  <cbc:IssueDate>2026-09-04</cbc:IssueDate>
+  <cbc:IssueTime>23:47:00.212+02:00</cbc:IssueTime>
   <pxs:TaxDataTypeCode>S</pxs:TaxDataTypeCode>
   <pxs:DocumentScope>IC</pxs:DocumentScope>
   <pxs:ReporterRole>C3</pxs:ReporterRole>
@@ -74,7 +74,7 @@ As such, the seller and buyer are located in two different EU member states.</cb
       <cac:TaxTotal>
         <cbc:TaxAmount currencyID="DKK">0</cbc:TaxAmount>
         <cac:TaxSubtotal>
-          <cbc:TaxableAmount currencyID="DKK">915</cbc:TaxableAmount>
+          <cbc:TaxableAmount currencyID="DKK">7905</cbc:TaxableAmount>
           <cbc:TaxAmount currencyID="DKK">0</cbc:TaxAmount>
           <cac:TaxCategory>
             <cbc:ID>G</cbc:ID>
@@ -86,15 +86,15 @@ As such, the seller and buyer are located in two different EU member states.</cb
         </cac:TaxSubtotal>
       </cac:TaxTotal>
       <pxs:MonetaryTotal>
-        <cbc:LineExtensionAmount currencyID="DKK">915</cbc:LineExtensionAmount>
-        <cbc:TaxExclusiveAmount currencyID="DKK">915</cbc:TaxExclusiveAmount>
-        <cbc:TaxInclusiveAmount currencyID="DKK">915</cbc:TaxInclusiveAmount>
-        <cbc:PayableAmount currencyID="DKK">915</cbc:PayableAmount>
+        <cbc:LineExtensionAmount currencyID="DKK">7905</cbc:LineExtensionAmount>
+        <cbc:TaxExclusiveAmount currencyID="DKK">7905</cbc:TaxExclusiveAmount>
+        <cbc:TaxInclusiveAmount currencyID="DKK">7905</cbc:TaxInclusiveAmount>
+        <cbc:PayableAmount currencyID="DKK">7905</cbc:PayableAmount>
       </pxs:MonetaryTotal>
       <pxs:DocumentLine>
         <cbc:ID>1</cbc:ID>
         <cbc:InvoicedQuantity unitCode="H87">3</cbc:InvoicedQuantity>
-        <cbc:LineExtensionAmount currencyID="DKK">306</cbc:LineExtensionAmount>
+        <cbc:LineExtensionAmount currencyID="DKK">2256</cbc:LineExtensionAmount>
         <cac:Item>
           <cbc:Description>This Great Good is invoiced with a 0% VAT rate and "G" tax code to indicate export of goods outside of the EU.</cbc:Description>
           <cbc:Name>Great Good (exempt of VAT for export outside EU-Code G)</cbc:Name>
@@ -107,13 +107,13 @@ As such, the seller and buyer are located in two different EU member states.</cb
           </cac:ClassifiedTaxCategory>
         </cac:Item>
         <cac:Price>
-          <cbc:PriceAmount currencyID="DKK">102</cbc:PriceAmount>
+          <cbc:PriceAmount currencyID="DKK">752</cbc:PriceAmount>
         </cac:Price>
       </pxs:DocumentLine>
       <pxs:DocumentLine>
         <cbc:ID>2</cbc:ID>
         <cbc:InvoicedQuantity unitCode="H87">7</cbc:InvoicedQuantity>
-        <cbc:LineExtensionAmount currencyID="DKK">609</cbc:LineExtensionAmount>
+        <cbc:LineExtensionAmount currencyID="DKK">5649</cbc:LineExtensionAmount>
         <cac:Item>
           <cbc:Description>Another Great Good, invoiced with a 0% VAT rate and "G" tax code to indicate export of goods outside of the EU.</cbc:Description>
           <cbc:Name>Another Great Good (exempt of VAT for export outside EU-Code G)</cbc:Name>
@@ -126,7 +126,7 @@ As such, the seller and buyer are located in two different EU member states.</cb
           </cac:ClassifiedTaxCategory>
         </cac:Item>
         <cac:Price>
-          <cbc:PriceAmount currencyID="DKK">87</cbc:PriceAmount>
+          <cbc:PriceAmount currencyID="DKK">807</cbc:PriceAmount>
         </cac:Price>
       </pxs:DocumentLine>
     </pxs:ReportedDocument>

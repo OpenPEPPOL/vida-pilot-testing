@@ -34,7 +34,7 @@ As such, the seller and buyer are located in two different EU member states.</ra
 			</ram:SpecifiedTradeProduct>
 			<ram:SpecifiedLineTradeAgreement>
 				<ram:NetPriceProductTradePrice>
-					<ram:ChargeAmount>102.00</ram:ChargeAmount>
+					<ram:ChargeAmount>1012.00</ram:ChargeAmount>
 					<ram:BasisQuantity unitCode="H87">1</ram:BasisQuantity>
 				</ram:NetPriceProductTradePrice>
 			</ram:SpecifiedLineTradeAgreement>
@@ -49,7 +49,7 @@ As such, the seller and buyer are located in two different EU member states.</ra
 					<ram:RateApplicablePercent>0</ram:RateApplicablePercent>
 				</ram:ApplicableTradeTax>
 				<ram:SpecifiedTradeSettlementLineMonetarySummation>
-					<ram:LineTotalAmount>1020.00</ram:LineTotalAmount>
+					<ram:LineTotalAmount>10120.00</ram:LineTotalAmount>
 				</ram:SpecifiedTradeSettlementLineMonetarySummation>
 			</ram:SpecifiedLineTradeSettlement>
 		</ram:IncludedSupplyChainTradeLineItem>
@@ -65,7 +65,7 @@ As such, the seller and buyer are located in two different EU member states.</ra
 			</ram:SpecifiedTradeProduct>
 			<ram:SpecifiedLineTradeAgreement>
 				<ram:NetPriceProductTradePrice>
-					<ram:ChargeAmount>87.00</ram:ChargeAmount>
+					<ram:ChargeAmount>878.00</ram:ChargeAmount>
 					<ram:BasisQuantity unitCode="H87">1</ram:BasisQuantity>
 				</ram:NetPriceProductTradePrice>
 			</ram:SpecifiedLineTradeAgreement>
@@ -80,7 +80,7 @@ As such, the seller and buyer are located in two different EU member states.</ra
 					<ram:RateApplicablePercent>0</ram:RateApplicablePercent>
 				</ram:ApplicableTradeTax>
 				<ram:SpecifiedTradeSettlementLineMonetarySummation>
-					<ram:LineTotalAmount>783.00</ram:LineTotalAmount>
+					<ram:LineTotalAmount>7902.00</ram:LineTotalAmount>
 				</ram:SpecifiedTradeSettlementLineMonetarySummation>
 			</ram:SpecifiedLineTradeSettlement>
 		</ram:IncludedSupplyChainTradeLineItem>
@@ -114,12 +114,13 @@ As such, the seller and buyer are located in two different EU member states.</ra
 					<ram:ID schemeID="VA">NO123456785MVA</ram:ID>
 				</ram:SpecifiedTaxRegistration>
 				<ram:SpecifiedTaxRegistration>
-					<ram:ID schemeID="FC">Foretaksregisteret</ram:ID>
+					<ram:ID schemeID="TAX">Foretaksregisteret</ram:ID>
 				</ram:SpecifiedTaxRegistration>
 			</ram:SellerTradeParty>
 			<ram:BuyerTradeParty>
 				<ram:Name>Ostaja Finland Oy</ram:Name>
 				<ram:SpecifiedLegalOrganization>
+					<ram:ID schemeID="0216">003712345671buyer</ram:ID>
 					<ram:TradingBusinessName>Ostaja Finland</ram:TradingBusinessName>
 				</ram:SpecifiedLegalOrganization>
 				<ram:DefinedTradeContact>
@@ -188,23 +189,23 @@ As such, the seller and buyer are located in two different EU member states.</ra
 				<ram:CalculatedAmount>0.00</ram:CalculatedAmount>
 				<ram:TypeCode>VAT</ram:TypeCode>
 				<ram:ExemptionReason>Import into EU</ram:ExemptionReason>
-				<ram:BasisAmount>1803.00</ram:BasisAmount>
+				<ram:BasisAmount>18022.00</ram:BasisAmount>
 				<ram:CategoryCode>G</ram:CategoryCode>
 				<ram:ExemptionReasonCode>VATEX-EU-G</ram:ExemptionReasonCode>
 				<ram:RateApplicablePercent>0</ram:RateApplicablePercent>
 			</ram:ApplicableTradeTax>
 			<ram:SpecifiedTradePaymentTerms>
-				<ram:Description>Please remit your payment of 1.803,00 kr before 12.03.2026.</ram:Description>
+				<ram:Description>Please remit your payment of 18.022,00 kr before 12.03.2026.</ram:Description>
 				<ram:DueDateDateTime>
 					<udt:DateTimeString format="102">20260312</udt:DateTimeString>
 				</ram:DueDateDateTime>
 			</ram:SpecifiedTradePaymentTerms>
 			<ram:SpecifiedTradeSettlementHeaderMonetarySummation>
-				<ram:LineTotalAmount>1803.00</ram:LineTotalAmount>
-				<ram:TaxBasisTotalAmount>1803.00</ram:TaxBasisTotalAmount>
+				<ram:LineTotalAmount>18022.00</ram:LineTotalAmount>
+				<ram:TaxBasisTotalAmount>18022.00</ram:TaxBasisTotalAmount>
 				<ram:TaxTotalAmount currencyID="NOK">0.00</ram:TaxTotalAmount>
-				<ram:GrandTotalAmount>1803.00</ram:GrandTotalAmount>
-				<ram:DuePayableAmount>1803.00</ram:DuePayableAmount>
+				<ram:GrandTotalAmount>18022.00</ram:GrandTotalAmount>
+				<ram:DuePayableAmount>18022.00</ram:DuePayableAmount>
 			</ram:SpecifiedTradeSettlementHeaderMonetarySummation>
 		</ram:ApplicableHeaderTradeSettlement>
 	</rsm:SupplyChainTradeTransaction>

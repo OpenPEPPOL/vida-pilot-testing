@@ -2,9 +2,9 @@
 <pxs:TaxData xmlns:pxs="urn:peppol:schema:vida-taxdata:1.0" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">
   <cbc:CustomizationID>urn:peppol:taxdata:vida-1</cbc:CustomizationID>
   <cbc:ProfileID>urn:peppol:taxreporting</cbc:ProfileID>
-  <cbc:UUID>021dc2fa-20c6-4585-bc9b-8f5646e5462e</cbc:UUID>
-  <cbc:IssueDate>2026-08-10</cbc:IssueDate>
-  <cbc:IssueTime>19:52:38.583+02:00</cbc:IssueTime>
+  <cbc:UUID>5094eda7-cab8-4ebb-af60-7e2f9aac1eca</cbc:UUID>
+  <cbc:IssueDate>2026-09-04</cbc:IssueDate>
+  <cbc:IssueTime>23:50:55.326+02:00</cbc:IssueTime>
   <pxs:TaxDataTypeCode>S</pxs:TaxDataTypeCode>
   <pxs:DocumentScope>IC</pxs:DocumentScope>
   <pxs:ReporterRole>C3</pxs:ReporterRole>

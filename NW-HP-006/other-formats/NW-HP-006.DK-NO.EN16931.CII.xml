@@ -34,7 +34,7 @@ As such, the seller and buyer are located in two different EU member states.</ra
 			</ram:SpecifiedTradeProduct>
 			<ram:SpecifiedLineTradeAgreement>
 				<ram:NetPriceProductTradePrice>
-					<ram:ChargeAmount>102.00</ram:ChargeAmount>
+					<ram:ChargeAmount>750.00</ram:ChargeAmount>
 					<ram:BasisQuantity unitCode="H87">1</ram:BasisQuantity>
 				</ram:NetPriceProductTradePrice>
 			</ram:SpecifiedLineTradeAgreement>
@@ -49,7 +49,7 @@ As such, the seller and buyer are located in two different EU member states.</ra
 					<ram:RateApplicablePercent>0</ram:RateApplicablePercent>
 				</ram:ApplicableTradeTax>
 				<ram:SpecifiedTradeSettlementLineMonetarySummation>
-					<ram:LineTotalAmount>306.00</ram:LineTotalAmount>
+					<ram:LineTotalAmount>2250.00</ram:LineTotalAmount>
 				</ram:SpecifiedTradeSettlementLineMonetarySummation>
 			</ram:SpecifiedLineTradeSettlement>
 		</ram:IncludedSupplyChainTradeLineItem>
@@ -65,7 +65,7 @@ As such, the seller and buyer are located in two different EU member states.</ra
 			</ram:SpecifiedTradeProduct>
 			<ram:SpecifiedLineTradeAgreement>
 				<ram:NetPriceProductTradePrice>
-					<ram:ChargeAmount>87.00</ram:ChargeAmount>
+					<ram:ChargeAmount>731.00</ram:ChargeAmount>
 					<ram:BasisQuantity unitCode="H87">1</ram:BasisQuantity>
 				</ram:NetPriceProductTradePrice>
 			</ram:SpecifiedLineTradeAgreement>
@@ -80,7 +80,7 @@ As such, the seller and buyer are located in two different EU member states.</ra
 					<ram:RateApplicablePercent>0</ram:RateApplicablePercent>
 				</ram:ApplicableTradeTax>
 				<ram:SpecifiedTradeSettlementLineMonetarySummation>
-					<ram:LineTotalAmount>609.00</ram:LineTotalAmount>
+					<ram:LineTotalAmount>5117.00</ram:LineTotalAmount>
 				</ram:SpecifiedTradeSettlementLineMonetarySummation>
 			</ram:SpecifiedLineTradeSettlement>
 		</ram:IncludedSupplyChainTradeLineItem>
@@ -198,23 +198,23 @@ As such, the seller and buyer are located in two different EU member states.</ra
 				<ram:CalculatedAmount>0.00</ram:CalculatedAmount>
 				<ram:TypeCode>VAT</ram:TypeCode>
 				<ram:ExemptionReason>Export outside of EU</ram:ExemptionReason>
-				<ram:BasisAmount>915.00</ram:BasisAmount>
+				<ram:BasisAmount>7367.00</ram:BasisAmount>
 				<ram:CategoryCode>G</ram:CategoryCode>
 				<ram:ExemptionReasonCode>VATEX-EU-G</ram:ExemptionReasonCode>
 				<ram:RateApplicablePercent>0</ram:RateApplicablePercent>
 			</ram:ApplicableTradeTax>
 			<ram:SpecifiedTradePaymentTerms>
-				<ram:Description>Please remit your payment of 915,00 kr. before 12.03.2026.</ram:Description>
+				<ram:Description>Please remit your payment of 7.367,00 kr. before 12.03.2026.</ram:Description>
 				<ram:DueDateDateTime>
 					<udt:DateTimeString format="102">20260312</udt:DateTimeString>
 				</ram:DueDateDateTime>
 			</ram:SpecifiedTradePaymentTerms>
 			<ram:SpecifiedTradeSettlementHeaderMonetarySummation>
-				<ram:LineTotalAmount>915.00</ram:LineTotalAmount>
-				<ram:TaxBasisTotalAmount>915.00</ram:TaxBasisTotalAmount>
+				<ram:LineTotalAmount>7367.00</ram:LineTotalAmount>
+				<ram:TaxBasisTotalAmount>7367.00</ram:TaxBasisTotalAmount>
 				<ram:TaxTotalAmount currencyID="DKK">0.00</ram:TaxTotalAmount>
-				<ram:GrandTotalAmount>915.00</ram:GrandTotalAmount>
-				<ram:DuePayableAmount>915.00</ram:DuePayableAmount>
+				<ram:GrandTotalAmount>7367.00</ram:GrandTotalAmount>
+				<ram:DuePayableAmount>7367.00</ram:DuePayableAmount>
 			</ram:SpecifiedTradeSettlementHeaderMonetarySummation>
 		</ram:ApplicableHeaderTradeSettlement>
 	</rsm:SupplyChainTradeTransaction>
